@@ -1,11 +1,11 @@
 ## Zespół:
 
-# Kamil Kurowski
-# Mateusz Pieróg
+### Kamil Kurowski
+### Mateusz Pieróg
 
 
 
-### Projekt z baz danych
+# Projekt z baz danych
 
 
 ## Ogólny zarys:
