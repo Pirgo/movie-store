@@ -1,14 +1,14 @@
-##Zespół:
+## Zespół:
 
-#Kamil Kurowski
-#Mateusz Pieróg
-
-
-
-###Projekt z baz danych
+# Kamil Kurowski
+# Mateusz Pieróg
 
 
-##Ogólny zarys:
+
+### Projekt z baz danych
+
+
+## Ogólny zarys:
 
 Mamy w planie stworzyć grę planszową Warcaby
 Gra online, w systemie turowym
