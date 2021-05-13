@@ -22,7 +22,7 @@
 ## Technologie
 
 * Dokumentowa baza danych: MongoDB
-* Frontend: Angular
+* Frontend: React.js
 * Node.js
 * Express.js
 
