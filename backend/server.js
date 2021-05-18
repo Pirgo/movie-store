@@ -23,8 +23,10 @@ app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
     const exercisesRouter = require('./routes/exercises');
     const usersRouter = require('./routes/users');
+    const movieRouter = require('./routes/movie');
 
     app.use('/exercises', exercisesRouter);
     app.use('/users', usersRouter);
+    app.use('/movie', movieRouter);
 });
 
