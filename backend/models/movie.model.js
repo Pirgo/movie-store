@@ -99,15 +99,3 @@ const movieSchema = new Schema({
 const Movie = mongoose.model('Movie', movieSchema);
 
 module.exports = Movie;
-
-//   const userSchema = new Schema({
-//     username: {
-//       type: String,
-//       required: true,
-//       unique: true,
-//       trim: true,
-//       minlength: 3
-//     },
-//   }, {
-//     timestamps: true,
-//   });
