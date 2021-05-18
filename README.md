@@ -43,7 +43,22 @@
     "password": "",
     "fisrtName": "",
     "lastName": "",
-    "contact": {}
+    "contact": {},
+    "library":
+        {
+        "toWatch": [
+
+            ],
+        "favourites": [
+
+            ],
+        "seen": [
+            {
+                "movieID": "",
+                "rate": ""
+            }
+            ]
+        }
 }
     
 ```
@@ -115,22 +130,4 @@
 
 ```
 
-### Tabela przetrzymująca biblioteke użytkownika
-```
-"Library":
-{
-    "userID": "",
-    "toWatch": [
 
-    ],
-    "favourites": [
-
-    ],
-    "seen": [
-        {
-            "movieID": "",
-            "rate": ""
-        }
-    ]
-}
-```
