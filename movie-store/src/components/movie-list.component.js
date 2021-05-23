@@ -5,13 +5,15 @@ import Filter from './filter.component'
 
 
 const MovieList = props => (
-    <div className="row border">
-        <div className="col">
-            <h1><Link to={"/movie/" + props.movie._id}>{props.movie.title}</Link></h1>
-            <p>{props.movie.runtime} </p>
-        </div>
-        <div className="col">
+    <div className="row border align-items-center">
+        <div className="col-3">
             <img src={props.movie.cover}></img>
+        </div>
+        <div className="col-6">
+            <h1><Link to={"/movie/" + props.movie._id}>{props.movie.title}</Link></h1>
+        </div>
+        <div className="col-3">
+            <h2>{'\u2605'}Rate: {props.movie.rate.sum}</h2>
         </div>
     </div>
 )
