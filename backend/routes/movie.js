@@ -42,8 +42,21 @@ router.route('/add').post((req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route("/:id").get((req, res) => {
+router.route('/id/:id').get((req, res) => {
     Movie.findOne({_id: req.params.id})
+        .then(movie => res.json(movie))
+        .catch(err => res.status(404).json('Error: ' + err));
+});
+
+router.route('/filters/runtime').get((req, res) => {
+    Movie.distinct( 'runtime' )
+        .then(runtime => res.json(runtime))
+        .catch(err => res.status(400).json('Error: ' + err));
+});
+
+router.route('/filtered').post((req, res) => {
+    console.log(req.body);
+    Movie.find({runtime: req.body.params})
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });

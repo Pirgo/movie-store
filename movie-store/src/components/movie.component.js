@@ -11,10 +11,10 @@ export default class Movie extends Component {
     }
     
     componentDidMount() {
-        axios.get('http://localhost:5000/movie/' + this.props.match.params.id)
+        axios.get('http://localhost:5000/movie/id/' + this.props.match.params.id)
             .then(response => {
                 this.setState({ movie: response.data });
-                console.log(this.state.movie);
+                //console.log(this.state.movie);
             })
             .catch((error) => {
                 console.log(error);

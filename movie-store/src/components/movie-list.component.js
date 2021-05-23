@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Filter from './filter.component'
 
 
 const MovieList = props => (
@@ -19,19 +20,28 @@ export default class ExercisesList extends Component {
     constructor(props) {
         super(props);
         //this.deleteMovie = this.deleteMovie.bind(this);
-        this.state = { movies: [] };
+        this.state = { movies: [], filter: {} };
+        //this.filter = {}
+        this.setFilter = this.setFilter.bind(this);
     }
 
     componentDidMount() {
         axios.get('http://localhost:5000/movie')
             .then(response => {
                 this.setState({ movies: response.data });
-                console.log(this.state.movies);
+                //console.log(this.state.movies);
             })
             .catch((error) => {
                 console.log(error);
             })
     }
+
+    componentDidUpdate() {
+        console.log("UPDATED");
+
+    }
+
+    
 
     // deleteExercise(id) {
     //     axios.delete('http://localhost:5000/exercises/' + id)
@@ -48,14 +58,31 @@ export default class ExercisesList extends Component {
         })
     }
 
+    setFilter(arg) {
+        this.setState({filter: arg});
+        axios.post('http://localhost:5000/movie/filtered', {params: this.state.filter})
+            .then(response => {
+                this.setState({ movies: response.data });
+                console.log(response);
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+    }
+
     render() {
+        console.log(this.state.filter)
+
         return (
+            <>
+            <Filter setParentFilter={this.setFilter}></Filter>
             <div className="container">
                 <h3>Movies </h3>
                 <div>
                     {this.movieList()}
                 </div>
             </div>
+            </>
         )
     }
 }
