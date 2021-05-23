@@ -7,7 +7,7 @@ export default class Movie extends Component {
     constructor(props) {
         super(props);
         // this.state = {movie: props.movie}
-        this.state = {movie: {directors: [], writers: [], genre: [], date: ""}}
+        this.state = {movie: {directors: [], writers: [], genre: [], date: "", rate: {}}}
         
     }
     
@@ -25,20 +25,23 @@ export default class Movie extends Component {
     directorsList(){
         let arrLen = this.state.movie.directors.length
         return this.state.movie.directors.map((dir, i) => {
-            if (i == arrLen - 1){
-                return dir.directorName
-            }
-            return dir.directorName + " / ";
+            let link = <>
+                       <Link to={"/people/" + dir.directorID} className="text-dark">{dir.directorName}</Link>
+                       <span> / </span>
+                       </>
+            return link;
         })
     }
 
     writersList(){
         let arrLen = this.state.movie.writers.length
         return this.state.movie.writers.map((writer, i) => {
-            if (i == arrLen - 1){
-                return writer.writerName
-            }
-            return writer.writerName + " / ";
+            let link = <>
+                      <Link to={"/people/" + writer.writerID} className="text-dark">{writer.writerName}</Link>
+                      <span> / </span>
+                      </>
+            return link
+            
         })
     }
 
@@ -52,13 +55,47 @@ export default class Movie extends Component {
         })
     }
 
+    runtimeConvert(){
+        let time = this.state.movie.runtime
+        let h = Math.floor(time/60)
+        let m = time % 60
+        if(m === 0){
+            return h + "h"
+        }
+        else if(h == 0){
+            return m + "min"
+        }
+        else{
+            return h + "h" + " " + m + "min"
+        }
+    }
+
+    calculateRate(){
+        let sum = this.state.movie.rate.sum;
+        let amount = this.state.movie.rate.amount;
+        if (amount === 0){
+            return "None"
+        }
+        else{
+            return (sum/amount).toFixed(2)
+        }
+    }
+
 
     render() {
         console.log(this.state.movie.directors)
         return(
             <div className="container">
                 <h1>{this.state.movie.title}</h1>
-                <p>{this.state.movie.date.substring(0,4)}</p>
+                <p>{this.state.movie.date.substring(0,4)} {this.runtimeConvert()}</p>
+                <div className="row align-items-end">
+                    <div className="col-auto">
+                        <h2>{'\u2605'}{this.calculateRate()}</h2>
+                    </div>
+                    <div className="col-auto">
+                        <p>{this.state.movie.rate.amount} raiting</p>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-auto">
                         <img src={this.state.movie.cover}></img>
@@ -68,9 +105,10 @@ export default class Movie extends Component {
                         <p>Directors: {this.directorsList()}</p>
                         <p>Writers: {this.writersList()}</p>
                         <p>Genre: {this.genreList()}</p>
+                        <p>Premiere: {this.state.movie.date.substring(0,10)}</p>
                     </div>
-
                 </div>
+
             </div>
         );
         
