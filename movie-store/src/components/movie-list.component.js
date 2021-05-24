@@ -23,9 +23,7 @@ const MovieList = props => (
 export default class ExercisesList extends Component {
     constructor(props) {
         super(props);
-        //this.deleteMovie = this.deleteMovie.bind(this);
         this.state = { movies: [], filter: {} };
-        //this.filter = {}
         this.setFilter = this.setFilter.bind(this);
     }
 
@@ -56,13 +54,13 @@ export default class ExercisesList extends Component {
 
 
     movieList() {
-        console.log(this.state.movies)
         return this.state.movies.map(currentMovie => {
             return <MovieList movie={currentMovie} />;
         })
     }
 
     setFilter(arg) {
+        console.log(arg)
         this.setState({ filter: arg }, () => {
             axios.post('http://localhost:5000/movie/filtered', { params: arg })
             .then(response => {
@@ -78,8 +76,6 @@ export default class ExercisesList extends Component {
     }
 
     render() {
-        // console.log(this.state.filter)
-        // console.log(this.state.movies)
         return (
             <>
                 <Filter setParentFilter={this.setFilter}></Filter>
