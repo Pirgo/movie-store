@@ -25,11 +25,14 @@ app.listen(port, () => {
     const usersRouter = require('./routes/users');
     const movieRouter = require('./routes/movie');
     const peopleRouter = require('./routes/people');
+    const authRouter = require('./routes/auth');
+
 
     app.use('/exercises', exercisesRouter);
     app.use('/users', usersRouter);
     app.use('/movie', movieRouter);
     app.use('/people', peopleRouter);
+    app.use('/auth', authRouter);
 });
 
 
