@@ -36,7 +36,7 @@ export default class Filter extends Component {
 
     render() {
         console.log(this.state);
-        const runtimeList = this.state.runtime.map(opt => <option value={opt}>{opt}</option>);
+        const runtimeList = this.state.runtime.map(opt => <option value={opt}id={opt}>{opt}</option>);
         return (
             <form onSubmit={this.handleSubmit} >
                 <select value={this.state.value} onChange={this.handleChange}>

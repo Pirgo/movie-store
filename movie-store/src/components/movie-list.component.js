@@ -7,13 +7,15 @@ import Filter from './filter.component'
 const MovieList = props => (
     <div className="row border align-items-center">
         <div className="col-3">
-            <img src={props.movie.cover}></img>
+            <img src={props.movie.cover} width="150" height="200"></img>
         </div>
         <div className="col-6">
-            <h1><Link to={"/movie/" + props.movie._id}>{props.movie.title}</Link></h1>
+            <h1><Link to={"/movie/" + props.movie._id} className="text-decoration-none text-dark">{props.movie.title}</Link></h1>
+            <p>Release year: <span style={{fontWeight: 'bold'}}>{props.movie.date.substring(0,4)}</span></p>
         </div>
-        <div className="col-3">
-            <h2>{'\u2605'}Rate: {props.movie.rate.sum}</h2>
+        <div className="col-3 text-right">
+            <h2>{'\u2605'}Rate: {props.movie.rate.amount ? (props.movie.rate.sum/props.movie.rate.amount).toFixed(2) : "None"}</h2>
+            <p>{props.movie.rate.amount} ratings</p>
         </div>
     </div>
 )
@@ -43,7 +45,7 @@ export default class ExercisesList extends Component {
 
     }
 
-    
+
 
     // deleteExercise(id) {
     //     axios.delete('http://localhost:5000/exercises/' + id)
@@ -52,38 +54,42 @@ export default class ExercisesList extends Component {
     //         exercises: this.state.exercises.filter(el => el._id !== id)
     //     })
     // }
-    
-    
+
+
     movieList() {
+        console.log(this.state.movies)
         return this.state.movies.map(currentMovie => {
-            return <MovieList movie={currentMovie}/>;
+            return <MovieList movie={currentMovie} />;
         })
     }
 
     setFilter(arg) {
-        this.setState({filter: arg});
-        axios.post('http://localhost:5000/movie/filtered', {params: this.state.filter})
+        this.setState({ filter: arg }, () => {
+            axios.post('http://localhost:5000/movie/filtered', { params: arg })
             .then(response => {
-                this.setState({ movies: response.data });
+
+                this.setState({ movies: response.data }).then(this.render());
                 console.log(response);
             })
             .catch((error) => {
                 console.log(error);
             })
+        });
+        
     }
 
     render() {
-        console.log(this.state.filter)
-
+        // console.log(this.state.filter)
+        // console.log(this.state.movies)
         return (
             <>
-            <Filter setParentFilter={this.setFilter}></Filter>
-            <div className="container">
-                <h3>Movies </h3>
-                <div>
-                    {this.movieList()}
+                <Filter setParentFilter={this.setFilter}></Filter>
+                <div className="container">
+                    <h3>Movies </h3>
+                    <div>
+                        {this.movieList()}
+                    </div>
                 </div>
-            </div>
             </>
         )
     }
