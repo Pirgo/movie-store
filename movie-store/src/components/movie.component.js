@@ -23,7 +23,6 @@ export default class Movie extends Component {
     }
 
     directorsList(){
-        let arrLen = this.state.movie.directors.length
         return this.state.movie.directors.map((dir, i) => {
             let link = <>
                        <Link to={"/people/" + dir.directorID} className="text-dark">{dir.directorName}</Link>
@@ -34,7 +33,6 @@ export default class Movie extends Component {
     }
 
     writersList(){
-        let arrLen = this.state.movie.writers.length
         return this.state.movie.writers.map((writer, i) => {
             let link = <>
                       <Link to={"/people/" + writer.writerID} className="text-dark">{writer.writerName}</Link>
@@ -48,7 +46,7 @@ export default class Movie extends Component {
     genreList(){
         let arrLen = this.state.movie.genre.length
         return this.state.movie.genre.map((genre, i) => {
-            if (i == arrLen - 1){
+            if (i === arrLen - 1){
                 return genre
             }
             return genre + " / ";
@@ -60,13 +58,13 @@ export default class Movie extends Component {
         let h = Math.floor(time/60)
         let m = time % 60
         if(m === 0){
-            return h + "h"
+            return String(h) + "h"
         }
-        else if(h == 0){
-            return m + "min"
+        else if(h === 0){
+            return String(m) + "min"
         }
         else{
-            return h + "h" + " " + m + "min"
+            return String(h) + "h " + String(m) + "min"
         }
     }
 
@@ -98,7 +96,7 @@ export default class Movie extends Component {
                 </div>
                 <div className="row">
                     <div className="col-auto">
-                        <img src={this.state.movie.cover}></img>
+                        <img src={this.state.movie.cover} width="225" height="300" alt="Cover"></img>
                     </div>
                     <div className="col-auto">
                         <p>{this.state.movie.plot}</p>

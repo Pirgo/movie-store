@@ -7,7 +7,7 @@ import Filter from './filter.component'
 const MovieList = props => (
     <div className="row border align-items-center">
         <div className="col-3">
-            <img src={props.movie.cover} width="150" height="200"></img>
+            <img src={props.movie.cover} width="150" height="200" alt="Cover"></img>
         </div>
         <div className="col-6">
             <h1><Link to={"/movie/" + props.movie._id} className="text-decoration-none text-dark">{props.movie.title}</Link></h1>
@@ -33,7 +33,6 @@ export default class ExercisesList extends Component {
         axios.get('http://localhost:5000/movie')
             .then(response => {
                 this.setState({ movies: response.data });
-                //console.log(this.state.movies);
             })
             .catch((error) => {
                 console.log(error);
