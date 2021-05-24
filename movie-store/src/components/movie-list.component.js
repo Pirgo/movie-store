@@ -62,7 +62,7 @@ export default class ExercisesList extends Component {
     setFilter(arg) {
         console.log(arg)
         this.setState({ filter: arg }, () => {
-            axios.post('http://localhost:5000/movie/filtered', { params: arg })
+            axios.post('http://localhost:5000/movie/filtered', { params: this.state.filter })
             .then(response => {
 
                 this.setState({ movies: response.data }).then(this.render());

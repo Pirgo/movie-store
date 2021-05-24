@@ -10,8 +10,9 @@ export default class Filter extends Component {
             years: [],
             genres: [],
             platforms: [],
-            value: "mock value"
+            value: { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         };
+        this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -53,8 +54,25 @@ export default class Filter extends Component {
         event.preventDefault();
     }
     handleChange(event) {
+        console.log(event.target.id)
+        //this.value[String(event.target.id)] = event.target.value
+        //this.setState((value['runtime']:event.target.va))
+        switch (event.target.id) {
+            case 'runtime':
+                this.setState({ value: { runtime: event.target.value } })
+                break
+            case 'year':
+                this.setState({ value: { year: event.target.value } })
+                break
+            case 'genre':
+                this.setState({ value: { genre: event.target.value } })
+                break
+            case 'platform':
+                this.setState({ value: { platform: event.target.value } })
+                break
+        }
         console.log(event)
-        this.setState({ value: event.target.value });
+        // this.setState({ value: event.target.value });
         this.props.setParentFilter(event.target.value);
     }
 
@@ -65,19 +83,19 @@ export default class Filter extends Component {
         const platformList = this.state.platforms.map(platform => <option value={platform} id={platform}>{platform}</option>);
         return (
             <form onSubmit={this.handleSubmit} >
-                <select value={this.state.value} onChange={this.handleChange} id="runtime">
+                <select value={this.state.value.runtime} onChange={this.handleChange} id="runtime">
                     <option selected="selected">-</option>
                     {runtimeList}
                 </select>
-                <select value={this.state.value} onChange={this.handleChange} id="year">
+                <select value={this.state.value.year} onChange={this.handleChange} id="year">
                     <option selected="selected">-</option>
                     {yearList}
                 </select>
-                <select value={this.state.value} onChange={this.handleChange} id="genre">
+                <select value={this.state.value.genre} onChange={this.handleChange} id="genre">
                     <option selected="selected">-</option>
                     {genreList}
                 </select>
-                <select value={this.state.value} onChange={this.handleChange} id="platform">
+                <select value={this.state.value.platform} onChange={this.handleChange} id="platform">
                     <option selected="selected">-</option>
                     {platformList}
                 </select>
