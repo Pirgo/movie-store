@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { emit } = require('../models/movie.model');
 let Movie = require('../models/movie.model');
 
 router.route('/').get((req, res) => {
@@ -53,6 +54,27 @@ router.route('/filters/runtime').get((req, res) => {
         .then(runtime => res.json(runtime))
         .catch(err => res.status(400).json('Error: ' + err));
 });
+
+router.route('/filters/year').get((req, res) => {
+    Movie.aggregate([
+        {$project: {year: {$year: "$date"}, _id: 0}},
+        {$group: {_id: "$year"}}
+    ])
+    .then(years => res.json(years.map(obj => obj._id)))
+    .catch(err => res.status(400).json('Error: ' + err));
+})
+
+router.route('/filters/genre').get((req, res) => {
+    Movie.distinct('genre')
+        .then(genres => res.json(genres))
+        .catch(err => res.status(400).json('Error: ' + err))
+})
+
+router.route('/filters/platform').get((req, res) => {
+    Movie.distinct('platforms.name')
+        .then(platforms => res.json(platforms))
+        .catch(err => res.status(400).json('Error: ' + err))
+})
 
 router.route('/filtered').post((req, res) => {
     console.log(req.body);
