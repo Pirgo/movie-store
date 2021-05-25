@@ -14,7 +14,7 @@ export default class Filter extends Component {
         };
         //this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        // this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     componentDidMount() {
@@ -49,14 +49,14 @@ export default class Filter extends Component {
 
     }
 
-    handleSubmit(event) {
-        alert('Your favorite flavor is: ' + this.state.value);
-        event.preventDefault();
-        console.log(this.state.value)
-    }
+    // handleSubmit(event) {
+    //     alert('Your favorite flavor is: ' + this.state.value);
+    //     event.preventDefault();
+    //     console.log(this.state.value)
+    // }
     handleChange(event) {
         this.setState(prevState => {
-            let value = {... prevState.value}                   // creating copy of state variable value
+            let value = {...prevState.value}                    // creating copy of state variable value
             value[String(event.target.id)] = event.target.value      //zmiana odpowiedniego pola obiektu       
             return { value };                                 // return new object value object
           }, () => this.props.setParentFilter(this.state.value))
@@ -69,23 +69,27 @@ export default class Filter extends Component {
         const platformList = this.state.platforms.map(platform => <option value={platform} id={platform}>{platform}</option>);
         return (
             <form onSubmit={this.handleSubmit} >
+                <label for="runtime">Runtime</label>
                 <select value={this.state.value.runtime} onChange={this.handleChange} id="runtime">
                     <option selected="selected">-</option>
                     {runtimeList}
                 </select>
+                <label for="date">Year</label>
                 <select value={this.state.value.year} onChange={this.handleChange} id="date">
                     <option selected="selected">-</option>
                     {yearList}
                 </select>
+                <label for="genre">Genre</label>
                 <select value={this.state.value.genre} onChange={this.handleChange} id="genre">
                     <option selected="selected">-</option>
                     {genreList}
                 </select>
+                <label for="platforms">Platform</label>
                 <select value={this.state.value.platform} onChange={this.handleChange} id="platforms">
                     <option selected="selected">-</option>
                     {platformList}
                 </select>
-                <input type="submit"></input>
+                {/* <input type="submit"></input> */}
             </form>
         );
     }

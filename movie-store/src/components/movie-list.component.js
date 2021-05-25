@@ -44,19 +44,30 @@ export default class ExercisesList extends Component {
 
 
 
-    // deleteExercise(id) {
-    //     axios.delete('http://localhost:5000/exercises/' + id)
-    //         .then(res => console.log(res.data));
-    //     this.setState({
-    //         exercises: this.state.exercises.filter(el => el._id !== id)
-    //     })
-    // }
+    deleteExercise(id) {
+        axios.delete('http://localhost:5000/movie/id/' + id)
+            .then(res => console.log(res.data));
+        this.setState({
+            exercises: this.state.exercises.filter(el => el._id !== id)
+        })
+    }
 
 
     movieList() {
-        return this.state.movies.map(currentMovie => {
+
+        const movieList = this.state.movies.map(currentMovie => {
             return <MovieList movie={currentMovie} />;
         })
+        if(movieList.length > 0){
+            return movieList
+        }
+        else{
+            return(
+                <>
+                <h1>No movies to show</h1>
+                </>
+            )
+        }
     }
 
     setFilter(arg) {
