@@ -52,7 +52,6 @@ router.route("/login").post((req, res, nxt) => {
     const { email, password } = req.body;
     //if !email or passwd
 
-
     const user = User.findOne({ email }).select("+password").then(user => {
         if (!user) {
             res.status(404).json({ success: false, error: "Invalid email" });
