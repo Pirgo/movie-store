@@ -14,7 +14,7 @@ export default class Filter extends Component {
         };
         //this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         this.handleChange = this.handleChange.bind(this);
-        // this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     componentDidMount() {
@@ -49,11 +49,21 @@ export default class Filter extends Component {
 
     }
 
-    // handleSubmit(event) {
-    //     alert('Your favorite flavor is: ' + this.state.value);
-    //     event.preventDefault();
-    //     console.log(this.state.value)
-    // }
+    handleSubmit(event) {
+        //alert('Your favorite flavor is: ' + this.state.value);
+        const selectArr = event.target.querySelectorAll('select');
+        this.setState(prevState => {
+            let value = {...prevState.value}                    // creating copy of state variable value
+            selectArr.forEach((el,i,arr)=>{
+                value[String(el.id)] = "-"
+            })       
+            return { value };                                 // return new object value object
+          }, () => this.props.setParentFilter(this.state.value))
+        
+        event.preventDefault();
+        
+
+    }
     handleChange(event) {
         this.setState(prevState => {
             let value = {...prevState.value}                    // creating copy of state variable value
@@ -75,7 +85,7 @@ export default class Filter extends Component {
                     {runtimeList}
                 </select>
                 <label for="date">Year</label>
-                <select value={this.state.value.year} onChange={this.handleChange} id="date">
+                <select value={this.state.value.date} onChange={this.handleChange} id="date">
                     <option selected="selected">-</option>
                     {yearList}
                 </select>
@@ -85,11 +95,11 @@ export default class Filter extends Component {
                     {genreList}
                 </select>
                 <label for="platforms">Platform</label>
-                <select value={this.state.value.platform} onChange={this.handleChange} id="platforms">
+                <select value={this.state.value.platforms} onChange={this.handleChange} id="platforms">
                     <option selected="selected">-</option>
                     {platformList}
                 </select>
-                {/* <input type="submit"></input> */}
+                <input type="submit" value="clear filters"></input>
             </form>
         );
     }
