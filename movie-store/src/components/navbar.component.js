@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,18 +9,25 @@ export default class Navbar extends Component {
             isLogged: false,
             username: ""
         }
+        this.userStateChanged = this.userStateChanged.bind(this);
     }
 
     componentDidMount() {
         this.userStateChanged();
+        
     }
 
     userStateChanged() {
         if (localStorage.getItem("authToken")) {
+            axios.get('http://localhost:5000/users/username',{
+            headers:{'authorization': 'Beaver '+localStorage.getItem("authToken")}
+        }
+        ).then(res => {
             this.setState({
                 isLogged: true,
-                username: "NAZWA USERA"
+                username: res.data.name
             });
+        })   
         }
     }
 
