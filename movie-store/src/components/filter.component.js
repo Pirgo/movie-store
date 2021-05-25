@@ -7,12 +7,12 @@ export default class Filter extends Component {
         super(props);
         this.state = {
             runtime: [],
-            years: [],
+            dates: [],
             genres: [],
             platforms: [],
-            value: { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
+            value: { runtime: "-", date: "-", genre: "-", platforms: "-" }
         };
-        this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
+        //this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -27,7 +27,7 @@ export default class Filter extends Component {
             });
         axios.get('http://localhost:5000/movie/filters/year')
             .then(response => {
-                this.setState({ years: response.data });
+                this.setState({ dates: response.data });
             })
             .catch((error) => {
                 console.log(error);
@@ -52,33 +52,19 @@ export default class Filter extends Component {
     handleSubmit(event) {
         alert('Your favorite flavor is: ' + this.state.value);
         event.preventDefault();
+        console.log(this.state.value)
     }
     handleChange(event) {
-        console.log(event.target.id)
-        //this.value[String(event.target.id)] = event.target.value
-        //this.setState((value['runtime']:event.target.va))
-        switch (event.target.id) {
-            case 'runtime':
-                this.setState({ value: { runtime: event.target.value } })
-                break
-            case 'year':
-                this.setState({ value: { year: event.target.value } })
-                break
-            case 'genre':
-                this.setState({ value: { genre: event.target.value } })
-                break
-            case 'platform':
-                this.setState({ value: { platform: event.target.value } })
-                break
-        }
-        console.log(event)
-        // this.setState({ value: event.target.value });
-        this.props.setParentFilter(event.target.value);
+        this.setState(prevState => {
+            let value = {... prevState.value}                   // creating copy of state variable value
+            value[String(event.target.id)] = event.target.value      //zmiana odpowiedniego pola obiektu       
+            return { value };                                 // return new object value object
+          }, () => this.props.setParentFilter(this.state.value))
     }
 
     render() {
         const runtimeList = this.state.runtime.map(opt => <option value={opt} id={opt}>{opt}</option>);
-        const yearList = this.state.years.map(year => <option value={year} id={year}>{year}</option>);
+        const yearList = this.state.dates.map(year => <option value={year} id={year}>{year}</option>);
         const genreList = this.state.genres.map(genre => <option value={genre} id={genre}>{genre}</option>);
         const platformList = this.state.platforms.map(platform => <option value={platform} id={platform}>{platform}</option>);
         return (
@@ -87,7 +73,7 @@ export default class Filter extends Component {
                     <option selected="selected">-</option>
                     {runtimeList}
                 </select>
-                <select value={this.state.value.year} onChange={this.handleChange} id="year">
+                <select value={this.state.value.year} onChange={this.handleChange} id="date">
                     <option selected="selected">-</option>
                     {yearList}
                 </select>
@@ -95,7 +81,7 @@ export default class Filter extends Component {
                     <option selected="selected">-</option>
                     {genreList}
                 </select>
-                <select value={this.state.value.platform} onChange={this.handleChange} id="platform">
+                <select value={this.state.value.platform} onChange={this.handleChange} id="platforms">
                     <option selected="selected">-</option>
                     {platformList}
                 </select>
