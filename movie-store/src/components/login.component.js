@@ -49,7 +49,7 @@ export default class Login extends Component {
             });
             localStorage.setItem("authToken", res.data.token);
         }).catch(err => {
-            console.log(err.response);
+            //console.log(err.response);
             this.setState({
                 error: err.response.data.error
             });
@@ -69,10 +69,10 @@ export default class Login extends Component {
                         <label htmlFor="email">Email:</label>
                         <br />
                         <input
-                            refs="email"
                             name="email"
                             type="email"
                             size="30"
+                            required
                             placeholder="Email"
                             value={this.state.email}
                             onChange={this.handleChange}
@@ -83,17 +83,17 @@ export default class Login extends Component {
                         <label htmlFor="password">Password:</label>
                         <br />
                         <input
-                            refs="password"
                             name="password"
                             type="password"
                             size="30"
+                            required
                             placeholder="Password"
                             value={this.state.password}
                             onChange={this.handleChange}
                         />
 
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary">Log in</button>
                 </form>
                 <small>
                     Don't have account?
