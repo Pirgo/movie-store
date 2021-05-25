@@ -49,6 +49,16 @@ router.route('/id/:id').get((req, res) => {
         .catch(err => res.status(404).json('Error: ' + err));
 });
 
+router.route('/id/:id').delete((req,res)=>{
+    Movie.findByIdAndDelete(req.params.id, (err, doc) =>{
+        if(err) console.log(err)
+        else{
+            res.json(doc)
+        }
+    })
+        
+});
+
 router.route('/filters/runtime').get((req, res) => {
     Movie.distinct( 'runtime' )
         .then(runtime => res.json(runtime))
@@ -60,7 +70,7 @@ router.route('/filters/year').get((req, res) => {
         {$project: {year: {$year: "$date"}, _id: 0}},
         {$group: {_id: "$year"}}
     ])
-    .then(years => res.json(years.map(obj => obj._id)))
+    .then(years => res.json(years.map(obj => obj._id).sort()))
     .catch(err => res.status(400).json('Error: ' + err));
 })
 
@@ -77,8 +87,27 @@ router.route('/filters/platform').get((req, res) => {
 })
 
 router.route('/filtered').post((req, res) => {
-    console.log(req.body);
-    Movie.find({runtime: req.body.params})
+    console.log(req.body.params);
+    let filter = {}
+    let query = {}
+    for (const [key, value] of Object.entries(req.body.params)) {
+        if(value !== "-"){
+            //TODO przydaloby sie to zmienic ale chyba dziala
+            if (key === "date"){
+                let start = new Date(String(value)+'-1-1')
+                let end = new Date(String(parseInt(value)+1)+'-1-1')
+                query["date"] = {$gte: start, $lt: end}
+            }
+            else if (key === "platforms"){
+                query["platforms.name"] = value
+            }
+            else{
+                query[key] = value
+            }
+        }
+      }
+    console.log(query)
+    Movie.find(query)
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });

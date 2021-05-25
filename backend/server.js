@@ -26,6 +26,7 @@ app.listen(port, () => {
     const movieRouter = require('./routes/movie');
     const peopleRouter = require('./routes/people');
     const authRouter = require('./routes/auth');
+    const dataRouter = require('./routes/data')
 
 
     app.use('/exercises', exercisesRouter);
@@ -33,6 +34,7 @@ app.listen(port, () => {
     app.use('/movie', movieRouter);
     app.use('/people', peopleRouter);
     app.use('/auth', authRouter);
+    app.use('/data', dataRouter);
 });
 
 
