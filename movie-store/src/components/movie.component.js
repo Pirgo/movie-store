@@ -7,7 +7,7 @@ export default class Movie extends Component {
     constructor(props) {
         super(props);
         // this.state = {movie: props.movie}
-        this.state = {movie: {directors: [], writers: [], genre: [], date: "", rate: {}, platforms: []}}
+        this.state = {movie: {directors: [], writers: [], genre: [], date: "", rate: {}, platforms: [], actors: []}}
         
     }
     
@@ -64,6 +64,12 @@ export default class Movie extends Component {
         })
     }
 
+    actorsList(){
+        return this.state.movie.actors.map((actor, i) => {
+            return <li><Link to={"/people/" + actor.actorID} className="text-dark">{actor.actorName}</Link></li>
+        })
+    }
+
 
     runtimeConvert(){
         let time = this.state.movie.runtime
@@ -117,6 +123,10 @@ export default class Movie extends Component {
                         <p>Genre: {this.genreList()}</p>
                         <p>Premiere: {this.state.movie.date.substring(0,10)}</p>
                         <p>Available on: {this.platformsList()}</p>
+                        <p>Actors:</p>
+                        <ul>
+                            {this.actorsList()}
+                        </ul>
                     </div>
                 </div>
 
