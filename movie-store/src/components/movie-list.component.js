@@ -16,6 +16,7 @@ const MovieList = props => (
         <div className="col-3 text-right">
             <h2>{'\u2605'}Rate: {props.movie.rate.amount ? (props.movie.rate.sum/props.movie.rate.amount).toFixed(2) : "None"}</h2>
             <p>{props.movie.rate.amount} ratings</p>
+            <a href="#" onClick={() => {props.deleteMovie(props.movie._id)}}>Delete</a>
         </div>
     </div>
 )
@@ -25,6 +26,7 @@ export default class ExercisesList extends Component {
         super(props);
         this.state = { movies: [], filter: {} };
         this.setFilter = this.setFilter.bind(this);
+        this.deleteMovie = this.deleteMovie.bind(this);
     }
 
     componentDidMount() {
@@ -44,11 +46,11 @@ export default class ExercisesList extends Component {
 
 
 
-    deleteExercise(id) {
+    deleteMovie(id) {
         axios.delete('http://localhost:5000/movie/id/' + id)
             .then(res => console.log(res.data));
         this.setState({
-            exercises: this.state.exercises.filter(el => el._id !== id)
+            movies: this.state.movies.filter(el => el._id !== id)
         })
     }
 
@@ -56,7 +58,7 @@ export default class ExercisesList extends Component {
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
-            return <MovieList movie={currentMovie} />;
+            return <MovieList movie={currentMovie} deleteMovie={this.deleteMovie}/>;
         })
         if(movieList.length > 0){
             return movieList
