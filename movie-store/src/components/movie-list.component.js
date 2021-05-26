@@ -4,7 +4,7 @@ import axios from 'axios';
 import Filter from './filter.component'
 
 
-const MovieList = props => (
+const MovieListHTML = props => (
     <div className="row border align-items-center">
         <div className="col-3">
             <img src={props.movie.cover} width="150" height="200" alt="Cover"></img>
@@ -29,7 +29,7 @@ const MovieList = props => (
     </div>
 )
 
-export default class ExercisesList extends Component {
+export default class MovieList extends Component {
     constructor(props) {
         super(props);
         this.state = { movies: [], filter: {}, isLogged: false};
@@ -52,7 +52,7 @@ export default class ExercisesList extends Component {
     }
 
     componentDidUpdate() {
-        console.log("UPDATED");
+        //console.log("UPDATED");
 
     }
 
@@ -72,7 +72,7 @@ export default class ExercisesList extends Component {
 
     deleteMovie(id) {
         axios.delete('http://localhost:5000/movie/id/' + id)
-            .then(res => console.log(res.data));
+            .then()//res => console.log(res.data));
         this.setState({
             movies: this.state.movies.filter(el => el._id !== id)
         })
@@ -84,7 +84,7 @@ export default class ExercisesList extends Component {
                 headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
             }
             ).then(res => {
-                console.log(res)
+                //console.log(res)
             })
         }
     }
@@ -95,7 +95,7 @@ export default class ExercisesList extends Component {
                 headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
             }
             ).then(res => {
-                console.log(res)
+                //console.log(res)
             })
         }
     }
@@ -106,7 +106,7 @@ export default class ExercisesList extends Component {
                 headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
             }
             ).then(res => {
-                console.log(res)
+                //console.log(res)
             })
         }
     }
@@ -117,7 +117,7 @@ export default class ExercisesList extends Component {
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
-            return <MovieList movie={currentMovie} deleteMovie={this.deleteMovie} addToWatch={this.addToWatch} 
+            return <MovieListHTML movie={currentMovie} deleteMovie={this.deleteMovie} addToWatch={this.addToWatch} 
             addToFavourites={this.addToFavourites} addToSeen={this.addToSeen} isLogged={this.state.isLogged}/>;
         })
         if(movieList.length > 0){
@@ -133,13 +133,13 @@ export default class ExercisesList extends Component {
     }
 
     setFilter(arg) {
-        console.log(arg)
+        //console.log(arg)
         this.setState({ filter: arg }, () => {
             axios.post('http://localhost:5000/movie/filtered', { params: this.state.filter })
             .then(response => {
 
                 this.setState({ movies: response.data }).then(this.render());
-                console.log(response);
+                //console.log(response);
             })
             .catch((error) => {
                 console.log(error);

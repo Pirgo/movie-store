@@ -7,8 +7,8 @@ router.route('/update').post((req,res) => {
             DataInfo.findOne({}, (err, doc) => {
                 doc.genres = doc.genres.concat(req.body.genres)
                 doc.platforms = doc.platforms.concat(req.body.platforms)
-                console.log(doc)
-                console.log(req.body)
+                //console.log(doc)
+                //console.log(req.body)
                 doc.save()
                     .then(() => res.json('Data updated!'))
                     .catch(err => res.status(400).json('Error: ' + err));

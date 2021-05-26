@@ -15,7 +15,7 @@ router.route('/').get(protect, (req, res) => {
 });
 
 router.route('/update/firstname').post(protect, (req, res) => {
-    console.log(req.body.firstname);
+    //console.log(req.body.firstname);
     User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "firstName": req.body.value } })
         .then(user => {
             res.status(202);
@@ -26,7 +26,7 @@ router.route('/update/firstname').post(protect, (req, res) => {
 });
 
 router.route('/update/lastname').post(protect, (req, res) => {
-    console.log(req.body.firstname);
+    //console.log(req.body.firstname);
     User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "lastName": req.body.value } })
         .then(user => {
             res.status(202);
@@ -37,7 +37,7 @@ router.route('/update/lastname').post(protect, (req, res) => {
 });
 
 router.route('/update/description').post(protect, (req, res) => {
-    console.log(req.body.firstname);
+    //console.log(req.body.firstname);
     User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "description": req.body.value } })
         .then(user => {
             res.status(202);

@@ -24,7 +24,7 @@ export default class Library extends Component {
 
         axios.get('http://localhost:5000/library', { headers: headers })
             .then(response => {
-                console.log(response);
+                //console.log(response);
                 this.setState({ access: "authorized", lib: response.data });
             })
             .catch((error) => {
@@ -37,7 +37,7 @@ export default class Library extends Component {
     }
 
     seenList() {
-        console.log(this.state);
+        //console.log(this.state);
         const movieList = this.state.lib.seen.map(currentMovie => {
             return (
                 <li>
@@ -55,7 +55,7 @@ export default class Library extends Component {
         }
     }
     favouriteList() {
-        console.log(this.state.lib.favourites);
+        //console.log(this.state.lib.favourites);
         const movieList = this.state.lib.favourites.map(currentMovie => {
             return (
                 <li>
@@ -73,7 +73,7 @@ export default class Library extends Component {
         }
     }
     towatchList() {
-        console.log(this.state);
+        //log(this.state);
         const movieList = this.state.lib.toWatch.map(currentMovie => {
             return (
                 <li>
@@ -93,17 +93,17 @@ export default class Library extends Component {
 
     libraryView() {
         return (
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm">
                         Movies seen
                         {this.seenList()}
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         Favourites movie
                         {this.favouriteList()}
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         Watch movie
                         {this.towatchList()}
                     </div>

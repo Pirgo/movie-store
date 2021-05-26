@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import { LoggedContext } from "./../App"
 
 export default class Navbar extends Component {
     constructor() {
@@ -35,7 +34,7 @@ export default class Navbar extends Component {
     }
 
     userInfo(isLogged) {
-        console.log("Upadeting " + isLogged);
+        //console.log("Upadeting " + isLogged);
         return <>
             {isLogged ?
                 (<li className="navbar-item">
@@ -58,9 +57,7 @@ export default class Navbar extends Component {
                         <li className="navbar-item">
                             <Link to="/" className="nav-link">movies</Link>
                         </li>
-                        <li className="navbar-item">
-                            <Link to="/create" className="nav-link">Create Exercise Log</Link>
-                        </li>
+
                         {
                             !this.state.isLogged &&
                             <li className="navbar-item">

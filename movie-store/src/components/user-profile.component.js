@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 export default class UserProfile extends Component {
 
@@ -93,7 +92,7 @@ export default class UserProfile extends Component {
 
         axios.get('http://localhost:5000/user/profile', { headers: headers })
             .then(response => {
-                console.log(response.data);
+                //log(response.data);
                 this.setState({ user: response.data });
             })
             .catch((error) => {

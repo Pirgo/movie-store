@@ -99,7 +99,7 @@ export default class Movie extends Component {
 
 
     render() {
-        console.log(this.state.movie.directors)
+        //console.log(this.state.movie.directors)
         return(
             <div className="container">
                 <h1>{this.state.movie.title}</h1>

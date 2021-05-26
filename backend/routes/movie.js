@@ -87,7 +87,7 @@ router.route('/filters/platform').get((req, res) => {
 })
 
 router.route('/filtered').post((req, res) => {
-    console.log(req.body.params);
+    //console.log(req.body.params);
     let filter = {}
     let query = {}
     for (const [key, value] of Object.entries(req.body.params)) {
@@ -106,7 +106,7 @@ router.route('/filtered').post((req, res) => {
             }
         }
       }
-    console.log(query)
+    //console.log(query)
     Movie.find(query)
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));

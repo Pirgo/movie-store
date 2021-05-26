@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -10,14 +10,9 @@ import Register from "./components/register.component";
 import Library from "./components/library.component"
 import UserProfile from "./components/user-profile.component"
 
-import PrivateRoute from "./components/private-route.component"
-
 
 
 function App() {
-
-
-
 
   return (
     <Router>
