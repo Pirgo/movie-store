@@ -14,4 +14,37 @@ router.route('/').get(protect, (req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/update/firstname').post(protect, (req, res) => {
+    console.log(req.body.firstname);
+    User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "firstName": req.body.value } })
+        .then(user => {
+            res.status(202);
+        })
+        .catch(err => {
+            res.status(400).json('Error: ' + err)
+        });
+});
+
+router.route('/update/lastname').post(protect, (req, res) => {
+    console.log(req.body.firstname);
+    User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "lastName": req.body.value } })
+        .then(user => {
+            res.status(202);
+        })
+        .catch(err => {
+            res.status(400).json('Error: ' + err)
+        });
+});
+
+router.route('/update/description').post(protect, (req, res) => {
+    console.log(req.body.firstname);
+    User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "description": req.body.value } })
+        .then(user => {
+            res.status(202);
+        })
+        .catch(err => {
+            res.status(400).json('Error: ' + err)
+        });
+});
+
 module.exports = router;

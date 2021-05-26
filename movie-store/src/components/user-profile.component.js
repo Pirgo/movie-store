@@ -4,6 +4,87 @@ import { Link } from 'react-router-dom';
 
 export default class UserProfile extends Component {
 
+    constructor() {
+        super();
+        this.state = {
+            user: {},
+            firstame: '',
+            lastname: '',
+            description: ''
+        }
+        this.newData = "";
+        this.handleFirstNameChange = this.handleFirstNameChange.bind(this);
+        this.handleLastNameChange = this.handleLastNameChange.bind(this);
+        this.handleDescriptionChange = this.handleDescriptionChange.bind(this);
+        this.handleFirstNameSubmit = this.handleFirstNameSubmit.bind(this);
+        this.handleLastNameNameSubmit = this.handleLastNameNameSubmit.bind(this);
+        this.handleDescriptionSubmit = this.handleDescriptionSubmit.bind(this);
+
+    }
+
+    handleFirstNameChange(event) {
+        this.setState({ firstame: event.target.value });
+    }
+    handleLastNameChange(event) {
+        this.setState({ lastname: event.target.value });
+    }
+    handleDescriptionChange(event) {
+        this.setState({ description: event.target.value });
+    }
+
+
+
+    handleFirstNameSubmit(event) {
+        axios.post('http://localhost:5000/user/profile/update/firstname',
+            {
+                value: this.state.firstame
+            },
+            {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+        ).then(res => {
+            window.location.reload();
+        }).catch((err) => {
+            console.log(err);
+        });
+        //alert('A name was submitted: ' + this.state.value);
+        event.preventDefault();
+    }
+
+    handleLastNameNameSubmit(event) {
+        axios.post('http://localhost:5000/user/profile/update/lastname',
+            {
+                value: this.state.lastname
+            },
+            {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+        ).then(res => {
+            window.location.reload();
+        }).catch((err) => {
+            console.log(err);
+        });
+        //alert('A name was submitted: ' + this.state.value);
+        event.preventDefault();
+    }
+
+    handleDescriptionSubmit(event) {
+        axios.post('http://localhost:5000/user/profile/update/description',
+            {
+                value: this.state.description
+            },
+            {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+        ).then(res => {
+            window.location.reload();
+        }).catch((err) => {
+            console.log(err);
+        });
+        //alert('A name was submitted: ' + this.state.value);
+        event.preventDefault();
+    }
+
     componentDidMount() {
         const headers = {
             'Content-Type': "application/json",
@@ -13,17 +94,97 @@ export default class UserProfile extends Component {
         axios.get('http://localhost:5000/user/profile', { headers: headers })
             .then(response => {
                 console.log(response.data);
-                //this.setState({ access: "authorized", lib: response.data });
+                this.setState({ user: response.data });
             })
             .catch((error) => {
                 //console.log(error.error);
-                
+
             });
     }
 
     render() {
         return (
-            <h1>User profile</h1>
+            <>
+                <h1>Your Profile</h1>
+                <div class="row">
+                    <div class="col-3">
+                        <img src={this.state.user.avatar} width="300" height="300" alt="Cover"></img>
+                    </div>
+                    <div class="col-9">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Field</th>
+                                    <th scope="col">Value</th>
+                                    <th scope="col">Operation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>User Name</td>
+                                    <td>{this.state.user.userName}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>email</td>
+                                    <td>{this.state.user.email}</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Name</td>
+                                    <td>{this.state.user.firstName}</td>
+                                    <td>
+                                        <form onSubmit={this.handleFirstNameSubmit}>
+                                            <label>
+                                                Change Name
+                                                <input type="text" value={this.state.value} onChange={this.handleFirstNameChange} />
+                                            </label>
+                                            <input type="submit" value="Submit" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Last Name</td>
+                                    <td>{this.state.user.lastName}</td>
+                                    <td>
+                                        <form onSubmit={this.handleLastNameNameSubmit}>
+                                            <label>
+                                                Change Name
+                                                <input type="text" value={this.state.value} onChange={this.handleLastNameChange} />
+                                            </label>
+                                            <input type="submit" value="Submit" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Description</td>
+                                    <td>{this.state.user.description}</td>
+                                    <td>
+                                    <form onSubmit={this.handleDescriptionSubmit}>
+                                            <label>
+                                                Change Name
+                                                <input type="text" value={this.state.value} onChange={this.handleDescriptionChange} />
+                                            </label>
+                                            <input type="submit" value="Submit" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Date of join</td>
+                                    <td>{this.state.user.createdAt}</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </>
         );
     }
 }

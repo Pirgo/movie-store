@@ -68,6 +68,7 @@ export default class Register extends Component {
                 isLogged: true
             });
             localStorage.setItem("authToken", res.data.token);
+            window.location.reload();
         }).catch(err => {
             //console.log(err.response);
             this.setState({

@@ -24,14 +24,26 @@ const userSchema = new Schema({
     min: 6,
     select: false
   },
+  avatar: {
+    type: String,
+    trim: true,
+    default: "https://steamuserimages-a.akamaihd.net/ugc/778485568510536639/DA58BAE1E6DB8024B0290C44383BD030249E2DF2/"
+  },
   firstName: {
     type: String,
-    trim: true
+    trim: true,
+    default: ""
   },
 
   lastName: {
     type: String,
-    trim: true
+    trim: true,
+    default: ""
+  },
+  description: {
+    type: String,
+    trim: true,
+    default: ""
   },
   library: {
     toWatch: [{
