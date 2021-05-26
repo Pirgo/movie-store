@@ -17,6 +17,9 @@ const MovieList = props => (
             <h2>{'\u2605'}Rate: {props.movie.rate.amount ? (props.movie.rate.sum/props.movie.rate.amount).toFixed(2) : "None"}</h2>
             <p>{props.movie.rate.amount} ratings</p>
             <a href="#" onClick={() => {props.deleteMovie(props.movie._id)}}>Delete</a>
+            <a href="#" onClick={() => {props.addToWatch(props.movie._id, props.movie.title)}}>ToWatch</a>
+            <a href="#" onClick={() => {props.addToFavourites(props.movie._id, props.movie.title)}}>ToFav</a>
+            <a href="#" onClick={() => {props.addToSeen(props.movie._id, props.movie.title)}}>ToSeen</a>
         </div>
     </div>
 )
@@ -27,6 +30,9 @@ export default class ExercisesList extends Component {
         this.state = { movies: [], filter: {} };
         this.setFilter = this.setFilter.bind(this);
         this.deleteMovie = this.deleteMovie.bind(this);
+        this.addToWatch = this.addToWatch.bind(this)
+        this.addToFavourites = this.addToFavourites.bind(this)
+        this.addToSeen = this.addToSeen.bind(this)
     }
 
     componentDidMount() {
@@ -54,11 +60,47 @@ export default class ExercisesList extends Component {
         })
     }
 
+    addToWatch(id, title){
+        if (localStorage.getItem("authToken")) {
+            axios.post('http://localhost:5000/libmodifying/towatch/add',{movieID: id, title: title},  {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+            ).then(res => {
+                console.log(res)
+            })
+        }
+    }
+
+    addToFavourites(id, title){
+        if (localStorage.getItem("authToken")) {
+            axios.post('http://localhost:5000/libmodifying/favourites/add',{movieID: id, title: title},  {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+            ).then(res => {
+                console.log(res)
+            })
+        }
+    }
+
+    addToSeen(id, title){
+        if (localStorage.getItem("authToken")) {
+            axios.post('http://localhost:5000/libmodifying/seen/add',{movieID: id, title: title},  {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            }
+            ).then(res => {
+                console.log(res)
+            })
+        }
+    }
+
+
+
 
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
-            return <MovieList movie={currentMovie} deleteMovie={this.deleteMovie}/>;
+            return <MovieList movie={currentMovie} deleteMovie={this.deleteMovie} addToWatch={this.addToWatch} 
+            addToFavourites={this.addToFavourites} addToSeen={this.addToSeen}/>;
         })
         if(movieList.length > 0){
             return movieList

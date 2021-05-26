@@ -27,7 +27,7 @@ export default class Navbar extends Component {
             }
             ).then(res => {
                 this.setState({
-                    isLogged: true,
+                    isLogged: res.data.success,
                     username: res.data.name
                 });
             })
