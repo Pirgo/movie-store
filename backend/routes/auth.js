@@ -69,9 +69,9 @@ router.route("/login").post((req, res, nxt) => {
 
 });
 
-router.route("/library").get(protect, (req, res, nxt) => {
-    res.status(200).json({success: true, data: "acces granted"});
-});
+// router.route("/library").get(protect, (req, res, nxt) => {
+//     res.status(200).json({success: true, data: "acces granted"});
+// });
 
 
 

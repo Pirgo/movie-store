@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+
 
 export default class Login extends Component {
     constructor() {
@@ -38,12 +39,14 @@ export default class Login extends Component {
         //console.log(this.state)
     }
 
+
+
     handleSubmit(event) {
 
         event.preventDefault();
 
         const headers = {
-            'Content-Type': "application/json",
+            'Content-Type': "application/json"
         };
 
         const data = {
@@ -62,6 +65,8 @@ export default class Login extends Component {
                 isLogged: true
             });
             localStorage.setItem("authToken", res.data.token);
+            window.location.reload();
+            // console.log(context);
         }).catch(err => {
             //console.log(err.response);
             this.setState({
@@ -76,6 +81,7 @@ export default class Login extends Component {
         this.setState({
             isLogged: false
         });
+        window.location.reload();
     }
 
 
