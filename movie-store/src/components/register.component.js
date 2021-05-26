@@ -50,7 +50,7 @@ export default class Register extends Component {
             password: this.state.password1
         }
 
-        if (this.state.password1 != this.state.password2) {
+        if (this.state.password1 !== this.state.password2) {
             this.setState({
                 error: "Passwords must be the same"
             });
