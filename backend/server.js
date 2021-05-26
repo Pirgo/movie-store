@@ -33,6 +33,7 @@ app.listen(port, () => {
     const dataRouter = require('./routes/data')
     const libraryRouter = require('./routes/library');
     const userProfileRouter = require('./routes/user-profile');
+    const libModifying = require('./routes/libmodifying');
 
     app.use('/exercises', exercisesRouter);
     app.use('/users', usersRouter);
@@ -42,6 +43,7 @@ app.listen(port, () => {
     app.use('/data', dataRouter);
     app.use('/library', libraryRouter);
     app.use('/user/profile', userProfileRouter);
+    app.use('/libmodifying', libModifying);
 });
 
 
