@@ -16,14 +16,14 @@ export default class Navbar extends Component {
 
     componentDidMount() {
 
-        console.log(this.context)
+        //console.log(this.context)
         this.userStateChanged();
     }
 
     userStateChanged() {
         if (localStorage.getItem("authToken")) {
             axios.get('http://localhost:5000/users/username', {
-                headers: { 'authorization': 'Beaver ' + localStorage.getItem("authToken") }
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
             }
             ).then(res => {
                 this.setState({
