@@ -4,30 +4,37 @@ const jwt = require('jsonwebtoken');
 
 const protect = async (req, res, next) => {
   let token;
-  console.log(req.headers);
+  //console.log(req.headers);
   if (req.headers.authorization) {
     token = req.headers.authorization.split(" ")[1];
   }
 
-  console.log(token);
+  console.log();
 
-  if (!token) {
+  if (!token || token == 'null') {
     //return 404 not authirized
     //return req.status(404)
     //console.log("dsgsdfgsfgfshdfh");
+    //console.log("wchopdz do ifa kurwo");
     return res.status(404).json({
       success: false,
       error: 'not authorized'
     });
 
+    next();
   }
+  //console.log("KURWO BITO");
   const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+  
   //console.log(decodedToken);
 
   const user = await User.findById(decodedToken.id);
 
   if (!user) {
-    //40 no user find
+    return res.status(404).json({
+      success: false,
+      error: 'not authorized'
+    });
   }
 
   req.user = user;
@@ -38,28 +45,27 @@ const protect = async (req, res, next) => {
 
 router.route('/').get(protect, (req, res) => {
   //console.log('sfhgdfh');
-  User.findOne()
+  User.findOne({_id: req.user})
     .then(user => {
-      console.log(user.library);
-      res.json(user.library.toWatch);
-      console.log(user.library);
+      res.json(user.library);
+      
     })
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/towatch').get((req, res) => {
+router.route('/towatch').get(protect, (req, res) => {
   User.findOne()
     .then(user => res.json(user.library.toWatch))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/favourites').get((req, res) => {
+router.route('/favourites').get(protect, (req, res) => {
   User.findOne()
     .then(user => res.json(user.library.favourites))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/seen').get((req, res) => {
+router.route('/seen').get(protect, (req, res) => {
   User.findOne()
     .then(user => res.json(user.library.seen))
     .catch(err => res.status(400).json('Error: ' + err));

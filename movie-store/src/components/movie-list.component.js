@@ -36,7 +36,7 @@ export default class ExercisesList extends Component {
             })
             .catch((error) => {
                 console.log(error);
-            })
+            });
     }
 
     componentDidUpdate() {
