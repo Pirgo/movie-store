@@ -37,13 +37,17 @@ router.route('/towatch/add').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({_id: movieID }, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
-                User.findOneAndUpdate({_id: userID}, {"$push" : {"library.toWatch": {"movieID": movieID, "title": title}}}, (err, doc)=>{
-                    console.log(doc)
-                    res.json("Added")
+                User.findOneAndUpdate({_id: userID, "library.toWatch.movieID":{$nin: movieID}}, {"$push" : {"library.toWatch": {"movieID": movieID, "title": title}}}, (err, doc)=>{
+                    if(doc != null){
+                        res.json("Added")
+                    }
+                    else{
+                        res.json("Error: Already in lib")
+                    }
                 })
             }
             else{
@@ -63,9 +67,13 @@ router.route('/favourites/add').post(protect, (req,res,next)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
-                User.findOneAndUpdate({_id: userID}, {"$push" : {"library.favourites": {"movieID": movieID, "title": title}}}, (err, doc)=>{
-                    console.log(doc)
-                    res.json("Added")
+                User.findOneAndUpdate({_id: userID, "library.favourites.movieID":{$nin: movieID}}, {"$push" : {"library.favourites": {"movieID": movieID, "title": title}}}, (err, doc)=>{
+                    if(doc != null){
+                        res.json("Added")
+                    }
+                    else{
+                        res.json("Error: Already in lib")
+                    }
                 })
             }
             else{
@@ -84,9 +92,13 @@ router.route('/seen/add').post(protect, (req,res,next)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
-                User.findOneAndUpdate({_id: userID}, {"$push" : {"library.seen": {"movieID": movieID, "title": title}}}, (err, doc)=>{
-                    console.log(doc)
-                    res.json("Added")
+                User.findOneAndUpdate({_id: userID, "library.seen.movieID":{$nin: movieID}}, {"$push" : {"library.seen": {"movieID": movieID, "title": title}}}, (err, doc)=>{
+                    if(doc != null){
+                        res.json("Added")
+                    }
+                    else{
+                        res.json("Error: Already in lib")
+                    }
                 })
             }
             else{

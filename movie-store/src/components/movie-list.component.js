@@ -17,9 +17,14 @@ const MovieList = props => (
             <h2>{'\u2605'}Rate: {props.movie.rate.amount ? (props.movie.rate.sum/props.movie.rate.amount).toFixed(2) : "None"}</h2>
             <p>{props.movie.rate.amount} ratings</p>
             <a href="#" onClick={() => {props.deleteMovie(props.movie._id)}}>Delete</a>
+            {
+            props.isLogged &&
+            <>
             <a href="#" onClick={() => {props.addToWatch(props.movie._id, props.movie.title)}}>ToWatch</a>
             <a href="#" onClick={() => {props.addToFavourites(props.movie._id, props.movie.title)}}>ToFav</a>
             <a href="#" onClick={() => {props.addToSeen(props.movie._id, props.movie.title)}}>ToSeen</a>
+            </>
+            }
         </div>
     </div>
 )
@@ -27,7 +32,7 @@ const MovieList = props => (
 export default class ExercisesList extends Component {
     constructor(props) {
         super(props);
-        this.state = { movies: [], filter: {} };
+        this.state = { movies: [], filter: {}, isLogged: false};
         this.setFilter = this.setFilter.bind(this);
         this.deleteMovie = this.deleteMovie.bind(this);
         this.addToWatch = this.addToWatch.bind(this)
@@ -43,6 +48,7 @@ export default class ExercisesList extends Component {
             .catch((error) => {
                 console.log(error);
             })
+        this.userStateChanged()
     }
 
     componentDidUpdate() {
@@ -50,6 +56,18 @@ export default class ExercisesList extends Component {
 
     }
 
+    userStateChanged() {
+        if (localStorage.getItem("authToken")) {
+            axios.get('http://localhost:5000/users/username', {
+                headers: { 'authorization': 'Beaver ' + localStorage.getItem("authToken") }
+            }
+            ).then(res => {
+                this.setState({
+                    isLogged: res.data.success,
+                });
+            })
+        }
+    }
 
 
     deleteMovie(id) {
@@ -100,7 +118,7 @@ export default class ExercisesList extends Component {
 
         const movieList = this.state.movies.map(currentMovie => {
             return <MovieList movie={currentMovie} deleteMovie={this.deleteMovie} addToWatch={this.addToWatch} 
-            addToFavourites={this.addToFavourites} addToSeen={this.addToSeen}/>;
+            addToFavourites={this.addToFavourites} addToSeen={this.addToSeen} isLogged={this.state.isLogged}/>;
         })
         if(movieList.length > 0){
             return movieList
