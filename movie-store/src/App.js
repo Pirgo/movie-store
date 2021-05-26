@@ -8,6 +8,7 @@ import Movie from "./components/movie.component";
 import Login from "./components/login.component";
 import Register from "./components/register.component";
 import Library from "./components/library.component"
+import UserProfile from "./components/user-profile.component"
 
 import PrivateRoute from "./components/private-route.component"
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/auth/login" exact component={Login} />
           <Route path="/auth/register" exact component={Register} />
           <Route path="/library" exact component={Library} />
+          <Route path="/user/profile" exact component={UserProfile} />
         </div>
       
     </Router>

@@ -31,6 +31,8 @@ export default class Library extends Component {
                 this.state = {
                     access: "not authorized"
                 }
+                //window.open('http://localhost:3000/auth/login');
+                //console.log(error.message)
             });
     }
 

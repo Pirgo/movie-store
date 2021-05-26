@@ -2,33 +2,7 @@ const router = require('express').Router();
 const User = require('../models/user.model');
 const jwt = require('jsonwebtoken');
 
-const protect = async (req, res, next) => {
-    let token;
-    //console.log(req.headers);
-    if(req.headers.authorization) {
-        token = req.headers.authorization.split(" ")[1];
-    }
-
-    //console.log(token);
-
-    if(!token) {
-        //return 404 not authirized
-        //return req.status(404);
-        return;
-    }
-    const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
-    //console.log(decodedToken);
-
-    const user = await User.findById(decodedToken.id);
-
-    if(!user) {
-        //40 no user find
-    }
-
-    req.user = user;
-    next();
-
-};
+const protect = require('./protect');
 
 router.route("/register").post((req, res, nxt) => {
     const { username, email, password } = req.body;
