@@ -67,11 +67,21 @@ router.route('/filters/runtime').get((req, res) => {
 
 router.route('/filters/year').get((req, res) => {
     Movie.aggregate([
-        {$project: {year: {$year: "$date"}, _id: 0}},
+        {$project: {year: {$substr: ["$date", 0, 4]}, _id: 0}},
         {$group: {_id: "$year"}}
     ])
-    .then(years => res.json(years.map(obj => obj._id).sort()))
+    .then(years => 
+
+        {
+            res.json(years.map(obj => obj._id).sort())
+        })
     .catch(err => res.status(400).json('Error: ' + err));
+    // Movie.aggregate([
+    //     {$project: {year: {$year: "$date"}, _id: 0}},
+    //     {$group: {_id: "$year"}}
+    // ])
+    // .then(years => res.json(years.map(obj => obj._id).sort()))
+    // .catch(err => res.status(400).json('Error: ' + err));
 })
 
 router.route('/filters/genre').get((req, res) => {
