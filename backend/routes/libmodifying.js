@@ -196,4 +196,30 @@ router.route('/seen/rmv').post(protect, (req,res,next)=>{
 })  
 
 
+router.route('/seen/rate').post(protect, (req, res, next)=>{
+    const userID = req.user._id
+    const movieID = req.body.movieID
+    const rate = req.body.rate
+    Movie.countDocuments({_id: movieID}, (err, count)=>{
+        if (err) res.status(400).json("Error")
+        else{
+            if(count > 0){
+                User.findOneAndUpdate({_id: userID, "library.seen.movieID":{$in: movieID}}, {$set: {"library.seen.$.rate": rate}}, (err, doc)=>{
+                    console.log(doc)
+                    if(doc != null){
+                        res.json("Rate updated")
+                    }
+                    else{
+                        res.json("Nothing to update")
+                    }
+                })
+            }
+            else{
+                res.status(400).json('Error no movie with that id')
+            }
+        }
+    })
+})
+
+
 module.exports = router;
