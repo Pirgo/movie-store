@@ -13,10 +13,10 @@
 * Mamy w planie stworzyć serwis z filmami
 * coś w stylu “Filmweb”
 * Mamy bazę filmów, osób kina oraz serwisów streamingowych
-* Każdy użytkownik ma swoją bibliotekę, może oceniać filmy, oznaczać jako obejrzane itp
+* Każdy użytkownik ma swoją bibliotekę, może oznaczać jako obejrzane itp
 * Dane filmów najprawdopodobniej pochodzące z zewnętrznego API
 * Sprawdzać informacje na temat filmów, osób itp.
-* Wyszukiwanie w zależności od filtrów (typ, rok, reżyser, itp)
+* Wyszukiwanie w zależności od filtrów (rok, gatunek, platforma)
 
 
 ## Technologie
@@ -32,7 +32,7 @@
 [Link do google docs](https://docs.google.com/document/d/1IDP3PLPie59oKxTlVEqZKJXBfDBSobYQ6-YQ4tkv9cs/edit)
 
 
-## Struktura bazy danych (v.0.2 stan z dnia 18.05.2021)
+## Struktura bazy danych (v.0.2 stan z dnia 27.05.2021)
 ### Wypełniona przykładowymi danymi
 
 ### Tabela przetrzymująca dane Użytkownika
