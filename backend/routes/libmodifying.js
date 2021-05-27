@@ -204,8 +204,7 @@ router.route('/seen/rate').post(protect, (req, res, next)=>{
         if (err) res.status(400).json("Error")
         else{
             if(count > 0){
-                User.findOneAndUpdate({_id: userID, "library.seen.movieID":{$in: movieID}}, {$set: {"library.seen.$.rate": rate}}, (err, doc)=>{
-                    console.log(doc)
+                User.findOneAndUpdate({_id: userID, "library.seen.movieID":{$in: movieID}}, {$set: {"library.seen.$.rate": rate}}, {runValidators: true}, (err, doc)=>{
                     if(doc != null){
                         res.json("Rate updated")
                     }
