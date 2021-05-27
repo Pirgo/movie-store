@@ -16,4 +16,10 @@ router.route('/add').post((req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/id/:id').get((req, res) => {
+    People.findOne({_id: req.params.id})
+        .then(movie => res.json(movie))
+        .catch(err => res.status(404).json('Error: ' + err));
+});
+
 module.exports = router;

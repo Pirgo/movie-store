@@ -113,10 +113,10 @@ export default class Movie extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-auto">
+                    <div className="col-3">
                         <img src={this.state.movie.cover} width="225" height="300" alt="Cover"></img>
                     </div>
-                    <div className="col-auto">
+                    <div className="col-9">
                         <p>{this.state.movie.plot}</p>
                         <p>Directors: {this.directorsList()}</p>
                         <p>Writers: {this.writersList()}</p>

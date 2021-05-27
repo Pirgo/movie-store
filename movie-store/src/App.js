@@ -9,6 +9,7 @@ import Login from "./components/login.component";
 import Register from "./components/register.component";
 import Library from "./components/library.component"
 import UserProfile from "./components/user-profile.component"
+import People from './components/people.component';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/auth/register" exact component={Register} />
           <Route path="/library" exact component={Library} />
           <Route path="/user/profile" exact component={UserProfile} />
+          <Route path="/people/:id" component={People}/>
         </div>
       
     </Router>
