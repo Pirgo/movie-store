@@ -1,0 +1,81 @@
+[{
+    "rate": {
+      "sum": 0,
+      "amount": 0
+    },
+    "genre": [
+      "Thriller",
+      "Action",
+      "Horror",
+      "Science Fiction"
+    ],
+    "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+    "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+    "_id": {
+        "$oid": "2"
+    },
+    "title": "Escape Room",
+    "date": "2020-02-11T00:00:00.000Z",
+    "runtime": 123,
+    "directors": [],
+    "writers": [],
+    "actors": [],
+    "platforms": [],
+    "createdAt": "2021-05-26T23:22:54.309Z",
+    "updatedAt": "2021-05-26T23:22:54.309Z",
+    "__v": 0
+  },
+  {
+    "rate": {
+      "sum": 0,
+      "amount": 0
+    },
+    "genre": [
+      "Thriller",
+      "Action",
+      "Horror",
+      "Science Fiction"
+    ],
+    "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+    "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+    "_id": {
+        "$oid": "71aed8899cc0576b86fa6411"
+    },
+    "title": "Escape Room",
+    "date": "2020-02-11T00:00:00.000Z",
+    "runtime": 123,
+    "directors": [],
+    "writers": [],
+    "actors": [],
+    "platforms": [],
+    "createdAt": "2021-05-26T23:22:54.309Z",
+    "updatedAt": "2021-05-26T23:22:54.309Z",
+    "__v": 0
+  },
+  {
+    "rate": {
+      "sum": 0,
+      "amount": 0
+    },
+    "genre": [
+      "Thriller",
+      "Action",
+      "Horror",
+      "Science Fiction"
+    ],
+    "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+    "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+    "_id": {
+        "$oid": "72aed8899cc0576b86fa6411"
+    },
+    "title": "Escape Room",
+    "date": "2020-02-11T00:00:00.000Z",
+    "runtime": 123,
+    "directors": [],
+    "writers": [],
+    "actors": [],
+    "platforms": [],
+    "createdAt": "2021-05-26T23:22:54.309Z",
+    "updatedAt": "2021-05-26T23:22:54.309Z",
+    "__v": 0
+  }]
