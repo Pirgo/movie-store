@@ -25,7 +25,6 @@ connection.once('open', () => {
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
-    const exercisesRouter = require('./routes/exercises');
     const usersRouter = require('./routes/users');
     const movieRouter = require('./routes/movie');
     const peopleRouter = require('./routes/people');
@@ -35,7 +34,6 @@ app.listen(port, () => {
     const userProfileRouter = require('./routes/user-profile');
     const libModifying = require('./routes/libmodifying');
 
-    app.use('/exercises', exercisesRouter);
     app.use('/users', usersRouter);
     app.use('/movie', movieRouter);
     app.use('/people', peopleRouter);

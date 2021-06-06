@@ -25,7 +25,7 @@ export default class Movie extends Component {
     directorsList(){
         return this.state.movie.directors.map((dir, i) => {
             let link = <>
-                       <Link to={"/people/" + dir.directorID} className="text-dark">{dir.directorName}</Link>
+                       <Link to={"/people/" + dir.id} className="text-dark">{dir.name}</Link>
                        <span> / </span>
                        </>
             return link;
@@ -35,7 +35,7 @@ export default class Movie extends Component {
     writersList(){
         return this.state.movie.writers.map((writer, i) => {
             let link = <>
-                      <Link to={"/people/" + writer.writerID} className="text-dark">{writer.writerName}</Link>
+                      <Link to={"/people/" + writer.id} className="text-dark">{writer.name}</Link>
                       <span> / </span>
                       </>
             return link
@@ -66,7 +66,7 @@ export default class Movie extends Component {
 
     actorsList(){
         return this.state.movie.actors.map((actor, i) => {
-            return <li><Link to={"/people/" + actor.actorID} className="text-dark">{actor.actorName}</Link></li>
+            return <li><Link to={"/people/" + actor.id} className="text-dark">{actor.name}</Link></li>
         })
     }
 

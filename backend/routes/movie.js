@@ -104,19 +104,19 @@ router.route('/filtered').post((req, res) => {
         if(value !== "-"){
             //TODO przydaloby sie to zmienic ale chyba dziala
             if (key === "date"){
-                let start = new Date(String(value)+'-1-1')
-                let end = new Date(String(parseInt(value)+1)+'-1-1')
-                query["date"] = {$gte: start, $lt: end}
+                query["date"] = {$regex : value}
             }
             else if (key === "platforms"){
                 query["platforms.name"] = value
+            }
+            else if(key === "title"){
+                query["title"] = {$regex : `.*${value}.*`, $options: "$i"}
             }
             else{
                 query[key] = value
             }
         }
       }
-    //console.log(query)
     Movie.find(query)
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));

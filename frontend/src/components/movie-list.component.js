@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Filter from './filter.component'
 
-
 const MovieListHTML = props => (
     <div className="row border align-items-center">
         <div className="col-3">
@@ -31,7 +30,7 @@ const MovieListHTML = props => (
 export default class MovieList extends Component {
     constructor(props) {
         super(props);
-        this.state = { movies: [], filter: {}, isLogged: false };
+        this.state = { movies: [], filter: {}, isLogged: false};
         this.setFilter = this.setFilter.bind(this);
         this.deleteMovie = this.deleteMovie.bind(this);
         this.addToWatch = this.addToWatch.bind(this)
@@ -206,15 +205,15 @@ export default class MovieList extends Component {
             axios.post('http://localhost:5000/movie/filtered', { params: this.state.filter })
                 .then(response => {
 
-                    this.setState({ movies: response.data }).then(this.render());
-                    //console.log(response);
+                    this.setState({ movies: response.data })
+
                 })
                 .catch((error) => {
                     console.log(error);
                 })
         });
-
     }
+
 
     render() {
         return (

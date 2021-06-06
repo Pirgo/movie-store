@@ -10,11 +10,12 @@ export default class Filter extends Component {
             dates: [],
             genres: [],
             platforms: [],
-            value: { runtime: "-", date: "-", genre: "-", platforms: "-" }
+            value: { runtime: "-", date: "-", genre: "-", platforms: "-", title: "-" }
         };
         //this.value = { runtime: "mock", year: "mock", genre: "mock", platform: "mock" }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.btnClick = this.btnClick.bind(this);
     }
 
     componentDidMount() {
@@ -52,11 +53,14 @@ export default class Filter extends Component {
     handleSubmit(event) {
         //alert('Your favorite flavor is: ' + this.state.value);
         const selectArr = event.target.querySelectorAll('select');
+        const searchInput = event.target.querySelector('#title');
+        searchInput.value = ""
         this.setState(prevState => {
             let value = {...prevState.value}                    // creating copy of state variable value
             selectArr.forEach((el,i,arr)=>{
                 value[String(el.id)] = "-"
-            })       
+            })
+            value["title"] = "-"       
             return { value };                                 // return new object value object
           }, () => this.props.setParentFilter(this.state.value))
         
@@ -68,6 +72,19 @@ export default class Filter extends Component {
         this.setState(prevState => {
             let value = {...prevState.value}                    // creating copy of state variable value
             value[String(event.target.id)] = event.target.value      //zmiana odpowiedniego pola obiektu       
+            return { value };                                 // return new object value object
+          }, () => this.props.setParentFilter(this.state.value))
+    }
+
+    btnClick(event){
+        event.preventDefault();
+        let title = event.target.parentElement.querySelector('#title').value
+        if (title === ""){
+            title = "-"
+        }
+        this.setState(prevState => {
+            let value = {...prevState.value}                    // creating copy of state variable value
+            value["title"] = title      
             return { value };                                 // return new object value object
           }, () => this.props.setParentFilter(this.state.value))
     }
@@ -100,6 +117,9 @@ export default class Filter extends Component {
                     {platformList}
                 </select>
                 <input type="submit" value="clear filters"></input>
+                <br></br>
+                <input type="text" id="title"></input>
+                <button onClick={this.btnClick}>Search</button>
             </form>
         );
     }
