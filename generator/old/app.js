@@ -305,6 +305,9 @@ function app2() {
         movie.writers = [];
         movie.actors = [];
         movie.cover = m.cover;
+        movie.adult = m.adult;
+        movie.budget = m.budget;
+        movie.revenue = m.revenue;
 
         let p1 = {
             name: "HBOGO",

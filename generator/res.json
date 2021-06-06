@@ -1,0 +1,85 @@
+[
+    {
+        "id": 337404,
+        "title": "Cruella",
+        "genre": [
+            "Comedy",
+            "Crime"
+        ],
+        "date": "2021-05-26T00:00:00.000Z",
+        "runtime": 134,
+        "plot": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
+        "rate": {
+            "sum": 0,
+            "amount": 0
+        },
+        "directors": [],
+        "writers": [],
+        "actors": [],
+        "adult": false,
+        "budget": 200000000,
+        "revenue": 51837054
+    },
+    {
+        "id": 724089,
+        "title": "Gabriel's Inferno Part II",
+        "genre": [
+            "Romance"
+        ],
+        "date": "2020-07-31T00:00:00.000Z",
+        "runtime": 105,
+        "plot": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+        "rate": {
+            "sum": 0,
+            "amount": 0
+        },
+        "directors": [],
+        "writers": [],
+        "actors": [],
+        "adult": false,
+        "budget": 0,
+        "revenue": 0
+    },
+    {
+        "id": 278,
+        "title": "The Shawshank Redemption",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "date": "1994-09-23T00:00:00.000Z",
+        "runtime": 142,
+        "plot": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "rate": {
+            "sum": 0,
+            "amount": 0
+        },
+        "directors": [],
+        "writers": [],
+        "actors": [],
+        "adult": false,
+        "budget": 25000000,
+        "revenue": 28341469
+    },
+    {
+        "id": 238,
+        "title": "The Godfather",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "date": "1972-03-14T00:00:00.000Z",
+        "runtime": 175,
+        "plot": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "rate": {
+            "sum": 0,
+            "amount": 0
+        },
+        "directors": [],
+        "writers": [],
+        "actors": [],
+        "adult": false,
+        "budget": 6000000,
+        "revenue": 245066411
+    }
+]
