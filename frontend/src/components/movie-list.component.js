@@ -9,7 +9,7 @@ const MovieListHTML = props => (
             <img src={props.movie.cover} width="150" height="200" alt="Cover"></img>
         </div>
         <div className="col-6">
-            <h1><Link to={"/movie/" + props.movie._id} className="text-decoration-none text-dark">{props.movie.title}</Link></h1>
+            <h1><Link to={"/movie/" + props.movie.id} className="text-decoration-none text-dark">{props.movie.title}</Link></h1>
             <p>Release year: <span style={{ fontWeight: 'bold' }}>{props.movie.date.substring(0, 4)}</span></p>
         </div>
         <div className="col-3 text-right">

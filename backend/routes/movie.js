@@ -9,31 +9,6 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
-    // const title = req.body.title;
-    // const genre = req.body.genre;
-    // const date = req.body.date;
-    // const runtime = req.body.runtime;
-    // const plot = req.body.plot
-    // const rate = req.body.rate;
-    // const directors = req.body.directors;
-    // const writers = req.body.writers;
-    // const actors = req.body.actors;
-    // const cover = req.body.cover;
-    // const platforms = req.body.cover;
-
-    // const newMovie = new Movie({
-    //     title,
-    //     genre,
-    //     date, 
-    //     runtime, 
-    //     plot, 
-    //     rate,
-    //     directors,
-    //     writers,
-    //     actors,
-    //     cover,
-    //     platforms
-    // });
     const newMovie = new Movie({
             ...req.body
         });
@@ -44,11 +19,12 @@ router.route('/add').post((req, res) => {
 });
 
 router.route('/id/:id').get((req, res) => {
-    Movie.findOne({_id: req.params.id})
+    Movie.findOne({id: req.params.id})
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });
 
+//ogolnie endpointy na tego idka przez baze powinnismy wymienic
 router.route('/id/:id').delete((req,res)=>{
     Movie.findByIdAndDelete(req.params.id, (err, doc) =>{
         if(err) console.log(err)
