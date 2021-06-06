@@ -3,60 +3,70 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const peopleSchema = new Schema({
-    firstName: {
-        type: String,
-        trim: true,
+    id: {
+        type: Number,
         required: true,
+        unique: true
     },
-
-    lastName: {
+    name: {
         type: String,
         trim: true,
         required: true
     },
-    born: {
-        type: Date,
+    birthday:{
+        type: String,
         required: true
     },
-    photo: {
+    deathday:{
+        type: String
+    },
+    photo : {
         type: String,
         default: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU"
+    },
+    place_of_birth : {
+        type: String,
+        required: true
+    },
+    biography : {
+        type: String,
+        default: "To be added"
     },
     functions: {
         director: [{
             _id: false,
-            movieID: {
-                type: String,
+            id: {
+                type: Number,
                 required: true
             },
             title: {
                 type: String,
                 trim: true,
-                default: "sdgasdg"
+                required: true
             }
         }],
         writer: [{
             _id: false,
-            movieID: {
-                type: String,
+            id: {
+                type: Number,
                 required: true
             },
             title: {
                 type: String,
                 trim: true,
-                default: "sdgasdg"
+                required: true
             }
         }],
         actor: [{
             _id: false,
-            movieID: {
-                type: String,
+            id: {
+                type: Number,
                 required: true
             },
             title: {
                 type: String,
                 trim: true,
-                default: "sdgasdg"
+                required: true
             }
         }]
     }
