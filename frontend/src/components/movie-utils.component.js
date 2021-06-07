@@ -24,7 +24,7 @@ export default class MovieUtils extends Component {
             isWatched: false,
             isFavourite: false,
             isSeen: false,
-            value: 0,
+            rate: 0,
             hover: 0
         }
         axios.get('http://localhost:5000/movie/id/' + props.movieID + '/title')
@@ -34,6 +34,8 @@ export default class MovieUtils extends Component {
 
         console.log(props);
         this.changeLibState = this.changeLibState.bind(this);
+        this.changeRate = this.changeRate.bind(this);
+        this.getUserRate = this.getUserRate.bind(this);
     }
 
     componentDidMount() {
@@ -42,7 +44,7 @@ export default class MovieUtils extends Component {
     }
 
     changeLibState(section) {
-        console.log(section);
+        //console.log(section);
         if (!localStorage.getItem("authToken")) {
             return;
         }
@@ -70,6 +72,43 @@ export default class MovieUtils extends Component {
                 this.userStateChanged();
             });
 
+    }
+
+    changeRate(newRate) {
+        if (!localStorage.getItem("authToken")) {
+            return;
+        }
+        const header = {
+            'authorization': 'Bearer ' + localStorage.getItem("authToken")
+        };
+
+        const body = {
+            movieID: this.state.movieID,
+            title: this.state.movieTitle,
+            rate: newRate
+        };
+        let BASE_URL = 'http://localhost:5000/libmodifying/seen/rate/add';
+        axios.post(BASE_URL, body, { headers: header })
+            .then(res => {
+                this.userStateChanged();
+            });
+    }
+
+    getUserRate() {
+        const header = {
+            'authorization': 'Bearer ' + localStorage.getItem("authToken")
+        };
+
+        const body = {
+            movieID: this.state.movieID,
+            title: this.state.movieTitle
+        };
+
+        let BASE_URL = 'http://localhost:5000/libmodifying/seen/rate/value';
+        axios.post(BASE_URL, body, { headers: header })
+            .then(res => {
+                this.setState({rate: res.data.rate});
+            });
     }
 
     userStateChanged() {
@@ -102,6 +141,9 @@ export default class MovieUtils extends Component {
         axios.post(BASE_URL + 'seen/checkstate', { movieID: this.state.movieID }, { headers: header })
             .then(res => {
                 res.data.found ? this.setState({ isSeen: true }) : this.setState({ isSeen: false });
+                if(res.data.found) {
+                    this.getUserRate();
+                }
             });
 
     }
@@ -118,14 +160,14 @@ export default class MovieUtils extends Component {
                             <div>
                                 <div class="row">
                                     <div class="col">
-                                        <p>Rate Movie</p>
+                                        <p>Rate Movie (your rate will be saved only if you have seen this movie!)</p>
                                         <Rating
                                             name="rating"
                                             size="large"
-                                            value={this.state.value}
+                                            value={this.state.rate}
                                             onChange={(event, newValue) => {
-                                                this.setState({ value: newValue });
-
+                                                this.setState({ rate: newValue });
+                                                this.changeRate(newValue);
                                             }}
                                             onChangeActive={(event, newHover) => {
                                                 this.setState({ hover: newHover });
@@ -136,7 +178,7 @@ export default class MovieUtils extends Component {
                                         {
                                             this.state.value !== null &&
                                             <Box ml={2}>
-                                                {labels[this.state.hover !== -1 ? this.state.hover : this.state.value]}
+                                                {labels[this.state.hover !== -1 ? this.state.hover : this.state.rate]}
                                             </Box>
                                         }
 

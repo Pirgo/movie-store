@@ -99,29 +99,53 @@ router.route('/:section/remove').post(protect, (req, res, next) => {
 
 
 
-router.route('/seen/rate').post(protect, (req, res, next) => {
+router.route('/seen/rate/add').post(protect, (req, res, next) => {
     const userID = req.user._id
     const movieID = req.body.movieID
     const rate = req.body.rate
     Movie.countDocuments({ id: movieID }, (err, count) => {
-        if (err) res.status(400).json("Error")
-        else {
-            if (count > 0) {
-                User.findOneAndUpdate({ _id: userID, "library.seen.movieID": { $in: movieID } }, { $set: { "library.seen.$.rate": rate } }, { runValidators: true }, (err, doc) => {
-                    if (doc != null) {
-                        res.json("Rate updated")
-                    }
-                    else {
-                        res.json("Nothing to update")
-                    }
-                })
+        if (err || count <= 0) {
+            res.status(401).json('Error no movie with that id')
+            return;
+        }
+
+        User.findOneAndUpdate({ _id: userID, "library.seen.movieID": { $in: movieID } }, { $set: { "library.seen.$.rate": rate } }, { runValidators: true }, (err, doc) => {
+            if (doc != null) {
+                res.json("Rate updated")
             }
             else {
-                res.status(400).json('Error no movie with that id')
+                res.json("Nothing to update")
             }
-        }
+        })
     })
 })
 
+router.route('/seen/rate/value').post(protect, (req, res, next) => {
+    const userID = req.user._id;
+    const movieID = req.body.movieID;
+    Movie.countDocuments({ id: movieID }, (err, count) => {
+        if (err || count <= 0) {
+            res.status(401).json('Error no movie with that id')
+            return;
+        }
+
+        User.findOne({ _id: userID, "library.seen.movieID": movieID }, { "library.seen": 1 }, (err, doc) => {
+            if (doc != null) {
+                console.log(doc.library.seen);
+                for (let m of doc.library.seen) {
+                    if (m.movieID === movieID) {
+                        res.json({ rate: m.rate });
+                        return;
+                    }
+                }
+
+            }
+
+            res.json({ rate: 0 });
+        })
+
+
+    })
+})
 
 module.exports = router;
