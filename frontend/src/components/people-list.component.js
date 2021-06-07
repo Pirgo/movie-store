@@ -23,9 +23,8 @@ export default class PeopleList extends Component {
         super(props);
         this.state = {
             people: [],
-            filter: {},
-            currPage: this.props.match.params.number,
-            startPage: this.props.match.params.number,
+            filter: { name: "-" },
+            currPage: 1,
             pageCount: 10,
 
         };
@@ -34,39 +33,52 @@ export default class PeopleList extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/people/page/' + this.state.currPage)
+        const body = { ...this.state.filter, page: this.state.currPage }
+        axios.post('http://localhost:5000/people/filtered', body)
             .then(response => {
                 this.setState({ people: response.data });
             })
             .catch((error) => {
                 console.log(error);
             })
-        
-        axios.get('http://localhost:5000/people/count')
+
+        axios.post('http://localhost:5000/people/filtered/count', body)
             .then(response => {
-                this.setState({pageCount: Math.ceil(response.data/30)})
+                this.setState({ pageCount: Math.ceil(response.data / 30) })
+            })
+            .catch((error) => {
+                console.log(error);
             })
     }
 
-    componentDidUpdate() {
-        if (this.state.currPage !== this.props.match.params.number) {
-            this.setState({currPage : this.props.match.params.number}, ()=>{
-                axios.get('http://localhost:5000/people/page/' + this.state.currPage)
+    // componentDidUpdate() {
+    //     if (this.state.currPage !== this.props.match.params.number) {
+    //         this.setState({ currPage: this.props.match.params.number }, () => {
+    //             axios.get('http://localhost:5000/people/page/' + this.state.currPage)
+    //                 .then(response => {
+    //                     this.setState({ people: response.data });
+    //                 })
+    //                 .catch((error) => {
+    //                     console.log(error);
+    //                 })
+    //         })
+    //     }
+
+
+    // }
+
+
+    changePage(event, page) {
+        this.setState({ currPage: page }, () => {
+            const body = { ...this.state.filter, page: this.state.currPage }
+            axios.post('http://localhost:5000/people/filtered', body)
                 .then(response => {
                     this.setState({ people: response.data });
                 })
                 .catch((error) => {
                     console.log(error);
                 })
-            }) 
-        }
-
-
-    }
-
-
-    changePage(event, page){
-        this.props.history.push('/people/page/' + page)
+        })
     }
 
 
@@ -89,12 +101,20 @@ export default class PeopleList extends Component {
     }
 
     setFilter(arg) {
-        this.setState({ filter: arg }, () => {
-            axios.post('http://localhost:5000/people/filtered', this.state.filter)
+        this.setState({ filter: arg, currPage: 1 }, () => {
+            const body = { ...this.state.filter, page: this.state.currPage }
+            axios.post('http://localhost:5000/people/filtered', body)
                 .then(response => {
                     console.log(response.data)
                     this.setState({ people: response.data })
 
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+            axios.post('http://localhost:5000/people/filtered/count', body)
+                .then(response => {
+                    this.setState({ pageCount: Math.ceil(response.data / 30) })
                 })
                 .catch((error) => {
                     console.log(error);
@@ -107,7 +127,7 @@ export default class PeopleList extends Component {
         return (
             <>
                 <SearchPeople setParentFilter={this.setFilter}></SearchPeople>
-                <Pagination count={this.state.pageCount} defaultPage={parseInt(this.state.startPage)} onChange={this.changePage} color='primary'/>
+                <Pagination count={this.state.pageCount} onChange={this.changePage} color='primary' />
                 <div>
                     <div className="row">
                         {this.peopleList()}

@@ -8,7 +8,8 @@ export default class SearchPeople extends Component {
         this.state = {
             value: {name: "-"}
         };
-        this.btnClick = this.btnClick.bind(this);
+        this.search = this.search.bind(this);
+        this.clearSearch = this.clearSearch.bind(this)
     }
 
     componentDidMount() {
@@ -16,7 +17,7 @@ export default class SearchPeople extends Component {
     }
 
 
-    btnClick(event){
+    search(event){
         event.preventDefault();
         let name = event.target.parentElement.querySelector('#name').value
         if (name === ""){
@@ -28,12 +29,24 @@ export default class SearchPeople extends Component {
             return { value };                                 // return new object value object
           }, () => this.props.setParentFilter(this.state.value))
     }
+    //todo dziala ale fajnie byloby ladniej napisac to
+    clearSearch(event){
+        event.preventDefault();
+        let name = event.target.parentElement.querySelector('#name')
+        name.value = ""
+        this.setState(prevState => {
+            let value = {...prevState.value}                    // creating copy of state variable value
+            value["name"] = name.value     
+            return { value };                                 // return new object value object
+          }, () => this.props.setParentFilter(this.state.value))
+    }
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit} >
+            <form>
                 <input type="text" id="name"></input>
-                <button onClick={this.btnClick}>Search</button>
+                <button onClick={this.search}>Search</button>
+                <button onClick={this.clearSearch}>Clear</button>
             </form>
         );
     }

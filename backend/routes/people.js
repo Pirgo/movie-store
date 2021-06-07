@@ -42,12 +42,29 @@ router.route('/id/:id').get((req, res) => {
             res.status(404).json('Error: ' + err)});
 });
 
-router.route('/filtered').post((req,res) => {
+router.route('/filtered/count').post((req,res) => {
     let query = {}
     if(req.body.name !== "-"){
         query = {name : {$regex : `.*${req.body.name}.*`, $options: "$i"}}
     }
-    People.find(query).sort({name: 1})
+    People.countDocuments(query, (err, count) => {
+        if(err){
+            res.status(400).json('Error: ' + err)
+        }
+        else{
+            res.json(count)
+        }
+    })
+        
+})
+
+router.route('/filtered').post((req,res) => {
+    let query = {}
+    const page = req.body.page
+    if(req.body.name !== "-"){
+        query = {name : {$regex : `.*${req.body.name}.*`, $options: "$i"}}
+    }
+    People.find(query).sort({name: 1}).skip((page-1)*30).limit(30)
         .then(people => res.json(people))
         .catch(err => res.status(404).json('Error: ' + err))
 })
