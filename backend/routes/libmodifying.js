@@ -81,7 +81,7 @@ router.route('/seen/add').post(protect, (req,res,next)=>{
     })
 })
 
-router.route('/towatch/rmv').post(protect, (req,res,next)=>{
+router.route('/towatch/remove').post(protect, (req,res,next)=>{
     const userID = req.user._id
     const movieID = req.body.movieID
     const title = req.body.title
@@ -108,8 +108,8 @@ router.route('/towatch/rmv').post(protect, (req,res,next)=>{
 })
 
 router.route('/towatch/checkstate').post(protect, (req, res, next)=>{
-    const userID = req.user._id
-    const movieID = req.body.movieID
+    const userID = req.user._id;
+    const movieID = req.body.movieID;
     User.countDocuments({_id: userID, "library.toWatch.movieID": movieID})
         .then((count) =>{
             if(count === 1) res.json({found: true})
@@ -143,7 +143,7 @@ router.route('/seen/checkstate').post(protect, (req, res, next)=>{
 
 })
 
-router.route('/favourites/rmv').post(protect, (req,res,next)=>{
+router.route('/favourites/remove').post(protect, (req,res,next)=>{
     const userID = req.user._id
     const movieID = req.body.movieID
     const title = req.body.title
@@ -169,7 +169,7 @@ router.route('/favourites/rmv').post(protect, (req,res,next)=>{
 
 })
 
-router.route('/seen/rmv').post(protect, (req,res,next)=>{
+router.route('/seen/remove').post(protect, (req,res,next)=>{
     const userID = req.user._id
     const movieID = req.body.movieID
     const title = req.body.title
