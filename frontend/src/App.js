@@ -10,6 +10,7 @@ import Register from "./components/register.component";
 import Library from "./components/library.component"
 import UserProfile from "./components/user-profile.component"
 import People from './components/people.component';
+import PeopleList from './components/people-list.component';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/library" exact component={Library} />
           <Route path="/user/profile" exact component={UserProfile} />
           <Route path="/people/:id" component={People}/>
+          <Route path="/people" component={PeopleList}/>
         </div>
       
     </Router>

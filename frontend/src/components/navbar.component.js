@@ -57,6 +57,9 @@ export default class Navbar extends Component {
                         <li className="navbar-item">
                             <Link to="/" className="nav-link">movies</Link>
                         </li>
+                        <li className="navbar-item">
+                            <Link to="/people" className="nav-link">people</Link>
+                        </li>
 
                         {
                             !this.state.isLogged &&
