@@ -69,12 +69,6 @@ router.route('/filters/year').get((req, res) => {
             res.json(years.map(obj => obj._id).sort())
         })
     .catch(err => res.status(400).json('Error: ' + err));
-    // Movie.aggregate([
-    //     {$project: {year: {$year: "$date"}, _id: 0}},
-    //     {$group: {_id: "$year"}}
-    // ])
-    // .then(years => res.json(years.map(obj => obj._id).sort()))
-    // .catch(err => res.status(400).json('Error: ' + err));
 })
 
 router.route('/filters/genre').get((req, res) => {
