@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Rating from '@material-ui/lab/Rating';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+
+const labels = {
+    0: 'No Rate',
+    1: 'Silly',
+    2: 'Wacky',
+    3: 'Ok',
+    4: 'Good',
+    5: 'Legendary',
+};
 
 export default class MovieUtils extends Component {
     constructor(props) {
@@ -11,7 +23,9 @@ export default class MovieUtils extends Component {
             isLogged: false,
             isWatched: false,
             isFavourite: false,
-            isSeen: false
+            isSeen: false,
+            value: 0,
+            hover: 0
         }
         axios.get('http://localhost:5000/movie/id/' + props.movieID + '/title')
             .then(res => {
@@ -37,7 +51,7 @@ export default class MovieUtils extends Component {
         };
 
         const body = {
-            movieID: this.state.movieID, 
+            movieID: this.state.movieID,
             title: this.state.movieTitle
         };
 
@@ -52,9 +66,9 @@ export default class MovieUtils extends Component {
         }
 
         axios.post(BASE_URL, body, { headers: header })
-        .then(res => {
-            this.userStateChanged();
-        });
+            .then(res => {
+                this.userStateChanged();
+            });
 
     }
 
@@ -102,21 +116,50 @@ export default class MovieUtils extends Component {
                     this.state.isLogged ?
                         (
                             <div>
-                                <p>Manage Library</p>
-                                {
-                                    this.state.isLogged &&
-                                    <>
-                                        <a className={this.state.isWatched ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("towatch") }}>
-                                            {this.state.isWatched ? 'Remove from To Watch' : 'Add to Watch'}
-                                        </a>
-                                        <a className={this.state.isFavourite ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("favourites") }}>
-                                            {this.state.isFavourite ? 'Remove from Favourites' : 'Add to Favourites'}
-                                        </a>
-                                        <a className={this.state.isSeen ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("seen") }}>
-                                            {this.state.isSeen ? 'Remove from Seen' : 'Add to Seen'}
-                                        </a>
-                                    </>
-                                }
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Rate Movie</p>
+                                        <Rating
+                                            name="rating"
+                                            size="large"
+                                            value={this.state.value}
+                                            onChange={(event, newValue) => {
+                                                this.setState({ value: newValue });
+
+                                            }}
+                                            onChangeActive={(event, newHover) => {
+                                                this.setState({ hover: newHover });
+                                            }
+
+                                            }
+                                        />
+                                        {
+                                            this.state.value !== null &&
+                                            <Box ml={2}>
+                                                {labels[this.state.hover !== -1 ? this.state.hover : this.state.value]}
+                                            </Box>
+                                        }
+
+                                        <br />
+                                    </div>
+                                    <div class="col">
+                                        <p>Manage Library</p>
+                                        {
+                                            this.state.isLogged &&
+                                            <>
+                                                <a className={this.state.isWatched ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("towatch") }}>
+                                                    {this.state.isWatched ? 'Remove from To Watch' : 'Add to Watch'}
+                                                </a>
+                                                <a className={this.state.isFavourite ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("favourites") }}>
+                                                    {this.state.isFavourite ? 'Remove from Favourites' : 'Add to Favourites'}
+                                                </a>
+                                                <a className={this.state.isSeen ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("seen") }}>
+                                                    {this.state.isSeen ? 'Remove from Seen' : 'Add to Seen'}
+                                                </a>
+                                            </>
+                                        }
+                                    </div>
+                                </div>
                             </div>
                         )
                         :
