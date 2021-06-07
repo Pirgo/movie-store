@@ -92,6 +92,13 @@ export default class MovieUtils extends Component {
             .then(res => {
                 this.userStateChanged();
             });
+        if(this.state.isSeen) {
+            let URL = 'http://localhost:5000/movie/id/' + this.state.movieID + '/rate';
+            axios.post(URL, {rate: newRate}, {headers: header})
+            .then(res => {
+                this.userStateChanged();
+            });
+        }
     }
 
     getUserRate() {

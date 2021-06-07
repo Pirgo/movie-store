@@ -131,7 +131,7 @@ router.route('/seen/rate/value').post(protect, (req, res, next) => {
 
         User.findOne({ _id: userID, "library.seen.movieID": movieID }, { "library.seen": 1 }, (err, doc) => {
             if (doc != null) {
-                console.log(doc.library.seen);
+               
                 for (let m of doc.library.seen) {
                     if (m.movieID === movieID) {
                         res.json({ rate: m.rate });

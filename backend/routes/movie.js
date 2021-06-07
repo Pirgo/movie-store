@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { emit } = require('../models/movie.model');
 let Movie = require('../models/movie.model');
+const protect = require('./protect');
 
 router.route('/').get((req, res) => {
     Movie.find()
@@ -18,7 +19,7 @@ router.route('/count/').get((req, res) => {
             res.json(count)
         }
     })
-})
+});
 
 router.route('/add').post((req, res) => {
     const newMovie = new Movie({
@@ -29,12 +30,19 @@ router.route('/add').post((req, res) => {
         .then(() => res.json('Movie added!'))
         .catch(err => res.status(400).json('Error: ' + err));
 });
+router.route('/id/:id/rate').post(protect, (req, res) => {
+    Movie.findOneAndUpdate({id: req.params.id}, { "$inc": {"rate.amount": 1, "rate.sum": req.body.rate}})
+        .then(movie => res.json(movie))
+        .catch(err => res.status(404).json('Error: ' + err));
+});
 
 router.route('/id/:id').get((req, res) => {
     Movie.findOne({id: req.params.id})
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });
+
+
 
 router.route('/id/:id/title').get((req, res) => {
     Movie.findOne({id: req.params.id}, {title: 1, _id: 0})
