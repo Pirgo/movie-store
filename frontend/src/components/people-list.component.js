@@ -79,7 +79,6 @@ export default class PeopleList extends Component {
             <>
                 <SearchPeople setParentFilter={this.setFilter}></SearchPeople>
                 <div className="container">
-                    <h3>People </h3>
                     <div className="row">
                         {this.peopleList()}
 

@@ -11,7 +11,8 @@ const peopleSchema = new Schema({
     name: {
         type: String,
         trim: true,
-        required: true
+        required: true,
+        index: true
     },
     birthday:{
         type: String,
