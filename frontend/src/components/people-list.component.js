@@ -127,7 +127,7 @@ export default class PeopleList extends Component {
         return (
             <>
                 <SearchPeople setParentFilter={this.setFilter}></SearchPeople>
-                <Pagination count={this.state.pageCount} onChange={this.changePage} color='primary' />
+                <Pagination count={this.state.pageCount} page={this.state.currPage} onChange={this.changePage} color='primary' />
                 <div>
                     <div className="row">
                         {this.peopleList()}

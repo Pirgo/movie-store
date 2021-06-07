@@ -143,7 +143,7 @@ export default class MovieList extends Component {
         return (
             <>
                 <Filter setParentFilter={this.setFilter}></Filter>
-                <Pagination count={this.state.pageCount} onChange={this.changePage} color='primary' />
+                <Pagination count={this.state.pageCount} page={this.state.currPage} onChange={this.changePage} color='primary' />
                 <div className="container">
                     <h3>Movies </h3>
                     <div>
