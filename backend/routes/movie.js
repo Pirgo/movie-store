@@ -8,6 +8,17 @@ router.route('/').get((req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/count/').get((req, res) => {
+    Movie.countDocuments({}, (err, count)=>{
+        if(err){
+            res.status(400).json('Error: ' + err)
+        }
+        else{
+            res.json(count)
+        }
+    })
+})
+
 router.route('/add').post((req, res) => {
     const newMovie = new Movie({
             ...req.body
