@@ -10,7 +10,7 @@ router.route('/towatch/add').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID }, (err, count)=>{
+    Movie.countDocuments({id: movieID }, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -36,7 +36,7 @@ router.route('/favourites/add').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -61,7 +61,7 @@ router.route('/seen/add').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -86,7 +86,7 @@ router.route('/towatch/rmv').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -148,7 +148,7 @@ router.route('/favourites/rmv').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -174,7 +174,7 @@ router.route('/seen/rmv').post(protect, (req,res,next)=>{
     const movieID = req.body.movieID
     const title = req.body.title
 
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) console.log(err)
         else{
             if(count > 0){
@@ -200,7 +200,7 @@ router.route('/seen/rate').post(protect, (req, res, next)=>{
     const userID = req.user._id
     const movieID = req.body.movieID
     const rate = req.body.rate
-    Movie.countDocuments({_id: movieID}, (err, count)=>{
+    Movie.countDocuments({id: movieID}, (err, count)=>{
         if (err) res.status(400).json("Error")
         else{
             if(count > 0){

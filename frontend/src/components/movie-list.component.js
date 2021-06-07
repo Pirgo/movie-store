@@ -18,9 +18,9 @@ const MovieListHTML = props => (
             {
                 props.isLogged &&
                 <>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToWatch(props.movie._id, props.movie.title) }}>ToWatch</a>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToFavourites(props.movie._id, props.movie.title) }}>ToFav</a>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToSeen(props.movie._id, props.movie.title) }}>ToSeen</a>
+                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToWatch(props.movie.id, props.movie.title) }}>ToWatch</a>
+                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToFavourites(props.movie.id, props.movie.title) }}>ToFav</a>
+                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToSeen(props.movie.id, props.movie.title) }}>ToSeen</a>
                 </>
             }
         </div>

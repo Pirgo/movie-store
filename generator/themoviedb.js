@@ -24,7 +24,7 @@ const movieIDs = [
     724089,
     278,
     238,
-   761053,
+    761053,
     696374,
     424,
     240,
@@ -221,8 +221,10 @@ async function getMovies() {
                 let newHuman = {};
                 newHuman.id = h.id;
                 newHuman.name = h.name;
-                newHuman.birthday = new Date(h.birthday);
-                newHuman.deathday = new Date(h.deathday);
+                newHuman.birthday = h.birthday;
+                if (h.deathday) {
+                    newHuman.deathday = h.deathday;
+                }
                 newHuman.photo = "https://image.tmdb.org/t/p/w500" + h.profile_path;
                 newHuman.place_of_birth = h.place_of_birth;
                 newHuman.biography = h.biography;
