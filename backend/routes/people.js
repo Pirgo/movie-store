@@ -24,4 +24,12 @@ router.route('/id/:id').get((req, res) => {
             res.status(404).json('Error: ' + err)});
 });
 
+router.route('/filtered').post((req,res) => {
+    const query = {name : {$regex : `.*${req.body.name}.*`, $options: "$i"}}
+    People.find(query)
+        .then(people => res.json(people))
+        .catch(err => res.status(404).json('Error: ' + err))
+})
+
+
 module.exports = router;

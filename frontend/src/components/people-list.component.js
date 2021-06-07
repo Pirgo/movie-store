@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Filter from './filter.component'
+import SearchPeople from './search-people.component';
 
 const PeopleListHTML = props => (
     <div className="col-2">
@@ -59,25 +60,24 @@ export default class PeopleList extends Component {
     }
 
     setFilter(arg) {
-        //console.log(arg)
-        // this.setState({ filter: arg }, () => {
-        //     axios.post('http://localhost:5000/movie/filtered', { params: this.state.filter })
-        //         .then(response => {
-
-        //             this.setState({ movies: response.data })
-        //             //console.log(response);
-        //         })
-        //         .catch((error) => {
-        //             console.log(error);
-        //         })
-        // });
+        this.setState({ filter: arg }, () => {
+            axios.post('http://localhost:5000/people/filtered', this.state.filter)
+                .then(response => {
+                    console.log(response.data)
+                    this.setState({ people: response.data })
+                    
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+        });
     }
 
 
     render() {
         return (
             <>
-                <Filter setParentFilter={this.setFilter}></Filter>
+                <SearchPeople setParentFilter={this.setFilter}></SearchPeople>
                 <div className="container">
                     <h3>People </h3>
                     <div className="row">
