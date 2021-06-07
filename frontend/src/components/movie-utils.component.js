@@ -15,7 +15,6 @@ export default class MovieUtils extends Component {
         }
         axios.get('http://localhost:5000/movie/id/' + props.movieID + '/title')
             .then(res => {
-                console.log(res);
                 this.setState({ movieTitle: res.data.title });
             });
 
@@ -114,7 +113,7 @@ export default class MovieUtils extends Component {
                                             {this.state.isFavourite ? 'Remove from Favourites' : 'Add to Favourites'}
                                         </a>
                                         <a className={this.state.isSeen ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("seen") }}>
-                                            {this.state.isSeen ? 'Remove from Seen' : 'Add to Seem'}
+                                            {this.state.isSeen ? 'Remove from Seen' : 'Add to Seen'}
                                         </a>
                                     </>
                                 }
