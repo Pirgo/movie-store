@@ -29,8 +29,8 @@ function App() {
           <Route path="/auth/register" exact component={Register} />
           <Route path="/library" exact component={Library} />
           <Route path="/user/profile" exact component={UserProfile} />
-          <Route path="/people/:id" component={People}/>
-          <Route path="/people" exact component={PeopleList}/>
+          <Route path="/people/:id" exact component={People}/>
+          <Route path="/people/page/:number" exact component={PeopleList}/>
         </div>
       
     </Router>

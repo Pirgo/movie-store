@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import Filter from './filter.component'
 import SearchPeople from './search-people.component';
+import Pagination from '@material-ui/lab/Pagination';
 
 const PeopleListHTML = props => (
     <div className="col-6  col-sm-4 col-md-3 col-lg-2">
@@ -24,24 +24,49 @@ export default class PeopleList extends Component {
         this.state = {
             people: [],
             filter: {},
-            currentPage: 1,
-            peoplePerPage: 30};
+            currPage: this.props.match.params.number,
+            startPage: this.props.match.params.number,
+            pageCount: 10,
+
+        };
         this.setFilter = this.setFilter.bind(this);
+        this.changePage = this.changePage.bind(this)
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/people')
+        axios.get('http://localhost:5000/people/page/' + this.state.currPage)
             .then(response => {
                 this.setState({ people: response.data });
             })
             .catch((error) => {
                 console.log(error);
             })
+        
+        axios.get('http://localhost:5000/people/count')
+            .then(response => {
+                this.setState({pageCount: Math.ceil(response.data/30)})
+            })
     }
 
     componentDidUpdate() {
-        //console.log("UPDATED");
+        if (this.state.currPage !== this.props.match.params.number) {
+            this.setState({currPage : this.props.match.params.number}, ()=>{
+                axios.get('http://localhost:5000/people/page/' + this.state.currPage)
+                .then(response => {
+                    this.setState({ people: response.data });
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+            }) 
+        }
 
+
+    }
+
+
+    changePage(event, page){
+        this.props.history.push('/people/page/' + page)
     }
 
 
@@ -69,7 +94,7 @@ export default class PeopleList extends Component {
                 .then(response => {
                     console.log(response.data)
                     this.setState({ people: response.data })
-                    
+
                 })
                 .catch((error) => {
                     console.log(error);
@@ -82,10 +107,10 @@ export default class PeopleList extends Component {
         return (
             <>
                 <SearchPeople setParentFilter={this.setFilter}></SearchPeople>
-                <div className="container">
+                <Pagination count={this.state.pageCount} defaultPage={parseInt(this.state.startPage)} onChange={this.changePage} color='primary'/>
+                <div>
                     <div className="row">
                         {this.peopleList()}
-
                     </div>
                 </div>
             </>
