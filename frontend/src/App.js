@@ -30,7 +30,7 @@ function App() {
           <Route path="/library" exact component={Library} />
           <Route path="/user/profile" exact component={UserProfile} />
           <Route path="/people/:id" component={People}/>
-          <Route path="/people" component={PeopleList}/>
+          <Route path="/people" exact component={PeopleList}/>
         </div>
       
     </Router>

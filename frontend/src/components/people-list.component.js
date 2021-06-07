@@ -4,16 +4,17 @@ import axios from 'axios';
 import Filter from './filter.component'
 
 const PeopleListHTML = props => (
-    <div class="card" witdth="18rem">
-        <img src={props.person.photo} idth="150" height="200" alt="..." />
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+    <div className="col-2">
+        <Link to={"/people/" + props.person.id} className="text-decoration-none text-dark">
+            <div className="card">
+                <img className="card-img-top" src={props.person.photo} alt={props.person.name}></img>
+                <div class="card-body">
+                    <h5 class="card-title text-center">{props.person.name}</h5>
+
+                </div>
+            </div>
+        </Link>
     </div>
-
-
 )
 
 export default class PeopleList extends Component {
@@ -42,7 +43,7 @@ export default class PeopleList extends Component {
     peopleList() {
 
         const people = this.state.people.map(person => {
-            console.log(person.photo);
+
             return <PeopleListHTML person={person} />;
         })
         if (people.length > 0) {
@@ -77,13 +78,12 @@ export default class PeopleList extends Component {
         return (
             <>
                 <Filter setParentFilter={this.setFilter}></Filter>
-
-                <div className="card-columns">
+                <div className="container">
                     <h3>People </h3>
-                    <div>
+                    <div className="row">
                         {this.peopleList()}
+
                     </div>
-          
                 </div>
             </>
         )
