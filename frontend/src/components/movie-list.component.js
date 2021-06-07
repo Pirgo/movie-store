@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Filter from './filter.component'
+import Pagination from '@material-ui/lab/Pagination';
 
 const MovieListHTML = props => (
     <div className="row border align-items-center">
@@ -30,18 +31,34 @@ const MovieListHTML = props => (
 export default class MovieList extends Component {
     constructor(props) {
         super(props);
-        this.state = { movies: [], filter: {}, isLogged: false};
+        this.state = {
+            movies: [],
+            filter: {},
+            currPage: 1,
+            pageCount: 10,
+            isLogged: false
+        };
         this.setFilter = this.setFilter.bind(this);
+        this.changePage = this.changePage.bind(this);
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/movie')
+        const body = { filter: this.state.filter, page: this.state.currPage }
+        axios.post('http://localhost:5000/movie/filtered', body)
             .then(response => {
                 this.setState({ movies: response.data });
             })
             .catch((error) => {
                 console.log(error);
             })
+        axios.post('http://localhost:5000/movie/filtered/count', body)
+            .then(response => {
+                this.setState({ pageCount: Math.ceil(response.data / 30) });
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+
         //this.userStateChanged()
     }
 
@@ -64,7 +81,7 @@ export default class MovieList extends Component {
     }
 
 
-    
+
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
@@ -84,13 +101,22 @@ export default class MovieList extends Component {
     }
 
     setFilter(arg) {
-        //console.log(arg)
-        this.setState({ filter: arg }, () => {
-            axios.post('http://localhost:5000/movie/filtered', { params: this.state.filter })
+        console.log(arg)
+        this.setState({ filter: arg, currPage: 1 }, () => {
+            const body = { filter: this.state.filter, page: this.state.currPage }
+            console.log(body)
+            axios.post('http://localhost:5000/movie/filtered', body)
                 .then(response => {
-
+                    console.log(response.data)
                     this.setState({ movies: response.data })
-                    //console.log(response);
+
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+            axios.post('http://localhost:5000/movie/filtered/count', body)
+                .then(response => {
+                    this.setState({ pageCount: Math.ceil(response.data / 30) })
                 })
                 .catch((error) => {
                     console.log(error);
@@ -98,11 +124,26 @@ export default class MovieList extends Component {
         });
     }
 
+    changePage(event, page){
+        console.log(event)
+        this.setState({ currPage: page }, () => {
+            const body = { filter : this.state.filter, page: this.state.currPage }
+            axios.post('http://localhost:5000/movie/filtered', body)
+                .then(response => {
+                    this.setState({ movies: response.data });
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+        })
+    }
+
 
     render() {
         return (
             <>
                 <Filter setParentFilter={this.setFilter}></Filter>
+                <Pagination count={this.state.pageCount} onChange={this.changePage} color='primary' />
                 <div className="container">
                     <h3>Movies </h3>
                     <div>

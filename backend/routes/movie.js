@@ -8,6 +8,7 @@ router.route('/').get((req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
+
 router.route('/count/').get((req, res) => {
     Movie.countDocuments({}, (err, count)=>{
         if(err){
@@ -84,10 +85,10 @@ router.route('/filters/platform').get((req, res) => {
 })
 
 router.route('/filtered').post((req, res) => {
-    //console.log(req.body.params);
-    let filter = {}
+    const page = req.body.page
+    const filter = (req.body.filter ? req.body.filter : {})
     let query = {}
-    for (const [key, value] of Object.entries(req.body.params)) {
+    for (const [key, value] of Object.entries(filter)) {
         if(value !== "-"){
             //TODO przydaloby sie to zmienic ale chyba dziala
             if (key === "date"){
@@ -103,10 +104,40 @@ router.route('/filtered').post((req, res) => {
                 query[key] = value
             }
         }
-      }
-    Movie.find(query)
+    }
+    Movie.find(query).skip((page-1)*30).limit(30)
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });
+
+router.route('/filtered/count').post((req, res) => {
+    let query = {}
+    const filter = (req.body.filter ? req.body.filter : {})
+    for (const [key, value] of Object.entries(filter)) {
+        if(value !== "-"){
+            //TODO przydaloby sie to zmienic ale chyba dziala
+            if (key === "date"){
+                query["date"] = {$regex : value}
+            }
+            else if (key === "platforms"){
+                query["platforms.name"] = value
+            }
+            else if(key === "title"){
+                query["title"] = {$regex : `.*${value}.*`, $options: "$i"}
+            }
+            else{
+                query[key] = value
+            }
+        }
+    }
+    Movie.countDocuments(query, (err, count)=>{
+        if(err){
+            res.status(400).json('Error: ' + err)
+        }
+        else{
+            res.json(count)
+        }
+    })
+})
 
 module.exports = router;
