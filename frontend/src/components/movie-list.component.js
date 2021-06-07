@@ -32,13 +32,6 @@ export default class MovieList extends Component {
         super(props);
         this.state = { movies: [], filter: {}, isLogged: false};
         this.setFilter = this.setFilter.bind(this);
-        this.deleteMovie = this.deleteMovie.bind(this);
-        this.addToWatch = this.addToWatch.bind(this)
-        this.addToFavourites = this.addToFavourites.bind(this)
-        this.addToSeen = this.addToSeen.bind(this)
-        this.changeToWatch = this.changeToWatch.bind(this)
-        this.changeToFavourites = this.changeToFavourites.bind(this)
-        this.changeToSeen = this.changeToSeen.bind(this)
     }
 
     componentDidMount() {
@@ -49,7 +42,7 @@ export default class MovieList extends Component {
             .catch((error) => {
                 console.log(error);
             })
-        this.userStateChanged()
+        //this.userStateChanged()
     }
 
     componentDidUpdate() {
@@ -71,116 +64,7 @@ export default class MovieList extends Component {
     }
 
 
-    deleteMovie(id) {
-        axios.delete('http://localhost:5000/movie/id/' + id)
-            .then()//res => console.log(res.data));
-        this.setState({
-            movies: this.state.movies.filter(el => el._id !== id)
-        })
-    }
-
-
-    changeToWatch(id, title) {
-        axios.post('http://localhost:5000/libmodifying/towatch/checkstate', { movieID: id }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            if (res.data.found) {
-                this.rmvToWatch(id, title)
-            }
-            else{
-                this.addToWatch(id, title)
-            }
-        })
-    }
-
-    addToWatch(id, title) {
-        axios.post('http://localhost:5000/libmodifying/towatch/add', { movieID: id, title: title }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            console.log(res)
-        })
-    }
-
-    rmvToWatch(id, title){
-        axios.post('http://localhost:5000/libmodifying/towatch/rmv', { movieID: id, title: title }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            console.log(res)
-        })
-    }
-
-    changeToFavourites(id, title) {
-        axios.post('http://localhost:5000/libmodifying/favourites/checkstate', { movieID: id }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            if (res.data.found) {
-                this.rmvToFavourites(id, title)
-            }
-            else{
-                this.addToFavourites(id, title)
-            }
-        })
-    }
-
-    addToFavourites(id, title) {
-            axios.post('http://localhost:5000/libmodifying/favourites/add', { movieID: id, title: title }, {
-                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-            }
-            ).then(res => {
-                //console.log(res)
-            })
-    }
-
-    rmvToFavourites(id, title){
-        axios.post('http://localhost:5000/libmodifying/favourites/rmv', { movieID: id, title: title }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            console.log(res)
-        })
-    }
-
-    changeToSeen(id, title) {
-        axios.post('http://localhost:5000/libmodifying/seen/checkstate', { movieID: id }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            if (res.data.found) {
-                this.rmvToSeen(id, title)
-            }
-            else{
-                this.addToSeen(id, title)
-            }
-        })
-    }
-
-    addToSeen(id, title) {
-        if (localStorage.getItem("authToken")) {
-            axios.post('http://localhost:5000/libmodifying/seen/add', { movieID: id, title: title }, {
-                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-            }
-            ).then(res => {
-                console.log(res)
-            })
-        }
-    }
-
-    rmvToSeen(id, title){
-        axios.post('http://localhost:5000/libmodifying/seen/rmv', { movieID: id, title: title }, {
-            headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
-        }
-        ).then(res => {
-            console.log(res)
-        })
-    }
-
-
-
-
+    
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {

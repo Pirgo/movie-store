@@ -35,6 +35,12 @@ router.route('/id/:id').get((req, res) => {
         .catch(err => res.status(404).json('Error: ' + err));
 });
 
+router.route('/id/:id/title').get((req, res) => {
+    Movie.findOne({id: req.params.id}, {title: 1, _id: 0})
+        .then(movie => res.json(movie))
+        .catch(err => res.status(404).json('Error: ' + err));
+});
+
 //ogolnie endpointy na tego idka przez baze powinnismy wymienic
 router.route('/id/:id').delete((req,res)=>{
     Movie.findByIdAndDelete(req.params.id, (err, doc) =>{
