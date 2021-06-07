@@ -5,7 +5,7 @@ import Filter from './filter.component'
 import SearchPeople from './search-people.component';
 
 const PeopleListHTML = props => (
-    <div className="col-2">
+    <div className="col-6  col-sm-4 col-md-3 col-lg-2">
         <Link to={"/people/" + props.person.id} className="text-decoration-none text-dark">
             <div className="card">
                 <img className="card-img-top" src={props.person.photo} alt={props.person.name}></img>
@@ -21,7 +21,11 @@ const PeopleListHTML = props => (
 export default class PeopleList extends Component {
     constructor(props) {
         super(props);
-        this.state = { people: [], filter: {} };
+        this.state = {
+            people: [],
+            filter: {},
+            currentPage: 1,
+            peoplePerPage: 30};
         this.setFilter = this.setFilter.bind(this);
     }
 
