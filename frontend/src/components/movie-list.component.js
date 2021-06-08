@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Filter from './filter.component'
 import Pagination from '@material-ui/lab/Pagination';
+import '../index.css'
 
 const MovieListHTML = props => (
     <div className="row border align-items-center">
