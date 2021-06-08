@@ -1,7 +1,7 @@
 ## Zespół:
 
-### Kamil Kurowski
-### Mateusz Pieróg
+### Kamil Kurowski [github](https://github.com/xsanm)
+### Mateusz Pieróg [github](https://github.com/Pirgo)
 
 
 
@@ -64,6 +64,7 @@ Do częsci endpointów wymagany token.
 
 
 ### `/movie/`
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/movie.js)
 
 ` GET /movie/ ` zwraca wszystkie filmy
 
@@ -89,6 +90,8 @@ Do częsci endpointów wymagany token.
 
 ### `/people/`
 
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/people.js)
+
 ` GET /poeple/ ` zwraca wszystkich ludzi
 
 ` GET /poeple/page/{ number }/ ` zwraca ludzi ze strony number
@@ -107,6 +110,9 @@ Do częsci endpointów wymagany token.
 
 ### `/users/`
 
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/users.js)
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/user-profile.js)
+
 ` GET /users/ ` zwraca wszystkich użytkowników
 
 ` POST /users/add/ ` dodaje nowego użytkownika
@@ -123,6 +129,8 @@ Do częsci endpointów wymagany token.
 
 ### `/auth/`
 
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/auth.js)
+
 ` POST /auth/login ` logowanie
 
 ` POST /auth/register ` rejestracja
@@ -131,6 +139,8 @@ Do częsci endpointów wymagany token.
 
 ### `/library/`
 
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/library.js)
+
 ` GET /library/ ` zwraca biblioteke zalogowanego użytkownika
 
 ` GET /library/{ section }/ ` zwraca sekcję biblioteki zalogowanego użytkownika, możlwie sekcje to ` towatch, favourites, seen`
@@ -138,6 +148,8 @@ Do częsci endpointów wymagany token.
 
 
 ### `/libmodifying/`
+
+[ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/libmodifying.js)
 
 Poniżej dentyfikator filmu oraz użytkownika przesyłane jako ciało zapytania.
 
