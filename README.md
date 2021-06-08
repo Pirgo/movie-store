@@ -111,6 +111,7 @@ Do częsci endpointów wymagany token.
 ### `/users/`
 
 [ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/users.js)
+
 [ Link do kodu ](https://github.com/xsanm/movie-store/blob/main/backend/routes/user-profile.js)
 
 ` GET /users/ ` zwraca wszystkich użytkowników
