@@ -30,6 +30,33 @@
 
 [Link do google docs](https://docs.google.com/document/d/1IDP3PLPie59oKxTlVEqZKJXBfDBSobYQ6-YQ4tkv9cs/edit)
 
+## Uruchomienie
+
+### Database
+Zaimportować pliki z folderu `/database` do usługi bazodanowej MongoDB (Atlas, Compass).
+Kolekcje nazwać odpowiednio `movies, peoples, users`.
+
+### Backend
+W folderze `/backend` utworzyć plik `.env` i umieścić w nim następującą zawartość:
+```
+ATLAS_URI=
+JWT_SECRET=
+JWT_EXPIRE=
+
+```
+gdzie
+
+* `ATLAS_URI` to uri bazy danych, powinno być widoczne w Atlasie lub Compassie
+* `JWT_SECRET` to prywatny klucz JWT Tokenu, powinien być wygenerowany dla serwera i nie udostępniany publicznie, mozna go wygenerować przy pomocy polecenia `node -e "console.log(require('crypto').randomBytes(256).toString('base64'));"`
+* `JWT_EXPIRE` to czas wygaśnięcia JWT Tokenu, np.: (60min)
+
+W folderze `/backend` wywołać komende `npm i` a następnie uruchomić server poleceniem `node server.js` lub `npx nodemon server.js`.
+Teraz server działa lokalnie na porcie 5000.
+
+### Frontend
+W folderze `/frontend` wywołać komende `npm i` a następnie uruchomić poleceniem `npm start`.
+Serwis działa teraz lokalnie na porcie 3000 ( ` localhost:3000/ `)
+
 
 ## API
 
