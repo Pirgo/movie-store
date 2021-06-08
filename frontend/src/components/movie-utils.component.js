@@ -27,7 +27,7 @@ export default class MovieUtils extends Component {
         }
         axios.get('http://localhost:5000/movie/id/' + props.movieID + '/title')
             .then(res => {
-                this.setState({ movieTitle: res.data.title });
+                this.state.movieTitle = res.data.title;
             });
 
         console.log(props);
@@ -163,8 +163,8 @@ export default class MovieUtils extends Component {
                     this.state.isLogged ?
                         (
                             <div>
-                                <div class="row">
-                                    <div class="col">
+                                <div className="row">
+                                    <div className="col">
                                         <p>Rate Movie (your rate will be saved only if you have seen this movie!)</p>
                                         <Rating
                                             name="rating"
@@ -189,7 +189,7 @@ export default class MovieUtils extends Component {
 
                                         <br />
                                     </div>
-                                    <div class="col">
+                                    <div className="col">
                                         <p>Manage Library</p>
                                         {
                                             this.state.isLogged &&

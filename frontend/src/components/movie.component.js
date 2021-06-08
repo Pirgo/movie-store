@@ -106,7 +106,7 @@ export default class Movie extends Component {
 
     actorsList() {
         return this.state.movie.actors.map((actor, i) => {
-            return <li><Link to={"/people/" + actor.id} className="text-dark">{actor.name}</Link></li>
+            return <li key={actor.id}><Link to={"/people/" + actor.id} className="text-dark">{actor.name}</Link> as {actor.character}</li>
         })
     }
 
