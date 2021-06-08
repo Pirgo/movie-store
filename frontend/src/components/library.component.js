@@ -28,9 +28,9 @@ export default class Library extends Component {
                 this.setState({ access: "authorized", lib: response.data });
             })
             .catch((error) => {
-                this.state = {
+                this.setState({
                     access: "not authorized"
-                }
+                })
                 //window.open('http://localhost:3000/auth/login');
                 //console.log(error.message)
             });

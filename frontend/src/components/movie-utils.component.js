@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Rating from '@material-ui/lab/Rating';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 const labels = {
@@ -196,15 +194,15 @@ export default class MovieUtils extends Component {
                                         {
                                             this.state.isLogged &&
                                             <>
-                                                <a className={this.state.isWatched ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("towatch") }}>
+                                                <button className={this.state.isWatched ? 'btn btn-danger' : 'btn btn-success'} onClick={() => { this.changeLibState("towatch") }}>
                                                     {this.state.isWatched ? 'Remove from To Watch' : 'Add to Watch'}
-                                                </a>
-                                                <a className={this.state.isFavourite ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("favourites") }}>
+                                                </button>
+                                                <button className={this.state.isFavourite ? 'btn btn-danger' : 'btn btn-success'} onClick={() => { this.changeLibState("favourites") }}>
                                                     {this.state.isFavourite ? 'Remove from Favourites' : 'Add to Favourites'}
-                                                </a>
-                                                <a className={this.state.isSeen ? 'btn btn-danger' : 'btn btn-success'} href="#" onClick={() => { this.changeLibState("seen") }}>
+                                                </button>
+                                                <button className={this.state.isSeen ? 'btn btn-danger' : 'btn btn-success'} onClick={() => { this.changeLibState("seen") }}>
                                                     {this.state.isSeen ? 'Remove from Seen' : 'Add to Seen'}
-                                                </a>
+                                                </button>
                                             </>
                                         }
                                     </div>
@@ -222,5 +220,5 @@ export default class MovieUtils extends Component {
 
 }
 
-{/* <h2>{'\u2605'}Rate: {this.state.movie.rate.amount ? (this.state.movie.rate.sum / this.state.movie.rate.amount).toFixed(2) : "None"}</h2>
-                                <p>{this.state.movie.rate.amount} ratings</p> */}
+/* <h2>{'\u2605'}Rate: {this.state.movie.rate.amount ? (this.state.movie.rate.sum / this.state.movie.rate.amount).toFixed(2) : "None"}</h2>
+                                <p>{this.state.movie.rate.amount} ratings</p> */

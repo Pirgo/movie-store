@@ -16,14 +16,6 @@ const MovieListHTML = props => (
         <div className="col-3 text-right">
             <h2>{'\u2605'}Rate: {props.movie.rate.amount ? (props.movie.rate.sum / props.movie.rate.amount).toFixed(2) : "None"}</h2>
             <p>{props.movie.rate.amount} ratings</p>
-            {
-                props.isLogged &&
-                <>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToWatch(props.movie.id, props.movie.title) }}>ToWatch</a>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToFavourites(props.movie.id, props.movie.title) }}>ToFav</a>
-                    <a className="btn btn-secondary" href="#" onClick={() => { props.changeToSeen(props.movie.id, props.movie.title) }}>ToSeen</a>
-                </>
-            }
         </div>
     </div>
 )
