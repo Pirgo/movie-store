@@ -32,6 +32,108 @@
 [Link do google docs](https://docs.google.com/document/d/1IDP3PLPie59oKxTlVEqZKJXBfDBSobYQ6-YQ4tkv9cs/edit)
 
 
+## API
+
+Do częsci endpointów wymagany token.
+
+
+### `/movie/`
+
+` GET /movie/ ` zwraca wszystkie filmy
+
+` GET /movie/id/{ id } ` zwraca film o podanym id
+
+` GET /movie/count/ ` zwraca liczbe filmów
+
+` POST /movie/add/ ` dodaje nowy film
+
+` POST /movie/id/{ id }/rate ` dodaje rate filmu o podanym id
+
+` GET /movie/id/{ id }/title ` zwracatytul filmu o podanym id
+
+` DELETE /movie/if/{ id }/ ` pobiera wszystkie filmy
+
+` GET /movie/filters/{ atribute }` zwraca wszystkie możliwe wartości atrybutu, możliwe atrybuty to: `runtime, year, genre, platform`
+
+` POST /movie/filtered/ ` zwraca filmy z uwzględnieniem filtrów przesłanych jako ciało zapytania, uwzględniając którą strone aktualnie przegląda użytkownik
+
+` POST /movie/filtered/count/ ` zwraca liczbe filmow z względnieniem filtrów przesłanych jako ciało zapytania
+
+
+
+### `/people/`
+
+` GET /poeple/ ` zwraca wszystkich ludzi
+
+` GET /poeple/page/{ number }/ ` zwraca ludzi ze strony number
+
+` GET /poeple/count/ ` zwraca liczbe ludzi
+
+` GET /poeple/id/{ id } ` zwraca osobe o podanym id
+
+` POST /poeple/add/ ` dodaje osobę do bazy
+
+` POST /filtered ` zwraca osoby z uwzględnieniem filtrów przesłanych jako ciało zapytania, uwzględniając którą strone aktualnie przegląda użytkownik
+
+` POST /people/filtered/count/ ` zwraca liczbe osob z względnieniem filtrów przesłanych jako ciało zapytania
+
+
+
+### `/users/`
+
+` GET /users/ ` zwraca wszystkich użytkowników
+
+` POST /users/add/ ` dodaje nowego użytkownika
+
+` GET /users/username/ ` zwraca nazwę aktualnie zalogowanego użytkownika
+
+` GET /users/user/ ` zwraca aktualnie zalogowanego użytkownika
+
+` GET /user/profile/ ` zwraca profil użytkownika
+
+` POST /user/profile/{ atribute }/ ` aktualizuje podany atrybut z profilu użytkownika, możliwe atrybuty to: ` firstname, lastname, description, avatar `
+
+
+
+### `/auth/`
+
+` POST /auth/login ` logowanie
+
+` POST /auth/register ` rejestracja
+
+
+
+### `/library/`
+
+` GET /library/ ` zwraca biblioteke zalogowanego użytkownika
+
+` GET /library/{ section }/ ` zwraca sekcję biblioteki zalogowanego użytkownika, możlwie sekcje to ` towatch, favourites, seen`
+
+
+
+### `/libmodifying/`
+
+Poniżej dentyfikator filmu oraz użytkownika przesyłane jako ciało zapytania.
+
+` POST /libmodifying/{ section }/checkstate/ ` zwraca informacje czy podany film znajduję się w sekcji danego użytkownika
+
+` POST /libmodifying/{ section }/add/ ` dodaje film do biblioteki użytkownika
+
+` POST /libmodifying/{ section }/remove/ ` usuwa film z bilioteki użytkownika
+
+` POST /libmodifying/rate/add/ ` dodaje ocene filmu
+
+` POST /libmodifying/rate/value/ ` zwraca wartość oceny
+
+
+
+
+
+
+
+
+
+
 ## Struktura bazy danych (v.0.2 stan z dnia 27.05.2021)
 ### Wypełniona przykładowymi danymi
 
