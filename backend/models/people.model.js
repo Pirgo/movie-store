@@ -14,22 +14,22 @@ const peopleSchema = new Schema({
         required: true,
         index: true
     },
-    birthday:{
+    birthday: {
         type: String,
         required: true
     },
-    deathday:{
+    deathday: {
         type: String
     },
-    photo : {
+    photo: {
         type: String,
-        default: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU"
+        default: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCwYiBU1phLjFdjjYtVQ4AV5R8-RTL3OzwLpePWuRG8xpcOx5KF_QQi9IH66o9F8HK0I&usqp=CAU"
     },
-    place_of_birth : {
+    place_of_birth: {
         type: String,
         required: true
     },
-    biography : {
+    biography: {
         type: String,
         default: "To be added"
     },

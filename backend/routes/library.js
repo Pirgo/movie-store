@@ -6,7 +6,6 @@ const protect = require('./protect');
 
 
 router.route('/').get(protect, (req, res) => {
-  //console.log('sfhgdfh');
   User.findOne({_id: req.user})
     .then(user => {
       res.json(user.library);

@@ -9,14 +9,11 @@ const protect = async (req, res, next) => {
         token = req.headers.authorization.split(" ")[1];
     }
 
-    //console.log();
-
     if (!token || token == 'null') {
         return res.status(404).json({
             success: false,
             error: 'not authorized'
         });
-
         next();
     }
 
@@ -34,6 +31,7 @@ const protect = async (req, res, next) => {
 
         req.user = user;
         next();
+        
     } catch {
         return res.status(400).json({
             success: false,

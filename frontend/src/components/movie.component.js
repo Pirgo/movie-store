@@ -13,14 +13,6 @@ export default class Movie extends Component {
             movie: { directors: [], writers: [], genre: [], date: "", rate: {}, platforms: [], actors: [] },
             isLogged: false
         }
-        // this.deleteMovie = this.deleteMovie.bind(this);
-        // this.addToWatch = this.addToWatch.bind(this)
-        // this.addToFavourites = this.addToFavourites.bind(this)
-        // this.addToSeen = this.addToSeen.bind(this)
-        // this.changeToWatch = this.changeToWatch.bind(this)
-        // this.changeToFavourites = this.changeToFavourites.bind(this)
-        // this.changeToSeen = this.changeToSeen.bind(this)
-
     }
 
     componentDidMount() {
@@ -57,11 +49,6 @@ export default class Movie extends Component {
         })
     }
 
-
-
-
-
-
     directorsList() {
         return this.state.movie.directors.map((dir, i) => {
             let link = <>
@@ -93,7 +80,7 @@ export default class Movie extends Component {
         })
     }
 
-    //TODO url links
+    
     platformsList() {
         let arrLen = this.state.movie.platforms.length
         return this.state.movie.platforms.map((platform, i) => {

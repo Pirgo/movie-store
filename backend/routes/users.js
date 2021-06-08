@@ -1,6 +1,5 @@
 const router = require('express').Router();
 let User = require('../models/user.model');
-const jwt = require('jsonwebtoken');
 
 const protect = require('./protect');
 
@@ -21,12 +20,12 @@ router.route('/add').post((req, res) => {
 
 
 router.route('/username').get(protect, (req, res, nxt) => {
-  res.status(200).json({success: true, name: req.user.userName});
+  res.status(200).json({ success: true, name: req.user.userName });
 });
 
 
-router.route('/user').get(protect, (req,res,nxt)=>{
-  res.status(200).json({success: true, user: req.user})
+router.route('/user').get(protect, (req, res, nxt) => {
+  res.status(200).json({ success: true, user: req.user })
 })
 
 

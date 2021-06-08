@@ -24,7 +24,6 @@ export default class Library extends Component {
 
         axios.get('http://localhost:5000/library', { headers: headers })
             .then(response => {
-                //console.log(response);
                 this.setState({ access: "authorized", lib: response.data });
             })
             .catch((error) => {
@@ -50,10 +49,11 @@ export default class Library extends Component {
         }
         else {
             return (
-               <p>No movies to show</p>
+                <p>No movies to show</p>
             )
         }
     }
+
     favouriteList() {
         //console.log(this.state.lib.favourites);
         const movieList = this.state.lib.favourites.map(currentMovie => {
@@ -61,17 +61,18 @@ export default class Library extends Component {
                 <li>
                     <Link to={"/movie/" + currentMovie.movieID}>{currentMovie.title}</Link>
                 </li>
-            );//<MovieList movie={currentMovie} deleteMovie={this.deleteMovie}/>;
+            );
         })
         if (movieList.length > 0) {
             return movieList
         }
         else {
             return (
-               <p>No movies to show</p>
+                <p>No movies to show</p>
             )
         }
     }
+
     towatchList() {
         //log(this.state);
         const movieList = this.state.lib.toWatch.map(currentMovie => {
@@ -79,14 +80,14 @@ export default class Library extends Component {
                 <li>
                     <Link to={"/movie/" + currentMovie.movieID}>{currentMovie.title}</Link>
                 </li>
-            );//<MovieList movie={currentMovie} deleteMovie={this.deleteMovie}/>;
+            );
         })
         if (movieList.length > 0) {
             return movieList
         }
         else {
             return (
-               <p>No movies to show</p>
+                <p>No movies to show</p>
             )
         }
     }

@@ -83,7 +83,7 @@ const movieSchema = new Schema({
 
     cover: {
         type: String,
-        default: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU"
+        default: "https://d5ip5p2ldkpmf.cloudfront.net/cinema/DB_Photos/default/Movies/movies.jpg"
     },
 
     platforms: [{
@@ -96,7 +96,27 @@ const movieSchema = new Schema({
             type: String,
             required: true
         }
-    }]
+    }],
+
+    adult: {
+        type: Boolean
+    },
+
+    budget: {
+        type: Number,
+        default: 0
+    },
+
+    revenue: {
+        type: Number,
+        dafult: 0
+    },
+
+    homepage: {
+        type: String,
+        default: "#"
+    }
+
 }, {
     timestamps: true,
 });

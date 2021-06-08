@@ -28,7 +28,7 @@ export default class SearchPeople extends Component {
             return { value };                                 // return new object value object
           }, () => this.props.setParentFilter(this.state.value))
     }
-    //todo dziala ale fajnie byloby ladniej napisac to
+
     clearSearch(event){
         event.preventDefault();
         let name = event.target.parentElement.querySelector('#name')

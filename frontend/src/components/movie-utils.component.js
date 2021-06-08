@@ -30,7 +30,7 @@ export default class MovieUtils extends Component {
                 this.state.movieTitle = res.data.title;
             });
 
-        console.log(props);
+        //console.log(props);
         this.changeLibState = this.changeLibState.bind(this);
         this.changeRate = this.changeRate.bind(this);
         this.getUserRate = this.getUserRate.bind(this);
@@ -220,5 +220,3 @@ export default class MovieUtils extends Component {
 
 }
 
-/* <h2>{'\u2605'}Rate: {this.state.movie.rate.amount ? (this.state.movie.rate.sum / this.state.movie.rate.amount).toFixed(2) : "None"}</h2>
-                                <p>{this.state.movie.rate.amount} ratings</p> */

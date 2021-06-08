@@ -6,7 +6,6 @@ const protect = require('./protect');
 
 router.route("/register").post((req, res, nxt) => {
     const { username, email, password } = req.body;
-    //res.send("Register");
 
     User.create({
         userName: username,
@@ -26,6 +25,11 @@ router.route("/login").post((req, res, nxt) => {
     const { email, password } = req.body;
     //if !email or passwd
 
+    if (!email || !password) {
+        res.status(404).json({ success: false, error: "Invalid data" });
+        return;
+    }
+
     const user = User.findOne({ email }).select("+password").then(user => {
         if (!user) {
             res.status(404).json({ success: false, error: "Invalid email" });
@@ -42,16 +46,6 @@ router.route("/login").post((req, res, nxt) => {
     });
 
 });
-
-// router.route("/library").get(protect, (req, res, nxt) => {
-//     res.status(200).json({success: true, data: "acces granted"});
-// });
-
-
-
-
-
-
 
 
 module.exports = router;

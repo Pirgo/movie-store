@@ -1,6 +1,7 @@
 const router = require('express').Router();
 let People = require('../models/people.model');
 
+
 router.route('/').get((req, res) => {
     People.find().sort({name: 1})
         .then(people => res.json(people))
@@ -26,7 +27,6 @@ router.route('/count/').get((req, res) => {
 })
 
 router.route('/add').post((req, res) => {
-
     const newHuman = new People({ ...req.body });
 
     newHuman.save()

@@ -51,42 +51,41 @@ export default class Filter extends Component {
     }
 
     handleSubmit(event) {
-        //alert('Your favorite flavor is: ' + this.state.value);
+
         const selectArr = event.target.querySelectorAll('select');
         const searchInput = event.target.querySelector('#title');
         searchInput.value = ""
         this.setState(prevState => {
-            let value = {...prevState.value}                    // creating copy of state variable value
-            selectArr.forEach((el,i,arr)=>{
+            let value = { ...prevState.value }                    // creating copy of state variable value
+            selectArr.forEach((el, i, arr) => {
                 value[String(el.id)] = "-"
             })
-            value["title"] = "-"       
+            value["title"] = "-"
             return { value };                                 // return new object value object
-          }, () => this.props.setParentFilter(this.state.value))
-        
-        event.preventDefault();
-        
+        }, () => this.props.setParentFilter(this.state.value))
 
+        event.preventDefault();
     }
+
     handleChange(event) {
         this.setState(prevState => {
-            let value = {...prevState.value}                    // creating copy of state variable value
+            let value = { ...prevState.value }                    // creating copy of state variable value
             value[String(event.target.id)] = event.target.value      //zmiana odpowiedniego pola obiektu       
             return { value };                                 // return new object value object
-          }, () => this.props.setParentFilter(this.state.value))
+        }, () => this.props.setParentFilter(this.state.value))
     }
 
-    btnClick(event){
+    btnClick(event) {
         event.preventDefault();
         let title = event.target.parentElement.querySelector('#title').value
-        if (title === ""){
+        if (title === "") {
             title = "-"
         }
         this.setState(prevState => {
-            let value = {...prevState.value}                    // creating copy of state variable value
-            value["title"] = title      
+            let value = { ...prevState.value }                    // creating copy of state variable value
+            value["title"] = title
             return { value };                                 // return new object value object
-          }, () => this.props.setParentFilter(this.state.value))
+        }, () => this.props.setParentFilter(this.state.value))
     }
 
     render() {

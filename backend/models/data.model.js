@@ -14,7 +14,7 @@ const dataSchema = new Schema({
         },
         required: true
     },
-    
+
     platforms: {
         type: [String],
         validate: {
@@ -28,7 +28,7 @@ const dataSchema = new Schema({
     }
 }, {
     timestamps: true,
-    capped: {max: 1}
+    capped: { max: 1 }
 });
 
 const DataInfo = mongoose.model('DataInfo', dataSchema);

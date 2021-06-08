@@ -74,7 +74,6 @@ export default class MovieList extends Component {
     }
 
 
-
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
@@ -94,7 +93,7 @@ export default class MovieList extends Component {
     }
 
     setFilter(arg) {
-        console.log(arg)
+        //console.log(arg)
         this.setState({ filter: arg, currPage: 1 }, () => {
             const body = { filter: this.state.filter, page: this.state.currPage }
             console.log(body)
@@ -118,7 +117,7 @@ export default class MovieList extends Component {
     }
 
     changePage(event, page){
-        console.log(event)
+        //console.log(event)
         this.setState({ currPage: page }, () => {
             const body = { filter : this.state.filter, page: this.state.currPage }
             axios.post('http://localhost:5000/movie/filtered', body)

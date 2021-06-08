@@ -51,22 +51,6 @@ export default class PeopleList extends Component {
             })
     }
 
-    // componentDidUpdate() {
-    //     if (this.state.currPage !== this.props.match.params.number) {
-    //         this.setState({ currPage: this.props.match.params.number }, () => {
-    //             axios.get('http://localhost:5000/people/page/' + this.state.currPage)
-    //                 .then(response => {
-    //                     this.setState({ people: response.data });
-    //                 })
-    //                 .catch((error) => {
-    //                     console.log(error);
-    //                 })
-    //         })
-    //     }
-
-
-    // }
-
 
     changePage(event, page) {
         this.setState({ currPage: page }, () => {
