@@ -28,7 +28,7 @@
 
 ## Dokumentacja
 
-[Link do google docs](https://docs.google.com/document/d/1IDP3PLPie59oKxTlVEqZKJXBfDBSobYQ6-YQ4tkv9cs/edit)
+[Link do google docs](https://drive.google.com/file/d/1ovzFtC-UKO5oFJx3EpoHPBWQOWon3EwG/view?usp=sharing)
 
 ## Uruchomienie
 
