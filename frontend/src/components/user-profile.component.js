@@ -128,10 +128,10 @@ export default class UserProfile extends Component {
         return (
             <>
                 <h1>Your Profile</h1>
-                <div class="row">
-                    <img src={this.state.user.avatar} class="col-sm-12 col-md-5 col-lg-3" alt="Cover"></img>
-                    <div class="col-sm-12 col-lg-9">
-                        <table class="table table-striped">
+                <div className="row">
+                    <img src={this.state.user.avatar} className="col-sm-12 col-md-5 col-lg-3" alt="Cover"></img>
+                    <div className="col-sm-12 col-lg-9">
+                        <table className="table table-striped">
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>

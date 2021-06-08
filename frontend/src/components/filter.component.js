@@ -90,30 +90,30 @@ export default class Filter extends Component {
     }
 
     render() {
-        const runtimeList = this.state.runtime.map(opt => <option value={opt} id={opt}>{opt}</option>);
-        const yearList = this.state.dates.map(year => <option value={year} id={year}>{year}</option>);
-        const genreList = this.state.genres.map(genre => <option value={genre} id={genre}>{genre}</option>);
-        const platformList = this.state.platforms.map(platform => <option value={platform} id={platform}>{platform}</option>);
+        const runtimeList = this.state.runtime.map(opt => <option value={opt} key={opt}>{opt}</option>);
+        const yearList = this.state.dates.map(year => <option value={year} key={year}>{year}</option>);
+        const genreList = this.state.genres.map(genre => <option value={genre} key={genre}>{genre}</option>);
+        const platformList = this.state.platforms.map(platform => <option value={platform} key={platform}>{platform}</option>);
         return (
             <form onSubmit={this.handleSubmit} >
-                <label for="runtime">Runtime</label>
+                <label htmlFor="runtime">Runtime</label>
                 <select value={this.state.value.runtime} onChange={this.handleChange} id="runtime">
-                    <option selected="selected">-</option>
+                    <option defaultValue="selected">-</option>
                     {runtimeList}
                 </select>
-                <label for="date">Year</label>
+                <label htmlFor="date">Year</label>
                 <select value={this.state.value.date} onChange={this.handleChange} id="date">
-                    <option selected="selected">-</option>
+                    <option defaultValue="selected">-</option>
                     {yearList}
                 </select>
-                <label for="genre">Genre</label>
+                <label htmlFor="genre">Genre</label>
                 <select value={this.state.value.genre} onChange={this.handleChange} id="genre">
-                    <option selected="selected">-</option>
+                    <option defaultValue="selected">-</option>
                     {genreList}
                 </select>
-                <label for="platforms">Platform</label>
+                <label htmlFor="platforms">Platform</label>
                 <select value={this.state.value.platforms} onChange={this.handleChange} id="platforms">
-                    <option selected="selected">-</option>
+                    <option defaultValue="selected">-</option>
                     {platformList}
                 </select>
                 <input type="submit" value="clear filters"></input>

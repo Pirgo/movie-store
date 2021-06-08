@@ -77,7 +77,7 @@ export default class MovieList extends Component {
     movieList() {
 
         const movieList = this.state.movies.map(currentMovie => {
-            return <MovieListHTML movie={currentMovie} deleteMovie={this.deleteMovie} changeToWatch={this.changeToWatch}
+            return <MovieListHTML key={currentMovie.id} movie={currentMovie} deleteMovie={this.deleteMovie} changeToWatch={this.changeToWatch}
                 changeToFavourites={this.changeToFavourites} changeToSeen={this.changeToSeen} isLogged={this.state.isLogged} />;
         })
         if (movieList.length > 0) {
