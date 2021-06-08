@@ -34,6 +34,7 @@ export default class UserProfile extends Component {
 
 
     handleFirstNameSubmit(event) {
+        console.log("KKK")
         axios.post('http://localhost:5000/user/profile/update/firstname',
             {
                 value: this.state.firstame
@@ -42,12 +43,14 @@ export default class UserProfile extends Component {
                 headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
             }
         ).then(res => {
+            console.log("AAA")
             window.location.reload();
         }).catch((err) => {
             console.log(err);
         });
         //alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
+        console.log("ERE")
     }
 
     handleLastNameNameSubmit(event) {
@@ -106,10 +109,8 @@ export default class UserProfile extends Component {
             <>
                 <h1>Your Profile</h1>
                 <div class="row">
-                    <div class="col-3">
-                        <img src={this.state.user.avatar} width="300" height="300" alt="Cover"></img>
-                    </div>
-                    <div class="col-9">
+                    <img src={this.state.user.avatar} class="col-sm-12 col-md-5 col-lg-3" alt="Cover"></img>
+                    <div class="col-sm-12 col-lg-9">
                         <table class="table table-striped">
                             <thead>
                                 <tr>
