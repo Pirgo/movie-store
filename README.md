@@ -10,21 +10,20 @@
 
 ## Ogólny zarys
 
-* Mamy w planie stworzyć serwis z filmami
-* coś w stylu “Filmweb”
-* Mamy bazę filmów, osób kina oraz serwisów streamingowych
-* Każdy użytkownik ma swoją bibliotekę, może oznaczać jako obejrzane itp
-* Dane filmów najprawdopodobniej pochodzące z zewnętrznego API
-* Sprawdzać informacje na temat filmów, osób itp.
+* Serwis z filmami wzorujący sie na portalu Filmweb
+* Baza filmów, osób ze świata kina oraz użytkowników serwisu
+* Każdy użytkownik ma swoją bibliotekę, może oznaczać jako obejrzane, ulubione, filmy "do obejrzenia" oraz oceniac w skali 1-5 
+* Dane filmów są prawdziwe (pochodzące z zewnętrznego API)
 * Wyszukiwanie w zależności od filtrów (rok, gatunek, platforma)
-
+* Logowanie i rejestracja
+* Edycja własnego profilu
+* Użytkoanie strony w sposób autoryzowany (z użyciem jwt Token)
 
 ## Technologie
 
 * Dokumentowa baza danych: MongoDB
-* Frontend: React.js
-* Node.js
-* Express.js
+* Frontend: React.js, Bootsrap, HTML + CSS
+* Backend: Node.js, Express.js, Mongoose, JWT
 
 
 ## Dokumentacja
@@ -199,6 +198,32 @@ Poniżej dentyfikator filmu oraz użytkownika przesyłane jako ciało zapytania.
 } 
 ```
 
+### Tabela przetrzymująca dane dotyczace osób związanych z filmami
+
+```
+{
+    "_id": "60bd149a954e2552b1484c2b",
+    "id": 3490,
+    "name": "Adrien Brody",
+    "birthday": "1973-04-14T00:00:00.000Z",
+    "deathday": "1970-01-01T00:00:00.000Z",
+    "place_of_birth": "New York City, New York, USA",
+    "functions": {
+        "director": [],
+        "writer": [],
+        "actor": [
+            {
+                "title": "The Pianist",
+                "id": 423
+            }
+        ]
+    },
+    "photo": "https://image.tmdb.org/t/p/w500/1dBItgLFBNGEXnI48VvnnN2vFaX.jpg",
+    "biography": "Adrien Nicholas Brody was born in Woodhaven, Queens, New York, the only child of retired history professor Elliot Brody and Hungarian-born photographer Sylvia Plachy. He accompanied his mother on assignments for the Village Voice, and credits her with making him feel comfortable in front of the camera. Adrien attended the American Academy of Dramatic Arts and LaGuardia High School for the Performing Arts in New York."
+}
+
+```
+
 ### Tabela przetrzymująca dane dotyczace filmu
 
 ```
@@ -312,30 +337,6 @@ Poniżej dentyfikator filmu oraz użytkownika przesyłane jako ciało zapytania.
     ]
 }
 ```
-### Tabela przetrzymująca dane dotyczace osób związanych z filmami
 
-```
-{
-    "_id": "60bd149a954e2552b1484c2b",
-    "id": 3490,
-    "name": "Adrien Brody",
-    "birthday": "1973-04-14T00:00:00.000Z",
-    "deathday": "1970-01-01T00:00:00.000Z",
-    "place_of_birth": "New York City, New York, USA",
-    "functions": {
-        "director": [],
-        "writer": [],
-        "actor": [
-            {
-                "title": "The Pianist",
-                "id": 423
-            }
-        ]
-    },
-    "photo": "https://image.tmdb.org/t/p/w500/1dBItgLFBNGEXnI48VvnnN2vFaX.jpg",
-    "biography": "Adrien Nicholas Brody was born in Woodhaven, Queens, New York, the only child of retired history professor Elliot Brody and Hungarian-born photographer Sylvia Plachy. He accompanied his mother on assignments for the Village Voice, and credits her with making him feel comfortable in front of the camera. Adrien attended the American Academy of Dramatic Arts and LaGuardia High School for the Performing Arts in New York."
-}
-
-```
 
 
