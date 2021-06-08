@@ -134,147 +134,207 @@ Poniżej dentyfikator filmu oraz użytkownika przesyłane jako ciało zapytania.
 
 
 
-## Struktura bazy danych (v.0.2 stan z dnia 27.05.2021)
+## Struktura bazy danych
 ### Wypełniona przykładowymi danymi
 
 ### Tabela przetrzymująca dane Użytkownika
 
 ```
-"User":
 {
-    "_id": "60a3bcf3f5cf182ca3bd05f1",
-    "email": "asdfg@gmail.com",
-    "password": "<ENCODED PASSWORD",
-    "firstName": "Jan Julian",
-    "lastName": "Kowalski",
-    "createdAt": "2021-05-18T13:11:15.924Z",
-    "updatedAt": "2021-05-18T13:11:15.924Z",
-    "__v": 0
+    "_id": {
+        "$oid": "60bf83dd53f4b673682ac6c4"
+    },
+    "userName": "testowy",
+    "email": "testowy@gmail.com",
+    "password": "$2a$10$ruH9UJzsrmH5nSi0JeNkwO1huxKum00eWn3aEr34.gkpEs3kvgh7a",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/2/29/Houghton_STC_22790_-_Generall_Historie_of_Virginia%2C_New_England%2C_and_the_Summer_Isles%2C_John_Smith.jpg",
+    "firstName": "John",
+    "lastName": "Smith",
+    "description": "Opis testowy",
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1623163869601"
+        }
+    },
+    "updatedAt": {
+        "$date": {
+            "$numberLong": "1623164123836"
+        }
+    },
+
     "library": {
-    "toWatch": [
-    {
-      "movieID": "235235",
-      "title": "to watch 1"
+        "toWatch": [
+            {
+                "movieID": "424",
+                "title": "Schindler's List"
+            },
+            {
+                "movieID": "447362",
+                "title": "Life in a Year"
+            }
+        ],
+        "favourites": [
+            {
+                "movieID": "278",
+                "title": "The Shawshank Redemption"
+            }
+        ],
+        "seen": [
+            {
+                "movieID": "278",
+                "title": "The Shawshank Redemption",
+                "rate": {
+                    "$numberInt": "4"
+                }
+            },
+            {
+                "movieID": "238",
+                "title": "The Godfather",
+                "rate": {
+                    "$numberInt": "2"
+                }
+            }
+        ]
     }
-  ],
-  "favourites": [
-    {
-      "movieID": "235235",
-      "title": "fav 1"
-    }
-  ],
-  "seen": [
-    {
-      "movieID": "235235",
-      "title": "seen 1"
-    },
-    {
-      "movieID": "3453",
-      "title": "seen 2",
-      "rate": 4
-    },
-    {
-      "movieID": "326",
-      "title": "seen 3",
-      "rate": 2
-    }
-  ]
-}
-    
+} 
 ```
 
 ### Tabela przetrzymująca dane dotyczace filmu
 
 ```
-"Movie":
- {
-    "_id": "60a3ab2ebf147569236e2566",
-    "title": "First Movie",
-    "date": "2020-02-11T00:00:00.000Z",
-    "runtime": 3,
+{
+    "_id": "60bd0bd9954e2552b13b3dc2",
+    "id": 278,
+    "title": "The Shawshank Redemption",
+    "date": "1994-09-23T00:00:00.000Z",
+    "runtime": 142,
+    "adult": false,
+    "revenue": 28341469,
+    "platforms": [
+        {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+        }
+    ],
+    "updatedAt": "2021-06-08T14:55:02.078Z",
     "rate": {
-      "sum": 0,
-      "amount": 0
+        "sum": 9,
+        "amount": 2
     },
     "genre": [
-      "Action"
+        "Drama",
+        "Crime"
     ],
-    "plot": "Movie about this project",
-    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+    "plot": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "cover": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "budget": 25000000,
+    "homepage": "",
     "directors": [
-      {
-        "directorName": "Dir Name",
-        "directorID": "456456"
-      }
+        {
+            "directorName": "Anonymous director",
+            "id": 4027,
+            "name": "Frank Darabont",
+            "photo": "https://image.tmdb.org/t/p/w500/nvOqAQhKtXdHtczgqanoCfltsxJ.jpg"
+        }
     ],
-    "writers": [
-      {
-        "writerName": "Writ Name",
-        "writerID": "456456"
-      },
-      {
-        "writerName": "Writ name 2",
-        "writerID": "456456"
-      }
-    ],
+    "writers": [],
     "actors": [
-      {
-        "actorName": "Anonymous actor"
-      }
-    ],
-    "platforms": [
-      {
-        "name": "Netflix",
-        "URL": "random"
-      }
-    ],
-    "createdAt": "2021-05-18T11:55:26.019Z",
-    "updatedAt": "2021-05-18T11:55:26.019Z",
-    "__v": 0
-  }
-
-
+        {
+            "actorName": "Anonymous actor",
+            "id": 504,
+            "name": "Tim Robbins",
+            "photo": "https://image.tmdb.org/t/p/w500/hsCu1JUzQQ4pl7uFxAVFLOs9yHh.jpg",
+            "character": "Andy Dufresne"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 192,
+            "name": "Morgan Freeman",
+            "photo": "https://image.tmdb.org/t/p/w500/oIciQWr8VwKoR8TmAw1owaiZFyb.jpg",
+            "character": "Ellis Boyd \"Red\" Redding"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 4029,
+            "name": "Bob Gunton",
+            "photo": "https://image.tmdb.org/t/p/w500/rr2KDCKK4t0f5YhZibCpLCAsJxc.jpg",
+            "character": "Warden Samuel Norton"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 6573,
+            "name": "William Sadler",
+            "photo": "https://image.tmdb.org/t/p/w500/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg",
+            "character": "Heywood"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 6574,
+            "name": "Clancy Brown",
+            "photo": "https://image.tmdb.org/t/p/w500/tiuVx3mDJwWieFqNadrtyOhhMBN.jpg",
+            "character": "Captain Byron T. Hadley"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 6575,
+            "name": "Gil Bellows",
+            "photo": "https://image.tmdb.org/t/p/w500/eCOIv2nSGnWTHdn88NoMyNOKWyR.jpg",
+            "character": "Tommy"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 6576,
+            "name": "Mark Rolston",
+            "photo": "https://image.tmdb.org/t/p/w500/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg",
+            "character": "Bogs Diamond"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 6577,
+            "name": "James Whitmore",
+            "photo": "https://image.tmdb.org/t/p/w500/kjEaGEeZaSFPL5siFi1MA9Q6Tmh.jpg",
+            "character": "Brooks Hatlen"
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 12645,
+            "name": "Jeffrey DeMunn",
+            "photo": "https://image.tmdb.org/t/p/w500/eSouAAduXaziFpqLw59AG55jtGY.jpg",
+            "character": "1946 D.A."
+        },
+        {
+            "actorName": "Anonymous actor",
+            "id": 92119,
+            "name": "Larry Brandenburg",
+            "photo": "https://image.tmdb.org/t/p/w500/lhZhiyOPMykW7yWW3WCzBK2jIXi.jpg",
+            "character": "Skeet"
+        }
+    ]
+}
 ```
 ### Tabela przetrzymująca dane dotyczace osób związanych z filmami
 
 ```
-"People":
- {
-     "_id": "60a3c0b793fa99389e728b5b",
-    "firstName": "Jan Julian",
-    "lastName": "Kowalski",
-    "born": "2001-05-01T00:00:00.000Z",
-    "__v": 0
+{
+    "_id": "60bd149a954e2552b1484c2b",
+    "id": 3490,
+    "name": "Adrien Brody",
+    "birthday": "1973-04-14T00:00:00.000Z",
+    "deathday": "1970-01-01T00:00:00.000Z",
+    "place_of_birth": "New York City, New York, USA",
     "functions": {
-      "director": [
-        {
-          "title": "gsfhsgd",
-          "movieID": "235235"
-        }
-      ],
-      "actor": [
-        {
-          "title": "fav1",
-          "movieID": "235235"
-        }
-      ],
-      "writer": [
-        {
-          "title": "seem1",
-          "movieID": "235235"
-        },
-        {
-          "title": "seen2",
-          "movieID": "3453"
-        },
-        {
-          "title": "seen3",
-          "movieID": "326"
-        }
-      ]
+        "director": [],
+        "writer": [],
+        "actor": [
+            {
+                "title": "The Pianist",
+                "id": 423
+            }
+        ]
     },
-    "photo": "https://image.slidesharecdn.com/funnycatvideosdownload-150901043709-lva1-app6892/95/funny-cat-videos-download-1-638.jpg?cb=1441082273",
- }
+    "photo": "https://image.tmdb.org/t/p/w500/1dBItgLFBNGEXnI48VvnnN2vFaX.jpg",
+    "biography": "Adrien Nicholas Brody was born in Woodhaven, Queens, New York, the only child of retired history professor Elliot Brody and Hungarian-born photographer Sylvia Plachy. He accompanied his mother on assignments for the Village Voice, and credits her with making him feel comfortable in front of the camera. Adrien attended the American Academy of Dramatic Arts and LaGuardia High School for the Performing Arts in New York."
+}
 
 ```
 
