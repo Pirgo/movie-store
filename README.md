@@ -12,17 +12,17 @@
 
 * Serwis z filmami wzorujący sie na portalu Filmweb
 * Baza filmów, osób ze świata kina oraz użytkowników serwisu
-* Każdy użytkownik ma swoją bibliotekę, może oznaczać jako obejrzane, ulubione, filmy "do obejrzenia" oraz oceniac w skali 1-5 
+* Każdy użytkownik ma swoją bibliotekę, może oznaczać jako obejrzane, ulubione, filmy "do obejrzenia" oraz oceniać w skali 1-5 
 * Dane filmów są prawdziwe (pochodzące z zewnętrznego API)
 * Wyszukiwanie w zależności od filtrów (rok, gatunek, platforma)
 * Logowanie i rejestracja
 * Edycja własnego profilu
-* Użytkoanie strony w sposób autoryzowany (z użyciem jwt Token)
+* Użytkowanie strony w sposób autoryzowany (z użyciem jwt Token)
 
 ## Technologie
 
 * Dokumentowa baza danych: MongoDB
-* Frontend: React.js, Bootsrap, HTML + CSS
+* Frontend: React.js, Bootsrtap, HTML + CSS
 * Backend: Node.js, Express.js, Mongoose, JWT
 
 
