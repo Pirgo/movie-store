@@ -27,7 +27,7 @@ const userSchema = new Schema({
   avatar: {
     type: String,
     trim: true,
-    default: "https://steamuserimages-a.akamaihd.net/ugc/778485568510536639/DA58BAE1E6DB8024B0290C44383BD030249E2DF2/"
+    default: "https://bhq.rupyeaze.space/img/862fa260b6c4159618ecca81b69f7ace.png"
   },
   firstName: {
     type: String,

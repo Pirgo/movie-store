@@ -47,4 +47,14 @@ router.route('/update/description').post(protect, (req, res) => {
         });
 });
 
+router.route('/update/avatar').post(protect, (req, res) => {
+    User.findByIdAndUpdate({ _id: req.user._id }, { $set: { "avatar": req.body.value } })
+        .then(user => {
+            res.status(202).json('Succes');
+        })
+        .catch(err => {
+            res.status(400).json('Error: ' + err)
+        });
+})
+
 module.exports = router;

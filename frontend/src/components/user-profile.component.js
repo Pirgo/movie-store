@@ -9,15 +9,18 @@ export default class UserProfile extends Component {
             user: {},
             firstame: '',
             lastname: '',
-            description: ''
+            description: '',
+            avatar: ''
         }
         this.newData = "";
         this.handleFirstNameChange = this.handleFirstNameChange.bind(this);
         this.handleLastNameChange = this.handleLastNameChange.bind(this);
         this.handleDescriptionChange = this.handleDescriptionChange.bind(this);
+        this.handleAvatarChange = this.handleAvatarChange.bind(this);
         this.handleFirstNameSubmit = this.handleFirstNameSubmit.bind(this);
         this.handleLastNameNameSubmit = this.handleLastNameNameSubmit.bind(this);
         this.handleDescriptionSubmit = this.handleDescriptionSubmit.bind(this);
+        this.handleAvatarSubmit = this.handleAvatarSubmit.bind(this);
 
     }
 
@@ -29,6 +32,9 @@ export default class UserProfile extends Component {
     }
     handleDescriptionChange(event) {
         this.setState({ description: event.target.value });
+    }
+    handleAvatarChange(event){
+        this.setState({avatar: event.target.value});
     }
 
 
@@ -87,6 +93,20 @@ export default class UserProfile extends Component {
         event.preventDefault();
     }
 
+    handleAvatarSubmit(event){
+        axios.post('http://localhost:5000/user/profile/update/avatar',
+            {
+                value: this.state.avatar
+            },
+            {
+                headers: { 'authorization': 'Bearer ' + localStorage.getItem("authToken") }
+            })
+            .then(res => window.location.reload())
+            .catch(err => console.log(err))
+        event.preventDefault();
+
+    }
+
     componentDidMount() {
         const headers = {
             'Content-Type': "application/json",
@@ -139,7 +159,7 @@ export default class UserProfile extends Component {
                                     <td>
                                         <form onSubmit={this.handleFirstNameSubmit}>
                                             <label>
-                                                Change Name
+                                                Change name
                                                 <input type="text" value={this.state.value} onChange={this.handleFirstNameChange} />
                                             </label>
                                             <input type="submit" value="Submit" />
@@ -153,7 +173,7 @@ export default class UserProfile extends Component {
                                     <td>
                                         <form onSubmit={this.handleLastNameNameSubmit}>
                                             <label>
-                                                Change Name
+                                                Change last name
                                                 <input type="text" value={this.state.value} onChange={this.handleLastNameChange} />
                                             </label>
                                             <input type="submit" value="Submit" />
@@ -167,8 +187,22 @@ export default class UserProfile extends Component {
                                     <td>
                                     <form onSubmit={this.handleDescriptionSubmit}>
                                             <label>
-                                                Change Name
+                                                Change desc
                                                 <input type="text" value={this.state.value} onChange={this.handleDescriptionChange} />
+                                            </label>
+                                            <input type="submit" value="Submit" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Avatar</td>
+                                    <td>Available on left</td>
+                                    <td>
+                                    <form onSubmit={this.handleAvatarSubmit}>
+                                            <label>
+                                                Change avatar
+                                                <input type="text" value={this.state.value} onChange={this.handleAvatarChange} />
                                             </label>
                                             <input type="submit" value="Submit" />
                                         </form>
