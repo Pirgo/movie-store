@@ -56,25 +56,25 @@ const movieIDs = [
     244786,
     73,
     423,
-    664767
-    // 567,
-    // 901,
-    // 527641,
-    // 120,
-    // 27205,
-    // 3082,
-    // 807,
-    // 121,
-    // 313106,
-    // 157336,
-    // 432517,
-    // 975,
-    // 274,
-    // 207,
-    // 101,
-    // 600354,
-    // 508965,
-    // 105,
+    664767,
+    567,
+    901,
+    527641,
+    120,
+    27205,
+    3082,
+    807,
+    121,
+    313106,
+    157336,
+    432517,
+    975,
+    274,
+    207,
+    101,
+    600354,
+    508965,
+    105
     // 28,
     // 470044,
     // 37257,
@@ -166,9 +166,11 @@ async function getMovies() {
         movie.date = new Date(m.release_date);
         movie.runtime = m.runtime;
         movie.plot = m.overview;
+        let amount = getRandomInt(1, 10);
+        let sum = getRandomInt(1, 5) * amount;
         movie.rate = {
-            sum: 0,
-            amount: 0
+            sum: sum,
+            amount: amount
         };
         movie.directors = [];
         movie.writers = [];
@@ -183,13 +185,14 @@ async function getMovies() {
         movie.platforms = []
         const provider = await axios.get(BASE + 'movie/' + id + "/watch/providers" + APIKEY);
         //console.log(provider.data.results);
-
-        if (provider.data.results.US.flatrate) {
-            for (let p of provider.data.results.US.flatrate) {
-                let platform = {};
-                platform.name = p.provider_name;
-                platform.logo = "https://image.tmdb.org/t/p/w500" + p.logo_path;
-                movie.platforms.push(platform);
+        if (provider.data.results.US) {
+            if (provider.data.results.US.flatrate) {
+                for (let p of provider.data.results.US.flatrate) {
+                    let platform = {};
+                    platform.name = p.provider_name;
+                    platform.logo = "https://image.tmdb.org/t/p/w500" + p.logo_path;
+                    movie.platforms.push(platform);
+                }
             }
         }
 
@@ -257,8 +260,10 @@ async function getMovies() {
                 let newHuman = {};
                 newHuman.id = h.id;
                 newHuman.name = h.name;
-                newHuman.birthday = new Date(h.birthday);
-                newHuman.deathday = new Date(h.deathday);
+                newHuman.birthday = h.birthday;
+                if (h.deathday) {
+                    newHuman.deathday = h.deathday;
+                }
                 newHuman.photo = "https://image.tmdb.org/t/p/w500" + h.profile_path;
                 newHuman.place_of_birth = h.place_of_birth;
                 newHuman.biography = h.biography;
@@ -302,8 +307,10 @@ async function getMovies() {
             let newHuman = {};
             newHuman.id = h.id;
             newHuman.name = h.name;
-            newHuman.birthday = new Date(h.birthday);
-            newHuman.deathday = new Date(h.deathday);
+            newHuman.birthday = h.birthday;
+            if (h.deathday) {
+                newHuman.deathday = h.deathday;
+            }
             newHuman.photo = "https://image.tmdb.org/t/p/w500" + h.profile_path;
             newHuman.place_of_birth = h.place_of_birth;
             newHuman.biography = h.biography;
