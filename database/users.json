@@ -1,0 +1,211 @@
+[{
+  "_id": {
+    "$oid": "60bf83dd53f4b673682ac6c4"
+  },
+  "library": {
+    "toWatch": [
+      {
+        "movieID": "424",
+        "title": "Schindler's List"
+      },
+      {
+        "movieID": "447362",
+        "title": "Life in a Year"
+      }
+    ],
+    "favourites": [
+      {
+        "movieID": "278",
+        "title": "The Shawshank Redemption"
+      }
+    ],
+    "seen": [
+      {
+        "movieID": "278",
+        "title": "The Shawshank Redemption",
+        "rate": 4
+      },
+      {
+        "movieID": "238",
+        "title": "The Godfather",
+        "rate": 2
+      }
+    ]
+  },
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/2/29/Houghton_STC_22790_-_Generall_Historie_of_Virginia%2C_New_England%2C_and_the_Summer_Isles%2C_John_Smith.jpg",
+  "firstName": "John",
+  "lastName": "Smith",
+  "description": "Opis testowy",
+  "userName": "testowy",
+  "email": "testowy@gmail.com",
+  "password": "$2a$10$ruH9UJzsrmH5nSi0JeNkwO1huxKum00eWn3aEr34.gkpEs3kvgh7a",
+  "createdAt": {
+    "$date": "2021-06-08T14:51:09.601Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-08T14:55:23.836Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c07ac28e2211550c5dd597"
+  },
+  "library": {
+    "toWatch": [
+      {
+        "movieID": "615457",
+        "title": "Nobody"
+      },
+      {
+        "movieID": "556574",
+        "title": "Hamilton"
+      },
+      {
+        "movieID": "497",
+        "title": "The Green Mile"
+      }
+    ],
+    "favourites": [
+      {
+        "movieID": "157336",
+        "title": "Interstellar"
+      },
+      {
+        "movieID": "121",
+        "title": "The Lord of the Rings: The Two Towers"
+      }
+    ],
+    "seen": [
+      {
+        "movieID": "157336",
+        "title": "Interstellar",
+        "rate": 5
+      },
+      {
+        "movieID": "155",
+        "title": "The Dark Knight",
+        "rate": 3
+      }
+    ]
+  },
+  "avatar": "https://bhq.rupyeaze.space/img/862fa260b6c4159618ecca81b69f7ace.png",
+  "firstName": "",
+  "lastName": "",
+  "description": "",
+  "userName": "test1",
+  "email": "test1@gmail.com",
+  "password": "$2a$10$R81NRfkCJm5Xk4GJyo10h.Sq2fZB275M/CqnaTPnRLnWbkC1st4dG",
+  "createdAt": {
+    "$date": "2021-06-09T08:24:34.480Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-09T08:27:44.785Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c07b948e2211550c5dd598"
+  },
+  "library": {
+    "toWatch": [
+      {
+        "movieID": "337404",
+        "title": "Cruella"
+      },
+      {
+        "movieID": "680",
+        "title": "Pulp Fiction"
+      }
+    ],
+    "favourites": [
+      {
+        "movieID": "508965",
+        "title": "Klaus"
+      },
+      {
+        "movieID": "423",
+        "title": "The Pianist"
+      },
+      {
+        "movieID": "13",
+        "title": "Forrest Gump"
+      }
+    ],
+    "seen": [
+      {
+        "movieID": "313106",
+        "title": "Doctor Who: The Day of the Doctor"
+      },
+      {
+        "movieID": "278",
+        "title": "The Shawshank Redemption",
+        "rate": 4
+      }
+    ]
+  },
+  "avatar": "https://bhq.rupyeaze.space/img/862fa260b6c4159618ecca81b69f7ace.png",
+  "firstName": "",
+  "lastName": "",
+  "description": "",
+  "userName": "test2",
+  "email": "test2@gmail.com",
+  "password": "$2a$10$PEVRNVFhC7h5CyavmOdFMu4UlO/74tYj4azHOHItxveSugDV2eMU2",
+  "createdAt": {
+    "$date": "2021-06-09T08:28:04.565Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-09T08:29:21.056Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c07bf58e2211550c5dd599"
+  },
+  "library": {
+    "toWatch": [
+      {
+        "movieID": "447362",
+        "title": "Life in a Year"
+      },
+      {
+        "movieID": "527641",
+        "title": "Five Feet Apart"
+      },
+      {
+        "movieID": "556574",
+        "title": "Hamilton"
+      }
+    ],
+    "favourites": [
+      {
+        "movieID": "324857",
+        "title": "Spider-Man: Into the Spider-Verse"
+      }
+    ],
+    "seen": [
+      {
+        "movieID": "324857",
+        "title": "Spider-Man: Into the Spider-Verse"
+      },
+      {
+        "movieID": "664767",
+        "title": "Mortal Kombat Legends: Scorpion's Revenge",
+        "rate": 5
+      }
+    ]
+  },
+  "avatar": "https://bhq.rupyeaze.space/img/862fa260b6c4159618ecca81b69f7ace.png",
+  "firstName": "",
+  "lastName": "",
+  "description": "",
+  "userName": "test3",
+  "email": "test3@gmail.com",
+  "password": "$2a$10$IBvkUWX7iDmyYsKbJVoMtuI4HhKGPNFpqWGNyqdLOWC5dEBiRhodm",
+  "createdAt": {
+    "$date": "2021-06-09T08:29:41.057Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-09T08:31:40.924Z"
+  },
+  "__v": 0
+}]
