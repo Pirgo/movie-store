@@ -30,7 +30,6 @@ app.listen(port, () => {
     const movieRouter = require('./routes/movie');
     const peopleRouter = require('./routes/people');
     const authRouter = require('./routes/auth');
-    const dataRouter = require('./routes/data')
     const libraryRouter = require('./routes/library');
     const userProfileRouter = require('./routes/user-profile');
     const libModifying = require('./routes/libmodifying');
@@ -39,7 +38,6 @@ app.listen(port, () => {
     app.use('/movie', movieRouter);
     app.use('/people', peopleRouter);
     app.use('/auth', authRouter);
-    app.use('/data', dataRouter);
     app.use('/library', libraryRouter);
     app.use('/user/profile', userProfileRouter);
     app.use('/libmodifying', libModifying);

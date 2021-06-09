@@ -110,7 +110,7 @@ router.route('/filtered').post((req, res) => {
             }
         }
     }
-    Movie.find(query).skip((page - 1) * 30).limit(30)
+    Movie.find(query).sort({date: -1}).skip((page - 1) * 30).limit(30)
         .then(movie => res.json(movie))
         .catch(err => res.status(404).json('Error: ' + err));
 });
