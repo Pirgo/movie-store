@@ -28,7 +28,7 @@
 
 ## Dokumentacja
 
-[Link do google docs](https://drive.google.com/file/d/1ovzFtC-UKO5oFJx3EpoHPBWQOWon3EwG/view?usp=sharing)
+[Link do pdf](https://github.com/xsanm/movie-store/blob/main/Dokumentacja.pdf)
 
 ## Uruchomienie
 
