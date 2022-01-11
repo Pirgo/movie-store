@@ -1,0 +1,630 @@
+[
+    {
+      "rate": {
+        "sum": 5,
+        "amount": 3
+      },
+      "genre": [
+        "Action"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aa375711d00d3884c03b42",
+      "title": "second Movie",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 3,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Anonymous actor"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-23T11:07:03.198Z",
+      "updatedAt": "2021-05-23T11:07:03.198Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aa37f411d00d3884c03b43",
+      "title": "third Movie",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 357,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Anonymous actor"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-23T11:09:40.931Z",
+      "updatedAt": "2021-05-23T11:09:40.931Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aa37fd11d00d3884c03b44",
+      "title": "fouth Movie",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 546,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Anonymous actor"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-23T11:09:49.134Z",
+      "updatedAt": "2021-05-23T11:09:49.134Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aa8ff7d4e5e8bca6012d89",
+      "title": "First Movie",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 3,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        },
+        {
+          "directorName": "Marek Szparek",
+          "directorID": "ad"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Anonymous actor"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-23T17:25:11.407Z",
+      "updatedAt": "2021-05-23T17:25:11.407Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "SciFi",
+        "Comedy"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60ace53c75df5489c6e4bd1c",
+      "title": "testing",
+      "date": "2021-02-11T00:00:00.000Z",
+      "runtime": 3,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        },
+        {
+          "directorName": "Marek Szparek",
+          "directorID": "ad"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Anonymous actor"
+        },
+        {
+          "actorName": "Anonymous actor"
+        },
+        {
+          "actorName": "Anonymous actor"
+        },
+        {
+          "actorName": "Anonymous actor"
+        },
+        {
+          "actorName": "Anonymous actor"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "HBOGO",
+          "URL": "random"
+        },
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-25T11:53:32.110Z",
+      "updatedAt": "2021-05-25T11:53:32.110Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "SciFi",
+        "Comedy"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60acf850d8f03eb4514e95ad",
+      "title": "testing",
+      "date": "2021-02-11T00:00:00.000Z",
+      "runtime": 3,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        },
+        {
+          "directorName": "Marek Szparek",
+          "directorID": "ad"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Jacfgdsek Pladsfgcek"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "HBOGO",
+          "URL": "random"
+        },
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-25T13:14:56.874Z",
+      "updatedAt": "2021-05-25T13:14:56.874Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "SciFi",
+        "Comedy"
+      ],
+      "plot": "null",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60acf8a7d8f03eb4514e95ae",
+      "title": "testing",
+      "date": "2021-02-11T00:00:00.000Z",
+      "runtime": 3,
+      "directors": [
+        {
+          "directorName": "Jacek Placek",
+          "directorID": "ddd"
+        },
+        {
+          "directorName": "Marek Szparek",
+          "directorID": "ad"
+        }
+      ],
+      "writers": [
+        {
+          "writerName": "Jacefdsafk Placek",
+          "writerID": "dddfdf"
+        },
+        {
+          "writerName": "Jacek Pladsfgcek",
+          "writerID": "ddd"
+        }
+      ],
+      "actors": [
+        {
+          "actorName": "Jacfgdsek Pladsfgcek",
+          "actorID": "ddd"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek",
+          "actorID": "ddd"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek",
+          "actorID": "ddd"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek",
+          "actorID": "ddd"
+        },
+        {
+          "actorName": "Jacfgdsek Pladsfgcek",
+          "actorID": "ddd"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "HBOGO",
+          "URL": "random"
+        },
+        {
+          "name": "Netflix",
+          "URL": "random"
+        }
+      ],
+      "createdAt": "2021-05-25T13:16:23.094Z",
+      "updatedAt": "2021-05-25T13:16:23.094Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "plot": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aed7d19cc0576b86fa6415",
+      "title": "Shazam!",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:20:49.806Z",
+      "updatedAt": "2021-05-26T23:20:49.806Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Documentary"
+      ],
+      "plot": "In a series of escalating encounters, security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlOaeron7sa8fd9Xlv5GZZ3JOkd6piSEMpw&usqp=CAU",
+      "_id": "60aed7ec9cc0576b86fa6416",
+      "title": "Glass",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:21:16.868Z",
+      "updatedAt": "2021-05-26T23:21:16.868Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "plot": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "cover": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "_id": "60aed83e9cc0576b86fa6418",
+      "title": "Captain Marvel",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:22:38.855Z",
+      "updatedAt": "2021-05-26T23:22:38.855Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Thriller",
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+      "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+      "_id": "60aed84e9cc0576b86fa6419",
+      "title": "Escape Room",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:22:54.309Z",
+      "updatedAt": "2021-05-26T23:22:54.309Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Animation",
+        "Family",
+        "Adventure"
+      ],
+      "plot": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+      "cover": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+      "_id": "60aed86a9cc0576b86fa641a",
+      "title": "How to Train Your Dragon: The Hidden World",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:22.758Z",
+      "updatedAt": "2021-05-26T23:23:22.758Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Thriller",
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+      "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+      "_id": "60aed8759cc0576b86fa641b",
+      "title": "Escape Room",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:33.071Z",
+      "updatedAt": "2021-05-26T23:23:33.071Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "plot": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "cover": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "_id": "60aed8809cc0576b86fa641c",
+      "title": "Captain Marvel",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:44.243Z",
+      "updatedAt": "2021-05-26T23:23:44.243Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "plot": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "cover": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "_id": "60aed8899cc0576b86fa641d",
+      "title": "Captain Marvel",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:53.399Z",
+      "updatedAt": "2021-05-26T23:23:53.399Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "plot": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "cover": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "_id": "60aed8899cc0576b86fa6123",
+      "title": "Captain Marvel 2",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:53.399Z",
+      "updatedAt": "2021-05-26T23:23:53.399Z",
+      "__v": 0
+    },
+    {
+      "rate": {
+        "sum": 0,
+        "amount": 0
+      },
+      "genre": [
+        "Thriller",
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "plot": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+      "cover": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+      "_id": "60aed8899cc0576b86fa6411",
+      "title": "Escape Room",
+      "date": "2020-02-11T00:00:00.000Z",
+      "runtime": 123,
+      "directors": [],
+      "writers": [],
+      "actors": [],
+      "platforms": [],
+      "createdAt": "2021-05-26T23:23:33.071Z",
+      "updatedAt": "2021-05-26T23:23:33.071Z",
+      "__v": 0
+    }
+  ]

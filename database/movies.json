@@ -1,0 +1,5169 @@
+[{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a4"
+  },
+  "id": 337404,
+  "title": "Cruella",
+  "genre": [
+    "Comedy",
+    "Crime"
+  ],
+  "date": "2021-05-26T00:00:00.000Z",
+  "runtime": 134,
+  "plot": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
+  "rate": {
+    "sum": 12,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 50767,
+      "name": "Craig Gillespie",
+      "photo": "https://image.tmdb.org/t/p/w500/pVHspL9QWsXCm3t3VXEaCJ9y8Zz.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 56718,
+      "name": "Dana Fox",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 77723,
+      "name": "Tony McNamara",
+      "photo": "https://image.tmdb.org/t/p/w500/xqvrpLtpYCOMbMkySCjcsavYGur.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 54693,
+      "name": "Emma Stone",
+      "photo": "https://image.tmdb.org/t/p/w500/2hwXbPW2ffnXUe1Um0WXHG0cTwb.jpg",
+      "character": "Estella / Cruella"
+    },
+    {
+      "id": 7056,
+      "name": "Emma Thompson",
+      "photo": "https://image.tmdb.org/t/p/w500/xr8Ki3CIqweWWqS5q0kUYdiK6oQ.jpg",
+      "character": "The Baroness"
+    },
+    {
+      "id": 54811,
+      "name": "Joel Fry",
+      "photo": "https://image.tmdb.org/t/p/w500/4nEKEWJpaTHncCTv6zeP98V0qGI.jpg",
+      "character": "Jasper"
+    },
+    {
+      "id": 1294982,
+      "name": "Paul Walter Hauser",
+      "photo": "https://image.tmdb.org/t/p/w500/hV2oiKF2xlDMXtuq3Si1TA4b6DA.jpg",
+      "character": "Horace"
+    },
+    {
+      "id": 2983,
+      "name": "Mark Strong",
+      "photo": "https://image.tmdb.org/t/p/w500/pw6AvwaBbr44Nje9JQMBBwhchiu.jpg",
+      "character": "John the Valet"
+    },
+    {
+      "id": 2163852,
+      "name": "Tipper Seifert-Cleveland",
+      "photo": "https://image.tmdb.org/t/p/w500/yJTIExQYXMeNdY6s9ZZ9VUkQxQS.jpg",
+      "character": "Estella (12 yrs)"
+    },
+    {
+      "id": 1532312,
+      "name": "Kirby Howell-Baptiste",
+      "photo": "https://image.tmdb.org/t/p/w500/neWSyBmw5q2JJiOAXWk4lvWJGlY.jpg",
+      "character": "Anita Darling"
+    },
+    {
+      "id": 130414,
+      "name": "Emily Beecham",
+      "photo": "https://image.tmdb.org/t/p/w500/knR5avTlO4Xnxw7Nc3xxUj3rtjh.jpg",
+      "character": "Catherine"
+    },
+    {
+      "id": 1819918,
+      "name": "John McCrea",
+      "photo": "https://image.tmdb.org/t/p/w500/lj2qUd1TxeCY0G76QZF4dRKdHZ1.jpg",
+      "character": "Artie"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/A0knvX7rlwTyZSKj8H5NiARb45.jpg",
+  "adult": false,
+  "budget": 200000000,
+  "revenue": 87084673,
+  "homepage": "https://movies.disney.com/cruella",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a5"
+  },
+  "id": 724089,
+  "title": "Gabriel's Inferno Part II",
+  "genre": [
+    "Romance"
+  ],
+  "date": "2020-07-31T00:00:00.000Z",
+  "runtime": 105,
+  "plot": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+  "rate": {
+    "sum": 10,
+    "amount": 5
+  },
+  "directors": [
+    {
+      "id": 935563,
+      "name": "Tosca Musk",
+      "photo": "https://image.tmdb.org/t/p/w500/usR5NspRlWgXKUe9qVsCtTCpe4l.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 1312450,
+      "name": "Melanie Zanetti",
+      "photo": "https://image.tmdb.org/t/p/w500/lbUQ7ilvBtWMU23reKsHg3jRmsf.jpg",
+      "character": "Julia Mitchell"
+    },
+    {
+      "id": 544002,
+      "name": "Giulio Berruti",
+      "photo": "https://image.tmdb.org/t/p/w500/ktPKniWGVkm6eBG7a2R7WGd96kZ.jpg",
+      "character": "Gabriel Emerson"
+    },
+    {
+      "id": 2345991,
+      "name": "James Andrew Fraser",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Paul Norris"
+    },
+    {
+      "id": 2595115,
+      "name": "Margaux Brooke",
+      "photo": "https://image.tmdb.org/t/p/w500/leLl5l6KnjMdg5O48FhDfB7GquI.jpg",
+      "character": "Christa Peterson"
+    },
+    {
+      "id": 2267910,
+      "name": "Agnes Albright",
+      "photo": "https://image.tmdb.org/t/p/w500/a1UVXkIFONmwjr0Cxydc0jQHPFq.jpg",
+      "character": "Paulina"
+    },
+    {
+      "id": 109024,
+      "name": "Purva Bedi",
+      "photo": "https://image.tmdb.org/t/p/w500/oppODJvFwISpFnOfhSc2sB2b4Zq.jpg",
+      "character": "Professor Tara Chakravartty"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://watch.passionflix.com/watch/f299fa17-5a2b-4fee-b53a-a4651747431b",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a6"
+  },
+  "id": 278,
+  "title": "The Shawshank Redemption",
+  "genre": [
+    "Drama",
+    "Crime"
+  ],
+  "date": "1994-09-23T00:00:00.000Z",
+  "runtime": 142,
+  "plot": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+  "rate": {
+    "sum": 18,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 4027,
+      "name": "Frank Darabont",
+      "photo": "https://image.tmdb.org/t/p/w500/nvOqAQhKtXdHtczgqanoCfltsxJ.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 504,
+      "name": "Tim Robbins",
+      "photo": "https://image.tmdb.org/t/p/w500/hsCu1JUzQQ4pl7uFxAVFLOs9yHh.jpg",
+      "character": "Andy Dufresne"
+    },
+    {
+      "id": 192,
+      "name": "Morgan Freeman",
+      "photo": "https://image.tmdb.org/t/p/w500/oIciQWr8VwKoR8TmAw1owaiZFyb.jpg",
+      "character": "Ellis Boyd \"Red\" Redding"
+    },
+    {
+      "id": 4029,
+      "name": "Bob Gunton",
+      "photo": "https://image.tmdb.org/t/p/w500/rr2KDCKK4t0f5YhZibCpLCAsJxc.jpg",
+      "character": "Warden Samuel Norton"
+    },
+    {
+      "id": 6573,
+      "name": "William Sadler",
+      "photo": "https://image.tmdb.org/t/p/w500/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg",
+      "character": "Heywood"
+    },
+    {
+      "id": 6574,
+      "name": "Clancy Brown",
+      "photo": "https://image.tmdb.org/t/p/w500/tiuVx3mDJwWieFqNadrtyOhhMBN.jpg",
+      "character": "Captain Byron T. Hadley"
+    },
+    {
+      "id": 6575,
+      "name": "Gil Bellows",
+      "photo": "https://image.tmdb.org/t/p/w500/eCOIv2nSGnWTHdn88NoMyNOKWyR.jpg",
+      "character": "Tommy"
+    },
+    {
+      "id": 6576,
+      "name": "Mark Rolston",
+      "photo": "https://image.tmdb.org/t/p/w500/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg",
+      "character": "Bogs Diamond"
+    },
+    {
+      "id": 6577,
+      "name": "James Whitmore",
+      "photo": "https://image.tmdb.org/t/p/w500/kjEaGEeZaSFPL5siFi1MA9Q6Tmh.jpg",
+      "character": "Brooks Hatlen"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+  "adult": false,
+  "budget": 25000000,
+  "revenue": 28341469,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2021-06-09T08:28:40.278Z"
+  }
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a7"
+  },
+  "id": 238,
+  "title": "The Godfather",
+  "genre": [
+    "Drama",
+    "Crime"
+  ],
+  "date": "1972-03-14T00:00:00.000Z",
+  "runtime": 175,
+  "plot": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+  "rate": {
+    "sum": 1,
+    "amount": 1
+  },
+  "directors": [
+    {
+      "id": 1776,
+      "name": "Francis Ford Coppola",
+      "photo": "https://image.tmdb.org/t/p/w500/mGKkVp3l9cipPt10AqoQnwaPrfI.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1776,
+      "name": "Francis Ford Coppola",
+      "photo": "https://image.tmdb.org/t/p/w500/mGKkVp3l9cipPt10AqoQnwaPrfI.jpg"
+    },
+    {
+      "id": 3083,
+      "name": "Mario Puzo",
+      "photo": "https://image.tmdb.org/t/p/w500/lEsT1uCZAZg1nYDQe3Fsj9CalzT.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1158,
+      "name": "Al Pacino",
+      "photo": "https://image.tmdb.org/t/p/w500/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg",
+      "character": "Don Michael Corleone"
+    },
+    {
+      "id": 3084,
+      "name": "Marlon Brando",
+      "photo": "https://image.tmdb.org/t/p/w500/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg",
+      "character": "Don Vito Corleone"
+    },
+    {
+      "id": 3085,
+      "name": "James Caan",
+      "photo": "https://image.tmdb.org/t/p/w500/bGyOCCOIgcIyKjOGLoXoyp0XWHf.jpg",
+      "character": "Santino \"Sonny\" Corleone"
+    },
+    {
+      "id": 3087,
+      "name": "Robert Duvall",
+      "photo": "https://image.tmdb.org/t/p/w500/nLBIEvJDvSV0WhFv0bi7sU9tLyb.jpg",
+      "character": "Tom Hagen"
+    },
+    {
+      "id": 3086,
+      "name": "Richard S. Castellano",
+      "photo": "https://image.tmdb.org/t/p/w500/1vr75BdHWret81vuSJ3ugiCBkxw.jpg",
+      "character": "Pete Clemenza"
+    },
+    {
+      "id": 3092,
+      "name": "Diane Keaton",
+      "photo": "https://image.tmdb.org/t/p/w500/7gEdH5vGwpUpogscTb2JivnoRBb.jpg",
+      "character": "Kay Adams"
+    },
+    {
+      "id": 3094,
+      "name": "Talia Shire",
+      "photo": "https://image.tmdb.org/t/p/w500/xvJ47wKL5zpwFXFFNZQmFmf7i9F.jpg",
+      "character": "Constanzia \"Connie\" Corleone-Rizzi"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+  "adult": false,
+  "budget": 6000000,
+  "revenue": 245066411,
+  "homepage": "http://www.thegodfather.com/",
+  "platforms": [
+    {
+      "name": "CBS",
+      "logo": "https://image.tmdb.org/t/p/w500/kwCsPIK3KA1YTXq7XxXaVDhTxLY.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a8"
+  },
+  "id": 761053,
+  "title": "Gabriel's Inferno Part III",
+  "genre": [
+    "Romance",
+    "Comedy"
+  ],
+  "date": "2020-11-19T00:00:00.000Z",
+  "runtime": 105,
+  "plot": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
+  "rate": {
+    "sum": 12,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 935563,
+      "name": "Tosca Musk",
+      "photo": "https://image.tmdb.org/t/p/w500/usR5NspRlWgXKUe9qVsCtTCpe4l.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 544002,
+      "name": "Giulio Berruti",
+      "photo": "https://image.tmdb.org/t/p/w500/ktPKniWGVkm6eBG7a2R7WGd96kZ.jpg",
+      "character": "Gabriel Emerson"
+    },
+    {
+      "id": 2897282,
+      "name": "Rhett Wellington",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Simon Talbot"
+    },
+    {
+      "id": 1312450,
+      "name": "Melanie Zanetti",
+      "photo": "https://image.tmdb.org/t/p/w500/lbUQ7ilvBtWMU23reKsHg3jRmsf.jpg",
+      "character": "Julia Mitchell"
+    },
+    {
+      "id": 2913392,
+      "name": "James Andrew Fraser",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Paul Norris"
+    },
+    {
+      "id": 2595115,
+      "name": "Margaux Brooke",
+      "photo": "https://image.tmdb.org/t/p/w500/leLl5l6KnjMdg5O48FhDfB7GquI.jpg",
+      "character": "Christa Peterson"
+    },
+    {
+      "id": 2267910,
+      "name": "Agnes Albright",
+      "photo": "https://image.tmdb.org/t/p/w500/a1UVXkIFONmwjr0Cxydc0jQHPFq.jpg",
+      "character": "Paulina Gruscheva"
+    },
+    {
+      "id": 2913394,
+      "name": "Pat Asanti",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Antonio"
+    },
+    {
+      "id": 2913395,
+      "name": "Julia Barrett-Mitchell",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Rachel Clark"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7a9"
+  },
+  "id": 696374,
+  "title": "Gabriel's Inferno",
+  "genre": [
+    "Romance"
+  ],
+  "date": "2020-05-29T00:00:00.000Z",
+  "runtime": 122,
+  "plot": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+  "rate": {
+    "sum": 6,
+    "amount": 2
+  },
+  "directors": [
+    {
+      "id": 935563,
+      "name": "Tosca Musk",
+      "photo": "https://image.tmdb.org/t/p/w500/usR5NspRlWgXKUe9qVsCtTCpe4l.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 1312450,
+      "name": "Melanie Zanetti",
+      "photo": "https://image.tmdb.org/t/p/w500/lbUQ7ilvBtWMU23reKsHg3jRmsf.jpg",
+      "character": "Julianne Mitchell"
+    },
+    {
+      "id": 544002,
+      "name": "Giulio Berruti",
+      "photo": "https://image.tmdb.org/t/p/w500/ktPKniWGVkm6eBG7a2R7WGd96kZ.jpg",
+      "character": "Gabriel Emerson"
+    },
+    {
+      "id": 73659,
+      "name": "Kurt McKinney",
+      "photo": "https://image.tmdb.org/t/p/w500/ebkMXPJXAGsPpfzysNmht6NVtR6.jpg",
+      "character": "Tom Mitchell"
+    },
+    {
+      "id": 2267910,
+      "name": "Agnes Albright",
+      "photo": "https://image.tmdb.org/t/p/w500/a1UVXkIFONmwjr0Cxydc0jQHPFq.jpg",
+      "character": ""
+    },
+    {
+      "id": 2595115,
+      "name": "Margaux Brooke",
+      "photo": "https://image.tmdb.org/t/p/w500/leLl5l6KnjMdg5O48FhDfB7GquI.jpg",
+      "character": ""
+    },
+    {
+      "id": 1326237,
+      "name": "Ned Van Zandt",
+      "photo": "https://image.tmdb.org/t/p/w500/lJK2Bk79xhP133piZ03p4d6rsD0.jpg",
+      "character": ""
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://watch.passionflix.com/watch/fc15dc25-cf48-4d4f-aa8e-9afb032233cc",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7aa"
+  },
+  "id": 424,
+  "title": "Schindler's List",
+  "genre": [
+    "Drama",
+    "History",
+    "War"
+  ],
+  "date": "1993-11-30T00:00:00.000Z",
+  "runtime": 195,
+  "plot": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+  "rate": {
+    "sum": 36,
+    "amount": 9
+  },
+  "directors": [
+    {
+      "id": 488,
+      "name": "Steven Spielberg",
+      "photo": "https://image.tmdb.org/t/p/w500/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 2260,
+      "name": "Steven Zaillian",
+      "photo": "https://image.tmdb.org/t/p/w500/3V8X2EnjzqdrUagdnjTgKi213AJ.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 3896,
+      "name": "Liam Neeson",
+      "photo": "https://image.tmdb.org/t/p/w500/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
+      "character": "Oskar Schindler"
+    },
+    {
+      "id": 2282,
+      "name": "Ben Kingsley",
+      "photo": "https://image.tmdb.org/t/p/w500/k3Dmu49B2akwDvgqy52MOxznI59.jpg",
+      "character": "Itzhak Stern"
+    },
+    {
+      "id": 5469,
+      "name": "Ralph Fiennes",
+      "photo": "https://image.tmdb.org/t/p/w500/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg",
+      "character": "Amon Göth"
+    },
+    {
+      "id": 6692,
+      "name": "Caroline Goodall",
+      "photo": "https://image.tmdb.org/t/p/w500/4cagGtMqACvkuw6Llq8Li8UJ1AR.jpg",
+      "character": "Emilie Schindler"
+    },
+    {
+      "id": 6693,
+      "name": "Jonathan Sagall",
+      "photo": "https://image.tmdb.org/t/p/w500/7gu7vtmJV066ohXNmBV1ya5D6Uq.jpg",
+      "character": "Poldek Pfefferberg"
+    },
+    {
+      "id": 6368,
+      "name": "Embeth Davidtz",
+      "photo": "https://image.tmdb.org/t/p/w500/nwsdu9lOsKJ5v9RwOCc7kAiuxSO.jpg",
+      "character": "Helen Hirsch"
+    },
+    {
+      "id": 6694,
+      "name": "Malgorzata Gebel",
+      "photo": "https://image.tmdb.org/t/p/w500/svp3UfxWkJGuFWq5REZdwp8o91z.jpg",
+      "character": "Wiktoria Klonowska"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+  "adult": false,
+  "budget": 22000000,
+  "revenue": 321365567,
+  "homepage": "http://www.schindlerslist.com/",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ab"
+  },
+  "id": 240,
+  "title": "The Godfather: Part II",
+  "genre": [
+    "Drama",
+    "Crime"
+  ],
+  "date": "1974-12-20T00:00:00.000Z",
+  "runtime": 202,
+  "plot": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+  "rate": {
+    "sum": 15,
+    "amount": 5
+  },
+  "directors": [
+    {
+      "id": 1776,
+      "name": "Francis Ford Coppola",
+      "photo": "https://image.tmdb.org/t/p/w500/mGKkVp3l9cipPt10AqoQnwaPrfI.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1776,
+      "name": "Francis Ford Coppola",
+      "photo": "https://image.tmdb.org/t/p/w500/mGKkVp3l9cipPt10AqoQnwaPrfI.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1158,
+      "name": "Al Pacino",
+      "photo": "https://image.tmdb.org/t/p/w500/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg",
+      "character": "Don Michael Corleone"
+    },
+    {
+      "id": 380,
+      "name": "Robert De Niro",
+      "photo": "https://image.tmdb.org/t/p/w500/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+      "character": "Don Vito Corleone"
+    },
+    {
+      "id": 3087,
+      "name": "Robert Duvall",
+      "photo": "https://image.tmdb.org/t/p/w500/nLBIEvJDvSV0WhFv0bi7sU9tLyb.jpg",
+      "character": "Tom Hagen"
+    },
+    {
+      "id": 3092,
+      "name": "Diane Keaton",
+      "photo": "https://image.tmdb.org/t/p/w500/7gEdH5vGwpUpogscTb2JivnoRBb.jpg",
+      "character": "Kay Corleone"
+    },
+    {
+      "id": 3096,
+      "name": "John Cazale",
+      "photo": "https://image.tmdb.org/t/p/w500/41wXX1FBalyIuf5eaA4S43Y8IfZ.jpg",
+      "character": "Frederico \"Fredo\" Corleone"
+    },
+    {
+      "id": 3094,
+      "name": "Talia Shire",
+      "photo": "https://image.tmdb.org/t/p/w500/xvJ47wKL5zpwFXFFNZQmFmf7i9F.jpg",
+      "character": "Constanzia \"Connie\" Corleone"
+    },
+    {
+      "id": 3171,
+      "name": "Lee Strasberg",
+      "photo": "https://image.tmdb.org/t/p/w500/niSM7ejzddgaTcxjgJMYEFCr9Y2.jpg",
+      "character": "Hyman Roth"
+    },
+    {
+      "id": 3172,
+      "name": "Michael V. Gazzo",
+      "photo": "https://image.tmdb.org/t/p/w500/cTY2Hlf6sIR9xLI95bBir7eI0N.jpg",
+      "character": "Frank Pentangeli"
+    },
+    {
+      "id": 3173,
+      "name": "G. D. Spradlin",
+      "photo": "https://image.tmdb.org/t/p/w500/jV6Tf9bxrsFT0GlNo1EAiNqYlB2.jpg",
+      "character": "Senator Pat Geary"
+    },
+    {
+      "id": 3174,
+      "name": "Richard Bright",
+      "photo": "https://image.tmdb.org/t/p/w500/potMaJ2u5PRjXZb7qF9lSW1ldNZ.jpg",
+      "character": "Al Neri"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+  "adult": false,
+  "budget": 13000000,
+  "revenue": 102600000,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "CBS",
+      "logo": "https://image.tmdb.org/t/p/w500/kwCsPIK3KA1YTXq7XxXaVDhTxLY.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ac"
+  },
+  "id": 447362,
+  "title": "Life in a Year",
+  "genre": [
+    "Drama",
+    "Romance"
+  ],
+  "date": "2020-11-27T00:00:00.000Z",
+  "runtime": 107,
+  "plot": "A 17 year old finds out that his girlfriend is dying, so he sets out to give her an entire life, in the last year she has left.",
+  "rate": {
+    "sum": 24,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 586154,
+      "name": "Mitja Okorn",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 120724,
+      "name": "Jaden Smith",
+      "photo": "https://image.tmdb.org/t/p/w500/meraACSN0LYwLeZlaXN9YW6JCZT.jpg",
+      "character": "Daryn"
+    },
+    {
+      "id": 1289968,
+      "name": "Cara Delevingne",
+      "photo": "https://image.tmdb.org/t/p/w500/jJaS0RBHQw9WWiBCpZJYFvbkZ8v.jpg",
+      "character": "Isabelle"
+    },
+    {
+      "id": 9777,
+      "name": "Cuba Gooding Jr.",
+      "photo": "https://image.tmdb.org/t/p/w500/bxL1lZyMKcexcAKNhkU4Gy73wLb.jpg",
+      "character": "Xavier"
+    },
+    {
+      "id": 9781,
+      "name": "Nia Long",
+      "photo": "https://image.tmdb.org/t/p/w500/2HnplqKDWkLyReeeAPsbEctkpPQ.jpg",
+      "character": "Catherine"
+    },
+    {
+      "id": 150,
+      "name": "RZA",
+      "photo": "https://image.tmdb.org/t/p/w500/2PVYCKXb1X3PLawJNoYGLN1x0In.jpg",
+      "character": "Ron"
+    },
+    {
+      "id": 1795840,
+      "name": "JT Neal",
+      "photo": "https://image.tmdb.org/t/p/w500/619XoheJeeajNAUQd9hwnPSoUCB.jpg",
+      "character": "Sammy"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/7EuZIYEHLTu1G69maFLwg13u5iB.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Amazon Prime Video",
+      "logo": "https://image.tmdb.org/t/p/w500/68MNrwlkpF7WnmNPXLah69CR5cb.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ad"
+  },
+  "id": 497,
+  "title": "The Green Mile",
+  "genre": [
+    "Fantasy",
+    "Drama",
+    "Crime"
+  ],
+  "date": "1999-12-10T00:00:00.000Z",
+  "runtime": 189,
+  "plot": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+  "rate": {
+    "sum": 18,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 4027,
+      "name": "Frank Darabont",
+      "photo": "https://image.tmdb.org/t/p/w500/nvOqAQhKtXdHtczgqanoCfltsxJ.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 4027,
+      "name": "Frank Darabont",
+      "photo": "https://image.tmdb.org/t/p/w500/nvOqAQhKtXdHtczgqanoCfltsxJ.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 31,
+      "name": "Tom Hanks",
+      "photo": "https://image.tmdb.org/t/p/w500/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg",
+      "character": "Paul Edgecomb"
+    },
+    {
+      "id": 52,
+      "name": "David Morse",
+      "photo": "https://image.tmdb.org/t/p/w500/3YeyORYXfhIOEDtfUbrkMF9qEjf.jpg",
+      "character": "Brutus \"Brutal\" Howell"
+    },
+    {
+      "id": 5149,
+      "name": "Bonnie Hunt",
+      "photo": "https://image.tmdb.org/t/p/w500/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg",
+      "character": "Jan Edgecomb"
+    },
+    {
+      "id": 61981,
+      "name": "Michael Clarke Duncan",
+      "photo": "https://image.tmdb.org/t/p/w500/3RX8OBqt3gbvFwKYZqiom4O3Ta6.jpg",
+      "character": "John Coffey"
+    },
+    {
+      "id": 2505,
+      "name": "James Cromwell",
+      "photo": "https://image.tmdb.org/t/p/w500/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg",
+      "character": "Warden Hal Moores"
+    },
+    {
+      "id": 2169,
+      "name": "Michael Jeter",
+      "photo": "https://image.tmdb.org/t/p/w500/pNBf8X56wCOHH7cArsMYJuke4fO.jpg",
+      "character": "Eduard Delacroix"
+    },
+    {
+      "id": 6804,
+      "name": "Graham Greene",
+      "photo": "https://image.tmdb.org/t/p/w500/ubX9pwrzQqnR41gAGyY1GoSZr1G.jpg",
+      "character": "Arlen Bitterbuck"
+    },
+    {
+      "id": 6806,
+      "name": "Doug Hutchison",
+      "photo": "https://image.tmdb.org/t/p/w500/1E4yWgUs2VQsr8MRBTFOusY44lm.jpg",
+      "character": "Percy Wetmore"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+  "adult": false,
+  "budget": 60000000,
+  "revenue": 286801374,
+  "homepage": "http://thegreenmile.warnerbros.com/",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ae"
+  },
+  "id": 441130,
+  "title": "Wolfwalkers",
+  "genre": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Fantasy"
+  ],
+  "date": "2020-10-26T00:00:00.000Z",
+  "runtime": 103,
+  "plot": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+  "rate": {
+    "sum": 2,
+    "amount": 2
+  },
+  "directors": [
+    {
+      "id": 96676,
+      "name": "Tomm Moore",
+      "photo": "https://image.tmdb.org/t/p/w500/gqUcu5yEtNgnCaA2jtSOs8DV1Gg.jpg"
+    },
+    {
+      "id": 1782644,
+      "name": "Ross Stewart",
+      "photo": "https://image.tmdb.org/t/p/w500/1O6yRqoPBqvZabLgzUK9LmzQEUN.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1124979,
+      "name": "Will Collins",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1363045,
+      "name": "Honor Kneafsey",
+      "photo": "https://image.tmdb.org/t/p/w500/pgk3qwXCUjYReOwrGCLWm8qCbBx.jpg",
+      "character": "Robyn Goodfellowe (voice)"
+    },
+    {
+      "id": 2770089,
+      "name": "Eva Whittaker",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Mebh MacTíre (voice)"
+    },
+    {
+      "id": 48,
+      "name": "Sean Bean",
+      "photo": "https://image.tmdb.org/t/p/w500/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg",
+      "character": "Bill Goodfellowe (voice)"
+    },
+    {
+      "id": 16358,
+      "name": "Simon McBurney",
+      "photo": "https://image.tmdb.org/t/p/w500/wwN02i4RBoPHDdOKXBV5AhFALdT.jpg",
+      "character": "Lord Protector Cromwell (voice)"
+    },
+    {
+      "id": 107682,
+      "name": "Tommy Tiernan",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Sean Óg (voice)"
+    },
+    {
+      "id": 37169,
+      "name": "Jon Kenny",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Stringy Woodcutter (voice)"
+    },
+    {
+      "id": 167450,
+      "name": "John Morton",
+      "photo": "https://image.tmdb.org/t/p/w500/fupl0frMxZTPhSLZrrB3eGZ5mna.jpg",
+      "character": "Stumpy Woodcutter (voice)"
+    },
+    {
+      "id": 33394,
+      "name": "Maria Doyle Kennedy",
+      "photo": "https://image.tmdb.org/t/p/w500/nK8DmGEgzGXIbyv3VyK6j7M0Gvw.jpg",
+      "character": "Moll MacTíre (voice)"
+    },
+    {
+      "id": 2808575,
+      "name": "Oliver McGrath",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Additional Voices (voice)"
+    },
+    {
+      "id": 2003827,
+      "name": "Niamh Moyles",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Additional Voices (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/uRkDrsKwCCZC9zdHZs2CFTt1ATZ.jpg",
+  "adult": false,
+  "budget": 12000000,
+  "revenue": 229041,
+  "homepage": "http://wolfwalkersmovie.com/",
+  "platforms": [
+    {
+      "name": "Apple TV Plus",
+      "logo": "https://image.tmdb.org/t/p/w500/A3WLxoSkmuxwaQkpfwL6H8WwWwM.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7af"
+  },
+  "id": 423108,
+  "title": "The Conjuring: The Devil Made Me Do It",
+  "genre": [
+    "Horror",
+    "Mystery",
+    "Thriller"
+  ],
+  "date": "2021-05-25T00:00:00.000Z",
+  "runtime": 111,
+  "plot": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+  "rate": {
+    "sum": 9,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 1607672,
+      "name": "Michael Chaves",
+      "photo": "https://image.tmdb.org/t/p/w500/SOd71vk0kx5cJygzCifEOMGjRW.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 17178,
+      "name": "Patrick Wilson",
+      "photo": "https://image.tmdb.org/t/p/w500/tc1ezEfIY8BhCy85svOUDtpBFPt.jpg",
+      "character": "Ed Warren"
+    },
+    {
+      "id": 21657,
+      "name": "Vera Farmiga",
+      "photo": "https://image.tmdb.org/t/p/w500/5Vs7huBmTKftwlsc2BPAntyaQYj.jpg",
+      "character": "Lorraine Warren"
+    },
+    {
+      "id": 1731961,
+      "name": "Ruairi O'Connor",
+      "photo": "https://image.tmdb.org/t/p/w500/s1dmBvlAFPQSnxRRb3KRCTm5fM9.jpg",
+      "character": "Arne Cheyne Johnson"
+    },
+    {
+      "id": 2485582,
+      "name": "Sarah Catherine Hook",
+      "photo": "https://image.tmdb.org/t/p/w500/oNQ7mAN9nyeHqucJ7TBtmyraFm4.jpg",
+      "character": "Debbie Glatzel"
+    },
+    {
+      "id": 2047847,
+      "name": "Julian Hilliard",
+      "photo": "https://image.tmdb.org/t/p/w500/upOiPhYOQE6DE1jLJaPLiK1GROz.jpg",
+      "character": "David Glatzel"
+    },
+    {
+      "id": 1381,
+      "name": "John Noble",
+      "photo": "https://image.tmdb.org/t/p/w500/vfAKQlGrEftYR9kjO8VWQxVQOfi.jpg",
+      "character": "Father Kastner"
+    },
+    {
+      "id": 1317693,
+      "name": "Eugenie Bondurant",
+      "photo": "https://image.tmdb.org/t/p/w500/9ULAELEKNha7VCJhRWoer58NcJe.jpg",
+      "character": "The Occultist"
+    },
+    {
+      "id": 979807,
+      "name": "Shannon Kook",
+      "photo": "https://image.tmdb.org/t/p/w500/nUAET7ud1senLRormKlklqpXNGV.jpg",
+      "character": "Drew Thomas"
+    },
+    {
+      "id": 98804,
+      "name": "Ronnie Gene Blevins",
+      "photo": "https://image.tmdb.org/t/p/w500/28O4ALimfSVQgMOvkstDJpzHKDc.jpg",
+      "character": "Bruno"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
+  "adult": false,
+  "budget": 39000000,
+  "revenue": 33126000,
+  "homepage": "https://dramaspark.com",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b0"
+  },
+  "id": 680,
+  "title": "Pulp Fiction",
+  "genre": [
+    "Thriller",
+    "Crime"
+  ],
+  "date": "1994-09-10T00:00:00.000Z",
+  "runtime": 154,
+  "plot": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+  "rate": {
+    "sum": 16,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 138,
+      "name": "Quentin Tarantino",
+      "photo": "https://image.tmdb.org/t/p/w500/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 138,
+      "name": "Quentin Tarantino",
+      "photo": "https://image.tmdb.org/t/p/w500/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 8891,
+      "name": "John Travolta",
+      "photo": "https://image.tmdb.org/t/p/w500/mfwIya7uMuJVkriE6xuB9PxKn6.jpg",
+      "character": "Vincent Vega"
+    },
+    {
+      "id": 2231,
+      "name": "Samuel L. Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/mXN4Gw9tZJVKrLJHde2IcUHmV3P.jpg",
+      "character": "Jules Winnfield"
+    },
+    {
+      "id": 139,
+      "name": "Uma Thurman",
+      "photo": "https://image.tmdb.org/t/p/w500/tHa7u4ScCm9hwSbwodzj8Jmy3io.jpg",
+      "character": "Mia Wallace"
+    },
+    {
+      "id": 62,
+      "name": "Bruce Willis",
+      "photo": "https://image.tmdb.org/t/p/w500/caX3KtMU42EP3VLRFFBwqIIrch5.jpg",
+      "character": "Butch Coolidge"
+    },
+    {
+      "id": 10182,
+      "name": "Ving Rhames",
+      "photo": "https://image.tmdb.org/t/p/w500/4gpLVNKPZlVucc4fT2fSZ7DksTK.jpg",
+      "character": "Marsellus Wallace"
+    },
+    {
+      "id": 1037,
+      "name": "Harvey Keitel",
+      "photo": "https://image.tmdb.org/t/p/w500/nmhafZ605lZjs1CLcr9nSletOSd.jpg",
+      "character": "Winston \"The Wolf\" Wolfe"
+    },
+    {
+      "id": 7036,
+      "name": "Eric Stoltz",
+      "photo": "https://image.tmdb.org/t/p/w500/sP5tI3NVHrhmle5qotVz9q2mWfR.jpg",
+      "character": "Lance"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+  "adult": false,
+  "budget": 8000000,
+  "revenue": 214179088,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b1"
+  },
+  "id": 389,
+  "title": "12 Angry Men",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1957-04-10T00:00:00.000Z",
+  "runtime": 97,
+  "plot": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+  "rate": {
+    "sum": 12,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 39996,
+      "name": "Sidney Lumet",
+      "photo": "https://image.tmdb.org/t/p/w500/Ac24Ya2bVvhW7sI5da041MeaeBT.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 5246,
+      "name": "Reginald Rose",
+      "photo": "https://image.tmdb.org/t/p/w500/qscQc09Nh6fTfenlwl2pNvnD2MQ.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1936,
+      "name": "Martin Balsam",
+      "photo": "https://image.tmdb.org/t/p/w500/2j4LJJfTPQtvnjp8LfSGOvWFATO.jpg",
+      "character": "Juror 1"
+    },
+    {
+      "id": 5247,
+      "name": "John Fiedler",
+      "photo": "https://image.tmdb.org/t/p/w500/6vfLLGeGuO6Ko0VRnyhgE2v6RUu.jpg",
+      "character": "Juror 2"
+    },
+    {
+      "id": 5248,
+      "name": "Lee J. Cobb",
+      "photo": "https://image.tmdb.org/t/p/w500/yxMxBvM0PZwu7YXQamG0kFwt9DZ.jpg",
+      "character": "Juror 3"
+    },
+    {
+      "id": 5249,
+      "name": "E.G. Marshall",
+      "photo": "https://image.tmdb.org/t/p/w500/bZeu3BhYFP99dwIMobFR2xuRfRy.jpg",
+      "character": "Juror 4"
+    },
+    {
+      "id": 5250,
+      "name": "Jack Klugman",
+      "photo": "https://image.tmdb.org/t/p/w500/7nJaWFPn1ppfbp3Ai3CnTtUm0PE.jpg",
+      "character": "Juror 5"
+    },
+    {
+      "id": 2651,
+      "name": "Edward Binns",
+      "photo": "https://image.tmdb.org/t/p/w500/yArh2xuVq6pGbecNmYSmT9FdOzC.jpg",
+      "character": "Juror 6"
+    },
+    {
+      "id": 5251,
+      "name": "Jack Warden",
+      "photo": "https://image.tmdb.org/t/p/w500/hSShXiYMfRpMByaB5euZ59qCKN.jpg",
+      "character": "Juror 7"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
+  "adult": false,
+  "budget": 350000,
+  "revenue": 1000000,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Criterion Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/76AssgaLWMvpNP55ZbQHPlNc4IJ.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b2"
+  },
+  "id": 122,
+  "title": "The Lord of the Rings: The Return of the King",
+  "genre": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+  ],
+  "date": "2003-12-01T00:00:00.000Z",
+  "runtime": 201,
+  "plot": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    },
+    {
+      "id": 126,
+      "name": "Fran Walsh",
+      "photo": "https://image.tmdb.org/t/p/w500/roXPta5fAmGzqdOIvUQbDavZy8Y.jpg"
+    },
+    {
+      "id": 128,
+      "name": "Philippa Boyens",
+      "photo": "https://image.tmdb.org/t/p/w500/vfPQnrMZ87uPjyJYrSkQtqI6c0H.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 109,
+      "name": "Elijah Wood",
+      "photo": "https://image.tmdb.org/t/p/w500/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
+      "character": "Frodo Baggins"
+    },
+    {
+      "id": 1327,
+      "name": "Ian McKellen",
+      "photo": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
+      "character": "Gandalf"
+    },
+    {
+      "id": 110,
+      "name": "Viggo Mortensen",
+      "photo": "https://image.tmdb.org/t/p/w500/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
+      "character": "Aragorn"
+    },
+    {
+      "id": 1328,
+      "name": "Sean Astin",
+      "photo": "https://image.tmdb.org/t/p/w500/5oJzy6Ra0tuMEV7mfxjtqye5qUX.jpg",
+      "character": "Sam"
+    },
+    {
+      "id": 1333,
+      "name": "Andy Serkis",
+      "photo": "https://image.tmdb.org/t/p/w500/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+      "character": "Gollum / Sméagol"
+    },
+    {
+      "id": 1329,
+      "name": "Billy Boyd",
+      "photo": "https://image.tmdb.org/t/p/w500/uiWlsIOakNnUgda21PJF9wswzEJ.jpg",
+      "character": "Pippin"
+    },
+    {
+      "id": 1330,
+      "name": "Dominic Monaghan",
+      "photo": "https://image.tmdb.org/t/p/w500/7X0JzecoAwLXyftU1p0Ha5D9BpU.jpg",
+      "character": "Merry"
+    },
+    {
+      "id": 655,
+      "name": "John Rhys-Davies",
+      "photo": "https://image.tmdb.org/t/p/w500/dvT1NPY8CXIVQh0O1h6rpfYOgKz.jpg",
+      "character": "Gimli / Treebeard (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+  "adult": false,
+  "budget": 94000000,
+  "revenue": 1118888979,
+  "homepage": "http://www.lordoftherings.net",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b3"
+  },
+  "id": 155,
+  "title": "The Dark Knight",
+  "genre": [
+    "Drama",
+    "Action",
+    "Crime",
+    "Thriller"
+  ],
+  "date": "2008-07-16T00:00:00.000Z",
+  "runtime": 152,
+  "plot": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+  "rate": {
+    "sum": 15,
+    "amount": 9
+  },
+  "directors": [
+    {
+      "id": 525,
+      "name": "Christopher Nolan",
+      "photo": "https://image.tmdb.org/t/p/w500/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 525,
+      "name": "Christopher Nolan",
+      "photo": "https://image.tmdb.org/t/p/w500/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
+    },
+    {
+      "id": 527,
+      "name": "Jonathan Nolan",
+      "photo": "https://image.tmdb.org/t/p/w500/qd8d381vz2skpreY1BfVuSfLJts.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 3894,
+      "name": "Christian Bale",
+      "photo": "https://image.tmdb.org/t/p/w500/AcfW3p5D6ov573fABLyGqwYdolD.jpg",
+      "character": "Bruce Wayne / Batman"
+    },
+    {
+      "id": 1810,
+      "name": "Heath Ledger",
+      "photo": "https://image.tmdb.org/t/p/w500/5Y9HnYYa9jF4NunY9lSgJGjSe8E.jpg",
+      "character": "Joker"
+    },
+    {
+      "id": 3895,
+      "name": "Michael Caine",
+      "photo": "https://image.tmdb.org/t/p/w500/klNx4UqkcE9u7P3vsg20AKwgplw.jpg",
+      "character": "Alfred Pennyworth"
+    },
+    {
+      "id": 64,
+      "name": "Gary Oldman",
+      "photo": "https://image.tmdb.org/t/p/w500/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
+      "character": "Commissioner James Gordon"
+    },
+    {
+      "id": 6383,
+      "name": "Aaron Eckhart",
+      "photo": "https://image.tmdb.org/t/p/w500/5EFQvRHlpP1Iaw2e6vjOaBny6DV.jpg",
+      "character": "Harvey Dent / Two-Face"
+    },
+    {
+      "id": 1579,
+      "name": "Maggie Gyllenhaal",
+      "photo": "https://image.tmdb.org/t/p/w500/qxgM5LzzG4uWTprCL3gBVVJ2Q1K.jpg",
+      "character": "Rachel Dawes"
+    },
+    {
+      "id": 192,
+      "name": "Morgan Freeman",
+      "photo": "https://image.tmdb.org/t/p/w500/oIciQWr8VwKoR8TmAw1owaiZFyb.jpg",
+      "character": "Lucius Fox"
+    },
+    {
+      "id": 21316,
+      "name": "Nestor Carbonell",
+      "photo": "https://image.tmdb.org/t/p/w500/4Xn03t2qDEMR2ecM7BtLwpvs3J0.jpg",
+      "character": "Mayor Anthony Garcia"
+    },
+    {
+      "id": 53651,
+      "name": "Monique Gabriela Curnen",
+      "photo": "https://image.tmdb.org/t/p/w500/lJgLQs7cfM49m8VzVviwxIByz76.jpg",
+      "character": "Anna Ramirez"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+  "adult": false,
+  "budget": 185000000,
+  "revenue": 1004558444,
+  "homepage": "https://www.warnerbros.com/movies/dark-knight/",
+  "platforms": [
+    {
+      "name": "Hulu",
+      "logo": "https://image.tmdb.org/t/p/w500/giwM8XX4V2AQb9vsoN7yti82tKK.jpg"
+    },
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2021-06-09T08:27:21.397Z"
+  }
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b4"
+  },
+  "id": 13,
+  "title": "Forrest Gump",
+  "genre": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "date": "1994-07-06T00:00:00.000Z",
+  "runtime": 142,
+  "plot": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+  "rate": {
+    "sum": 1,
+    "amount": 1
+  },
+  "directors": [
+    {
+      "id": 24,
+      "name": "Robert Zemeckis",
+      "photo": "https://image.tmdb.org/t/p/w500/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 27,
+      "name": "Eric Roth",
+      "photo": "https://image.tmdb.org/t/p/w500/16WXnoU1NP2H732P0qAQUtetSI9.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 31,
+      "name": "Tom Hanks",
+      "photo": "https://image.tmdb.org/t/p/w500/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg",
+      "character": "Forrest Gump"
+    },
+    {
+      "id": 32,
+      "name": "Robin Wright",
+      "photo": "https://image.tmdb.org/t/p/w500/lj5o0pvHfWCEaPX3rzeGQkfIQzj.jpg",
+      "character": "Jenny Curran"
+    },
+    {
+      "id": 33,
+      "name": "Gary Sinise",
+      "photo": "https://image.tmdb.org/t/p/w500/ngYV91xYfCu0JNcSxJ4yQ7tzOna.jpg",
+      "character": "Dan Taylor"
+    },
+    {
+      "id": 34,
+      "name": "Mykelti Williamson",
+      "photo": "https://image.tmdb.org/t/p/w500/vR1PqusHy0n4gWr3887pEcxPU6.jpg",
+      "character": "Bubba"
+    },
+    {
+      "id": 35,
+      "name": "Sally Field",
+      "photo": "https://image.tmdb.org/t/p/w500/36qWnokCU1VOdSyrmGbTxzGou44.jpg",
+      "character": "Mrs. Gump"
+    },
+    {
+      "id": 37821,
+      "name": "Michael Conner Humphreys",
+      "photo": "https://image.tmdb.org/t/p/w500/60YJE5nt8tIu6t5Ou05uRrrjKC9.jpg",
+      "character": "Young Forrest Gump"
+    },
+    {
+      "id": 204997,
+      "name": "Hanna Hall",
+      "photo": "https://image.tmdb.org/t/p/w500/tp01iBjHwvkv5e5Zfal9foXcfno.jpg",
+      "character": "Young Jenny Curran"
+    },
+    {
+      "id": 9640,
+      "name": "Haley Joel Osment",
+      "photo": "https://image.tmdb.org/t/p/w500/jft0dGgR5bJ6mR7QRYriMVBC6QH.jpg",
+      "character": "Forrest Gump Jr."
+    },
+    {
+      "id": 6751,
+      "name": "Siobhan Fallon Hogan",
+      "photo": "https://image.tmdb.org/t/p/w500/5OExagnRsUcOYLMPTSrv4x2G95R.jpg",
+      "character": "School Bus Driver"
+    },
+    {
+      "id": 37825,
+      "name": "Afemo Omilami",
+      "photo": "https://image.tmdb.org/t/p/w500/usW1GHq20ZEX3rpei1HpeXfSpiP.jpg",
+      "character": "Drill Sergeant"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/h5J4W4veyxMXDMjeNxZI46TsHOb.jpg",
+  "adult": false,
+  "budget": 55000000,
+  "revenue": 677387716,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b5"
+  },
+  "id": 556574,
+  "title": "Hamilton",
+  "genre": [
+    "Music",
+    "History",
+    "Drama"
+  ],
+  "date": "2020-07-03T00:00:00.000Z",
+  "runtime": 160,
+  "plot": "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.",
+  "rate": {
+    "sum": 12,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 1485823,
+      "name": "Thomas Kail",
+      "photo": "https://image.tmdb.org/t/p/w500/fe568wCZjaM7ZmSMcraYe3XN3tt.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 1179651,
+      "name": "Lin-Manuel Miranda",
+      "photo": "https://image.tmdb.org/t/p/w500/wi5QU6tt4Q70fdoprLuBmGBjfqs.jpg",
+      "character": "Alexander Hamilton"
+    },
+    {
+      "id": 1254614,
+      "name": "Leslie Odom Jr.",
+      "photo": "https://image.tmdb.org/t/p/w500/pDA11JMNAGQGJo7nRpZHp7pdp9N.jpg",
+      "character": "Aaron Burr"
+    },
+    {
+      "id": 87932,
+      "name": "Renée Elise Goldsberry",
+      "photo": "https://image.tmdb.org/t/p/w500/bNHksD4bZxWhNUIW5mwLgPWc30G.jpg",
+      "character": "Angelica Schuyler"
+    },
+    {
+      "id": 1631814,
+      "name": "Phillipa Soo",
+      "photo": "https://image.tmdb.org/t/p/w500/1a5s6rmWiUnbZIiX0B49enrvuPN.jpg",
+      "character": "Eliza Hamilton"
+    },
+    {
+      "id": 1652371,
+      "name": "Daveed Diggs",
+      "photo": "https://image.tmdb.org/t/p/w500/v4VmQP0iFFW7SU2ouE2Qhu27Hgy.jpg",
+      "character": "Marquis de Lafayette / Thomas Jefferson"
+    },
+    {
+      "id": 1307751,
+      "name": "Christopher Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/tPzdVCV8LsWvgVm0EYonuuzgt0H.jpg",
+      "character": "George Washington"
+    },
+    {
+      "id": 1291890,
+      "name": "Jasmine Cephas Jones",
+      "photo": "https://image.tmdb.org/t/p/w500/lT0BC4xmluVmjo3yIGxTqHPqa9p.jpg",
+      "character": "Peggy Schuyler / Maria Reynolds"
+    },
+    {
+      "id": 1419065,
+      "name": "Okieriete Onaodowan",
+      "photo": "https://image.tmdb.org/t/p/w500/kxPzTxYuPInFY08o0H3KZahf7lX.jpg",
+      "character": "Hercules Mulligan / James Madison"
+    },
+    {
+      "id": 1560244,
+      "name": "Anthony Ramos",
+      "photo": "https://image.tmdb.org/t/p/w500/ityTHqIXFT3laID4j4ptlnc84zq.jpg",
+      "character": "John Laurens / Philip Hamilton"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/h1B7tW0t399VDjAcWJh8m87469b.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://www.disneyplus.com/movies/hamilton/3uPmBHWlO6HJ",
+  "platforms": [
+    {
+      "name": "Disney Plus",
+      "logo": "https://image.tmdb.org/t/p/w500/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b6"
+  },
+  "id": 791373,
+  "title": "Zack Snyder's Justice League",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Science Fiction"
+  ],
+  "date": "2021-03-18T00:00:00.000Z",
+  "runtime": 242,
+  "plot": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+  "rate": {
+    "sum": 12,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 15217,
+      "name": "Zack Snyder",
+      "photo": "https://image.tmdb.org/t/p/w500/iD0GDqkvJXDXiNEZej198hjt3Tt.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 131680,
+      "name": "Chris Terrio",
+      "photo": "https://image.tmdb.org/t/p/w500/fdJRd2qjdisYORlzzwoMXg6NoPg.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 880,
+      "name": "Ben Affleck",
+      "photo": "https://image.tmdb.org/t/p/w500/u525jeDOzg9hVdvYfeehTGnw7Aa.jpg",
+      "character": "Bruce Wayne / Batman"
+    },
+    {
+      "id": 73968,
+      "name": "Henry Cavill",
+      "photo": "https://image.tmdb.org/t/p/w500/hErUwonrQgY5Y7RfxOfv8Fq11MB.jpg",
+      "character": "Clark Kent / Superman / Kal-El"
+    },
+    {
+      "id": 90633,
+      "name": "Gal Gadot",
+      "photo": "https://image.tmdb.org/t/p/w500/cIi5pCTdVpD4Hn0OEcJhJeNKYMw.jpg",
+      "character": "Diana Prince / Wonder Woman"
+    },
+    {
+      "id": 117642,
+      "name": "Jason Momoa",
+      "photo": "https://image.tmdb.org/t/p/w500/6dEFBpZH8C8OijsynkSajQT99Pb.jpg",
+      "character": "Arthur Curry / Aquaman"
+    },
+    {
+      "id": 132157,
+      "name": "Ezra Miller",
+      "photo": "https://image.tmdb.org/t/p/w500/6wmTpbYpmhthaxzM5ss3377F9IV.jpg",
+      "character": "Barry Allen / The Flash"
+    },
+    {
+      "id": 1313559,
+      "name": "Ray Fisher",
+      "photo": "https://image.tmdb.org/t/p/w500/310snvA05xDOQZDn2fJSp242GHw.jpg",
+      "character": "Victor Stone / Cyborg"
+    },
+    {
+      "id": 9273,
+      "name": "Amy Adams",
+      "photo": "https://image.tmdb.org/t/p/w500/1h2r2VTpoFb5QefAaBYYQgQzL9z.jpg",
+      "character": "Lois Lane"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+  "adult": false,
+  "budget": 70000000,
+  "revenue": 0,
+  "homepage": "https://www.hbomax.com/zacksnydersjusticeleague",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b7"
+  },
+  "id": 615457,
+  "title": "Nobody",
+  "genre": [
+    "Crime",
+    "Action",
+    "Thriller",
+    "Comedy"
+  ],
+  "date": "2021-03-26T00:00:00.000Z",
+  "runtime": 92,
+  "plot": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+  "rate": {
+    "sum": 3,
+    "amount": 1
+  },
+  "directors": [
+    {
+      "id": 1169024,
+      "name": "Ilya Naishuller",
+      "photo": "https://image.tmdb.org/t/p/w500/gvBwViahAMgKrrXi5RX69JZ60dY.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1076800,
+      "name": "Derek Kolstad",
+      "photo": "https://image.tmdb.org/t/p/w500/mi6jxGxkIPjEKNSu9BquWoFMTZy.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 59410,
+      "name": "Bob Odenkirk",
+      "photo": "https://image.tmdb.org/t/p/w500/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg",
+      "character": "Hutch Mansell"
+    },
+    {
+      "id": 113332,
+      "name": "Aleksey Serebryakov",
+      "photo": "https://image.tmdb.org/t/p/w500/oFeLJoqKyhx0YgNxa6gfALMf0H5.jpg",
+      "character": "Yulian Kuznetsov"
+    },
+    {
+      "id": 935,
+      "name": "Connie Nielsen",
+      "photo": "https://image.tmdb.org/t/p/w500/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg",
+      "character": "Becca Mansell"
+    },
+    {
+      "id": 1062,
+      "name": "Christopher Lloyd",
+      "photo": "https://image.tmdb.org/t/p/w500/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
+      "character": "David Mansell"
+    },
+    {
+      "id": 11086,
+      "name": "Michael Ironside",
+      "photo": "https://image.tmdb.org/t/p/w500/mzHmxtKcMJjDqWxKd67mKQJFW1B.jpg",
+      "character": "Eddie Williams"
+    },
+    {
+      "id": 150,
+      "name": "RZA",
+      "photo": "https://image.tmdb.org/t/p/w500/2PVYCKXb1X3PLawJNoYGLN1x0In.jpg",
+      "character": "Harry Mansell"
+    },
+    {
+      "id": 5414,
+      "name": "Colin Salmon",
+      "photo": "https://image.tmdb.org/t/p/w500/73wYPkofjYaHKrqJcaqkLSErmEe.jpg",
+      "character": "The Barber"
+    },
+    {
+      "id": 63814,
+      "name": "Billy MacLellan",
+      "photo": "https://image.tmdb.org/t/p/w500/9ObnhjbbeVEhk8g941FrLq4W0r7.jpg",
+      "character": "Charlie Williams"
+    },
+    {
+      "id": 1959472,
+      "name": "Araya Mengesha",
+      "photo": "https://image.tmdb.org/t/p/w500/3LS410gDb1DI5x9SjMytPgByJZc.jpg",
+      "character": "Pavel"
+    },
+    {
+      "id": 119251,
+      "name": "Gage Munroe",
+      "photo": "https://image.tmdb.org/t/p/w500/9IIuzYiVroMxZPEPNWU40GLWJGt.jpg",
+      "character": "Blake Mansell"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg",
+  "adult": false,
+  "budget": 17000000,
+  "revenue": 47019435,
+  "homepage": "https://www.nobody.movie",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b8"
+  },
+  "id": 769,
+  "title": "GoodFellas",
+  "genre": [
+    "Drama",
+    "Crime"
+  ],
+  "date": "1990-09-12T00:00:00.000Z",
+  "runtime": 145,
+  "plot": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+  "rate": {
+    "sum": 4,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 1032,
+      "name": "Martin Scorsese",
+      "photo": "https://image.tmdb.org/t/p/w500/9U9Y5GQuWX3EZy39B8nkk4NY01S.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1032,
+      "name": "Martin Scorsese",
+      "photo": "https://image.tmdb.org/t/p/w500/9U9Y5GQuWX3EZy39B8nkk4NY01S.jpg"
+    },
+    {
+      "id": 7163,
+      "name": "Nicholas Pileggi",
+      "photo": "https://image.tmdb.org/t/p/w500/4OiAI0osmx3fHiHoqixTPq5ZSkD.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 11477,
+      "name": "Ray Liotta",
+      "photo": "https://image.tmdb.org/t/p/w500/ve9sB0o1MYTaL2SXEisVW2RMkD5.jpg",
+      "character": "Henry Hill"
+    },
+    {
+      "id": 380,
+      "name": "Robert De Niro",
+      "photo": "https://image.tmdb.org/t/p/w500/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+      "character": "James Conway"
+    },
+    {
+      "id": 4517,
+      "name": "Joe Pesci",
+      "photo": "https://image.tmdb.org/t/p/w500/6wPLWhZx5XvNsmEt8QwFoyvizDr.jpg",
+      "character": "Tommy DeVito"
+    },
+    {
+      "id": 11478,
+      "name": "Lorraine Bracco",
+      "photo": "https://image.tmdb.org/t/p/w500/1lQiN8yggIJ8aGYLp4Nul3ALdXC.jpg",
+      "character": "Karen Hill"
+    },
+    {
+      "id": 7004,
+      "name": "Paul Sorvino",
+      "photo": "https://image.tmdb.org/t/p/w500/uK4xZ4kerjQGjNLwpNiMElC3GDT.jpg",
+      "character": "Paul Cicero"
+    },
+    {
+      "id": 11480,
+      "name": "Frank Sivero",
+      "photo": "https://image.tmdb.org/t/p/w500/eqvhj0iNtcsN6EJhd21Goqi1DSq.jpg",
+      "character": "Frankie Carbone"
+    },
+    {
+      "id": 11482,
+      "name": "Tony Darrow",
+      "photo": "https://image.tmdb.org/t/p/w500/kc6cGKm2yYx5ekHo4zGizhMLBge.jpg",
+      "character": "Sonny Bunz"
+    },
+    {
+      "id": 5170,
+      "name": "Mike Starr",
+      "photo": "https://image.tmdb.org/t/p/w500/mv5UWjH3ukiMQuuHuSZCsnZ9cOw.jpg",
+      "character": "Frenchy"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/6QMSLvU5ziIL2T6VrkaKzN2YkxK.jpg",
+  "adult": false,
+  "budget": 25000000,
+  "revenue": 46835000,
+  "homepage": "http://www.warnerbros.com/goodfellas",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7b9"
+  },
+  "id": 311,
+  "title": "Once Upon a Time in America",
+  "genre": [
+    "Drama",
+    "Crime"
+  ],
+  "date": "1984-05-23T00:00:00.000Z",
+  "runtime": 229,
+  "plot": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
+  "rate": {
+    "sum": 3,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 4385,
+      "name": "Sergio Leone",
+      "photo": "https://image.tmdb.org/t/p/w500/2576qoW8l9Z1nKGM10ar60aIwUu.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 4385,
+      "name": "Sergio Leone",
+      "photo": "https://image.tmdb.org/t/p/w500/2576qoW8l9Z1nKGM10ar60aIwUu.jpg"
+    },
+    {
+      "id": 4668,
+      "name": "Franco Ferrini",
+      "photo": "https://image.tmdb.org/t/p/w500/7dd4eQdAD3Gd52jeEeW1TonotZi.jpg"
+    },
+    {
+      "id": 4664,
+      "name": "Leonardo Benvenuti",
+      "photo": "https://image.tmdb.org/t/p/w500/7H0n2KmSwq6Zsut5rZtv8Wob3I8.jpg"
+    },
+    {
+      "id": 4667,
+      "name": "Franco Arcalli",
+      "photo": "https://image.tmdb.org/t/p/w500/lr6YUIOqMDlReirZSLQLxyOSotD.jpg"
+    },
+    {
+      "id": 32048,
+      "name": "Enrico Medioli",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 50818,
+      "name": "Ernesto Gastaldi",
+      "photo": "https://image.tmdb.org/t/p/w500/8WhLYcJeoAexit66vrbnqjf509B.jpg"
+    },
+    {
+      "id": 69973,
+      "name": "Piero De Bernardi",
+      "photo": "https://image.tmdb.org/t/p/w500/2riiXL9s1DJdViOvPuVZUU7rkta.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 380,
+      "name": "Robert De Niro",
+      "photo": "https://image.tmdb.org/t/p/w500/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+      "character": "David 'Noodles' Aaronson"
+    },
+    {
+      "id": 4512,
+      "name": "James Woods",
+      "photo": "https://image.tmdb.org/t/p/w500/tLH7mpH4KqkWL5VgjueTbewGsfK.jpg",
+      "character": "Maximilian 'Max' Bercovicz"
+    },
+    {
+      "id": 4513,
+      "name": "Elizabeth McGovern",
+      "photo": "https://image.tmdb.org/t/p/w500/ihYdCKyr3JPz74tPuvkn1WSNh9b.jpg",
+      "character": "Deborah Gelly"
+    },
+    {
+      "id": 4517,
+      "name": "Joe Pesci",
+      "photo": "https://image.tmdb.org/t/p/w500/6wPLWhZx5XvNsmEt8QwFoyvizDr.jpg",
+      "character": "Frankie Monaldi"
+    },
+    {
+      "id": 4514,
+      "name": "Tuesday Weld",
+      "photo": "https://image.tmdb.org/t/p/w500/tGnitvqumkoHxYoh0a6HtRdQ5HY.jpg",
+      "character": "Carol"
+    },
+    {
+      "id": 4521,
+      "name": "Burt Young",
+      "photo": "https://image.tmdb.org/t/p/w500/sHe7o1ZkJV5r0WDzkm28xnsNtAu.jpg",
+      "character": "Joe"
+    },
+    {
+      "id": 4515,
+      "name": "Treat Williams",
+      "photo": "https://image.tmdb.org/t/p/w500/bQ3zECF7TRpF8cwCmxqn4Qv2zHD.jpg",
+      "character": "James Conway O'Donnell"
+    },
+    {
+      "id": 1004,
+      "name": "Danny Aiello",
+      "photo": "https://image.tmdb.org/t/p/w500/vl71InQaqL3khAPJrvUjsxtynVP.jpg",
+      "character": "Police Chief Vincent Aiello"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
+  "adult": false,
+  "budget": 20000000,
+  "revenue": 5472914,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ba"
+  },
+  "id": 539,
+  "title": "Psycho",
+  "genre": [
+    "Horror",
+    "Drama",
+    "Thriller"
+  ],
+  "date": "1960-06-22T00:00:00.000Z",
+  "runtime": 109,
+  "plot": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+  "rate": {
+    "sum": 1,
+    "amount": 1
+  },
+  "directors": [
+    {
+      "id": 2636,
+      "name": "Alfred Hitchcock",
+      "photo": "https://image.tmdb.org/t/p/w500/108fiNM6poRieMg7RIqLJRxdAwG.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 7300,
+      "name": "Joseph Stefano",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 7301,
+      "name": "Anthony Perkins",
+      "photo": "https://image.tmdb.org/t/p/w500/7FipKwmg2woHNvt5ATeXLBirHXs.jpg",
+      "character": "Norman Bates"
+    },
+    {
+      "id": 7303,
+      "name": "Vera Miles",
+      "photo": "https://image.tmdb.org/t/p/w500/7LYmvlED12KqDonOcN90OKZHG3S.jpg",
+      "character": "Lila Crane"
+    },
+    {
+      "id": 7304,
+      "name": "John Gavin",
+      "photo": "https://image.tmdb.org/t/p/w500/Y0MsuRKkmYZNwoFteh76pX4IsF.jpg",
+      "character": "Sam Loomis"
+    },
+    {
+      "id": 7302,
+      "name": "Janet Leigh",
+      "photo": "https://image.tmdb.org/t/p/w500/2dv9IqJEx31RSoH7xAHlJZXF5uB.jpg",
+      "character": "Marion Crane"
+    },
+    {
+      "id": 1936,
+      "name": "Martin Balsam",
+      "photo": "https://image.tmdb.org/t/p/w500/2j4LJJfTPQtvnjp8LfSGOvWFATO.jpg",
+      "character": "Det. Milton Arbogast"
+    },
+    {
+      "id": 53010,
+      "name": "John McIntire",
+      "photo": "https://image.tmdb.org/t/p/w500/knjm7tflaLTysmynYUnvJgv5wIq.jpg",
+      "character": "Sheriff Al Chambers"
+    },
+    {
+      "id": 14063,
+      "name": "Simon Oakland",
+      "photo": "https://image.tmdb.org/t/p/w500/nA6CmjgGE6HKT2SGoQM87h5fu24.jpg",
+      "character": "Dr. Fred Richman"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/5j5tdV8tMTy7FBdSNiYxp9Fj1Or.jpg",
+  "adult": false,
+  "budget": 806947,
+  "revenue": 32000000,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7bb"
+  },
+  "id": 510,
+  "title": "One Flew Over the Cuckoo's Nest",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1975-11-18T00:00:00.000Z",
+  "runtime": 133,
+  "plot": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy, inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+  "rate": {
+    "sum": 28,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 3974,
+      "name": "Miloš Forman",
+      "photo": "https://image.tmdb.org/t/p/w500/O2Crxh0l3u1mxHvjA6003gEpi7.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 4181,
+      "name": "Bo Goldman",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 7065,
+      "name": "Lawrence Hauben",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 514,
+      "name": "Jack Nicholson",
+      "photo": "https://image.tmdb.org/t/p/w500/sX2eryfpUdlGsZOzoDlszmQYyPP.jpg",
+      "character": "Randle Patrick McMurphy"
+    },
+    {
+      "id": 7071,
+      "name": "Louise Fletcher",
+      "photo": "https://image.tmdb.org/t/p/w500/hN15em5LqXqDe1QgDa6lXK9fx3z.jpg",
+      "character": "Nurse Mildred Ratched"
+    },
+    {
+      "id": 518,
+      "name": "Danny DeVito",
+      "photo": "https://image.tmdb.org/t/p/w500/uLW4Y9yjtwxtVmcJfwHZ7sKJai4.jpg",
+      "character": "Martini"
+    },
+    {
+      "id": 7072,
+      "name": "William Redfield",
+      "photo": "https://image.tmdb.org/t/p/w500/6w7BRi6bTRZq263Bxkfogy4ekLB.jpg",
+      "character": "Dale Harding"
+    },
+    {
+      "id": 7077,
+      "name": "Scatman Crothers",
+      "photo": "https://image.tmdb.org/t/p/w500/ughfThqQuuoPLSsC9HfkxwX370w.jpg",
+      "character": "Orderly Turkle"
+    },
+    {
+      "id": 1370,
+      "name": "Brad Dourif",
+      "photo": "https://image.tmdb.org/t/p/w500/z2LYR7Ickql7g5hnWJSIAWMPD4o.jpg",
+      "character": "Billy Bibbit"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
+  "adult": false,
+  "budget": 3000000,
+  "revenue": 108981275,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7bc"
+  },
+  "id": 550,
+  "title": "Fight Club",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1999-10-15T00:00:00.000Z",
+  "runtime": 139,
+  "plot": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 7467,
+      "name": "David Fincher",
+      "photo": "https://image.tmdb.org/t/p/w500/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 7469,
+      "name": "Jim Uhls",
+      "photo": "https://image.tmdb.org/t/p/w500/eJPUwP933EiwEWqxEBzPv6Xf0nC.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 819,
+      "name": "Edward Norton",
+      "photo": "https://image.tmdb.org/t/p/w500/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg",
+      "character": "The Narrator"
+    },
+    {
+      "id": 287,
+      "name": "Brad Pitt",
+      "photo": "https://image.tmdb.org/t/p/w500/oTB9vGIBacH5aQNS0pUM74QSWuf.jpg",
+      "character": "Tyler Durden"
+    },
+    {
+      "id": 1283,
+      "name": "Helena Bonham Carter",
+      "photo": "https://image.tmdb.org/t/p/w500/DDeITcCpnBd0CkAIRPhggy9bt5.jpg",
+      "character": "Marla Singer"
+    },
+    {
+      "id": 7470,
+      "name": "Meat Loaf",
+      "photo": "https://image.tmdb.org/t/p/w500/7gKLR1u46OB8WJ6m06LemNBCMx6.jpg",
+      "character": "Robert \"Bob\" Paulson"
+    },
+    {
+      "id": 7499,
+      "name": "Jared Leto",
+      "photo": "https://image.tmdb.org/t/p/w500/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg",
+      "character": "Angel Face"
+    },
+    {
+      "id": 7471,
+      "name": "Zach Grenier",
+      "photo": "https://image.tmdb.org/t/p/w500/fSyQKZO39sUsqY283GXiScOg3Hi.jpg",
+      "character": "Richard Chesler"
+    },
+    {
+      "id": 7497,
+      "name": "Holt McCallany",
+      "photo": "https://image.tmdb.org/t/p/w500/8NvOcP35qv5UHWEdpqAvQrKnQQz.jpg",
+      "character": "The Mechanic"
+    },
+    {
+      "id": 7498,
+      "name": "Eion Bailey",
+      "photo": "https://image.tmdb.org/t/p/w500/hKqfGq1sPhZdQOlto0bS3igFZdP.jpg",
+      "character": "Ricky"
+    },
+    {
+      "id": 7472,
+      "name": "Richmond Arquette",
+      "photo": "https://image.tmdb.org/t/p/w500/mwNX8A7EFWZ7UOzwlCkDm9NVFzf.jpg",
+      "character": "Intern"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+  "adult": false,
+  "budget": 63000000,
+  "revenue": 100853753,
+  "homepage": "http://www.foxmovies.com/movies/fight-club",
+  "platforms": [
+    {
+      "name": "Amazon Prime Video",
+      "logo": "https://image.tmdb.org/t/p/w500/68MNrwlkpF7WnmNPXLah69CR5cb.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7bd"
+  },
+  "id": 618344,
+  "title": "Justice League Dark: Apokolips War",
+  "genre": [
+    "Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Science Fiction"
+  ],
+  "date": "2020-05-05T00:00:00.000Z",
+  "runtime": 90,
+  "plot": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants.",
+  "rate": {
+    "sum": 8,
+    "amount": 2
+  },
+  "directors": [
+    {
+      "id": 1637776,
+      "name": "Matt Peters",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 2579481,
+      "name": "Christina Sotta",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 127712,
+      "name": "Matt Ryan",
+      "photo": "https://image.tmdb.org/t/p/w500/qLx6rzn6MMcJtTals5Z7Mb6z4Y9.jpg",
+      "character": "John Constantine (voice)"
+    },
+    {
+      "id": 3035,
+      "name": "Jerry O'Connell",
+      "photo": "https://image.tmdb.org/t/p/w500/p2zcFeDIKUrPrbT5ODqoLifdN3Q.jpg",
+      "character": "Clark Kent / Superman (voice)"
+    },
+    {
+      "id": 527313,
+      "name": "Taissa Farmiga",
+      "photo": "https://image.tmdb.org/t/p/w500/fhazuEKoDoaCNK9gvWaCdlnutsC.jpg",
+      "character": "Rachel Roth / Raven (voice)"
+    },
+    {
+      "id": 183812,
+      "name": "Jason O'Mara",
+      "photo": "https://image.tmdb.org/t/p/w500/hYylPvwMALoQU09r7tvCU24thh0.jpg",
+      "character": "Bruce Wayne / Batman (voice)"
+    },
+    {
+      "id": 5916,
+      "name": "Rosario Dawson",
+      "photo": "https://image.tmdb.org/t/p/w500/9MyVwYM5JiMnQvNiRVwX5k7Y5m5.jpg",
+      "character": "Diana Prince / Wonder Woman (voice)"
+    },
+    {
+      "id": 1164238,
+      "name": "Stuart Allan",
+      "photo": "https://image.tmdb.org/t/p/w500/xCAGTIcgC7J6YCl2bviIADY8blp.jpg",
+      "character": "Damian Wayne / Robin (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7be"
+  },
+  "id": 537061,
+  "title": "Steven Universe: The Movie",
+  "genre": [
+    "Animation",
+    "Adventure",
+    "Family",
+    "Fantasy",
+    "Music",
+    "TV Movie"
+  ],
+  "date": "2019-09-02T00:00:00.000Z",
+  "runtime": 82,
+  "plot": "Two years after bringing peace to the galaxy, Steven Universe sees his past come back to haunt him in the form of a deranged Gem who wants to destroy the Earth.",
+  "rate": {
+    "sum": 4,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 1245726,
+      "name": "Rebecca Sugar",
+      "photo": "https://image.tmdb.org/t/p/w500/n3EAsbD9AiQZAP2VVcGylzDat1L.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 225863,
+      "name": "Zach Callison",
+      "photo": "https://image.tmdb.org/t/p/w500/gGvcqBYFa0WNyx72FOEMfpSFpKS.jpg",
+      "character": "Steven Universe (voice)"
+    },
+    {
+      "id": 1393199,
+      "name": "Estelle",
+      "photo": "https://image.tmdb.org/t/p/w500/8fImcnwFk2tX5J9JbFnBMn3NObY.jpg",
+      "character": "Garnet (voice)"
+    },
+    {
+      "id": 1217614,
+      "name": "Deedee Magno",
+      "photo": "https://image.tmdb.org/t/p/w500/7YE7BszWB45woWAzrBomXu4TgCE.jpg",
+      "character": "Pearl (voice) / Yellow Pearl (voice)"
+    },
+    {
+      "id": 109488,
+      "name": "Michaela Dietz",
+      "photo": "https://image.tmdb.org/t/p/w500/19IXtTUNXFd5wPAfTP8UL16UYxl.jpg",
+      "character": "Amethyst (voice)"
+    },
+    {
+      "id": 1890500,
+      "name": "Sarah Stiles",
+      "photo": "https://image.tmdb.org/t/p/w500/t1OuHZmz9GlbFu7bfOUg3nzIki6.jpg",
+      "character": "Spinel (voice)"
+    },
+    {
+      "id": 1226513,
+      "name": "Tom Scharpling",
+      "photo": "https://image.tmdb.org/t/p/w500/yKPOtwDOIxSKN639JuNWxbPuqt7.jpg",
+      "character": "Greg Universe (voice)"
+    },
+    {
+      "id": 1332680,
+      "name": "Uzo Aduba",
+      "photo": "https://image.tmdb.org/t/p/w500/iXaNDjNqKfTVL3DLD27OPNQ7QzT.jpg",
+      "character": "Bismuth (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/8mRgpubxHqnqvENK4Bei30xMDvy.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://www.stevenuniversethemovie.com/",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7bf"
+  },
+  "id": 630566,
+  "title": "Clouds",
+  "genre": [
+    "Music",
+    "Drama",
+    "Romance"
+  ],
+  "date": "2020-10-09T00:00:00.000Z",
+  "runtime": 121,
+  "plot": "Young musician Zach Sobiech discovers his cancer has spread, leaving him just a few months to live. With limited time, he follows his dream and makes an album, unaware that it will soon be a viral music phenomenon.",
+  "rate": {
+    "sum": 14,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 88675,
+      "name": "Justin Baldoni",
+      "photo": "https://image.tmdb.org/t/p/w500/7t3Ioe5VOHbkfpco2W6nN8oOoGN.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 1465451,
+      "name": "Kara Holden",
+      "photo": "https://image.tmdb.org/t/p/w500/eEPaWrWWSGjThl3Nihyx2cOSY7e.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1887455,
+      "name": "Steffan Argus",
+      "photo": "https://image.tmdb.org/t/p/w500/3aDbVpQga0Bhcx7GGh3jKVaeJN6.jpg",
+      "character": "Zach Sobiech"
+    },
+    {
+      "id": 1152083,
+      "name": "Sabrina Carpenter",
+      "photo": "https://image.tmdb.org/t/p/w500/zZfQSj3qRUmLdfeKiCUsmiRF0QF.jpg",
+      "character": "Sammy"
+    },
+    {
+      "id": 1597855,
+      "name": "Madison Iseman",
+      "photo": "https://image.tmdb.org/t/p/w500/b3Jj2S2faoxKjo93csGIAUwW0YY.jpg",
+      "character": "Amy"
+    },
+    {
+      "id": 9206,
+      "name": "Neve Campbell",
+      "photo": "https://image.tmdb.org/t/p/w500/9fDbXBbrM6L10YrzDJUJowDt8U.jpg",
+      "character": "Laura Sobiech"
+    },
+    {
+      "id": 16857,
+      "name": "Tom Everett Scott",
+      "photo": "https://image.tmdb.org/t/p/w500/nVDihOvsSm7kmeyHLtAcEzrrSYC.jpg",
+      "character": "Rob Sobiech"
+    },
+    {
+      "id": 1488961,
+      "name": "Lil Rel Howery",
+      "photo": "https://image.tmdb.org/t/p/w500/9MDi35Fy6ym7SYbO3B04vf1vBnm.jpg",
+      "character": "Mr. Weaver"
+    },
+    {
+      "id": 1524215,
+      "name": "Summer H. Howell",
+      "photo": "https://image.tmdb.org/t/p/w500/c12sAxIUJeMCQQQgVV5X5ekMzlV.jpg",
+      "character": "Grace Sobiech"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/d0OdD1I8qAfETvE9Rp9Voq7R8LR.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Disney Plus",
+      "logo": "https://image.tmdb.org/t/p/w500/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c0"
+  },
+  "id": 324857,
+  "title": "Spider-Man: Into the Spider-Verse",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Science Fiction",
+    "Comedy"
+  ],
+  "date": "2018-12-06T00:00:00.000Z",
+  "runtime": 117,
+  "plot": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
+  "rate": {
+    "sum": 2,
+    "amount": 2
+  },
+  "directors": [
+    {
+      "id": 59918,
+      "name": "Rodney Rothman",
+      "photo": "https://image.tmdb.org/t/p/w500/3GlFmeP4me6uxZGVsmnC0d4A5BV.jpg"
+    },
+    {
+      "id": 151007,
+      "name": "Peter Ramsey",
+      "photo": "https://image.tmdb.org/t/p/w500/9708uu7CeTLSzm69ykdYxgPcd2S.jpg"
+    },
+    {
+      "id": 936670,
+      "name": "Bob Persichetti",
+      "photo": "https://image.tmdb.org/t/p/w500/e8ezXe2id6TRTxDsL9lTpw4pM93.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 59918,
+      "name": "Rodney Rothman",
+      "photo": "https://image.tmdb.org/t/p/w500/3GlFmeP4me6uxZGVsmnC0d4A5BV.jpg"
+    },
+    {
+      "id": 107446,
+      "name": "Phil Lord",
+      "photo": "https://image.tmdb.org/t/p/w500/2MagibFHZxky3FmMubyABUnf4lw.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 587506,
+      "name": "Shameik Moore",
+      "photo": "https://image.tmdb.org/t/p/w500/uJNaSTsfBOvtFWsPP23zNthknsB.jpg",
+      "character": "Miles Morales / Spider-Man (voice)"
+    },
+    {
+      "id": 543505,
+      "name": "Jake Johnson",
+      "photo": "https://image.tmdb.org/t/p/w500/nUfiDAafxbxIqmjbZf0oEcmh3kn.jpg",
+      "character": "Peter B. Parker / Spider-Man (voice)"
+    },
+    {
+      "id": 130640,
+      "name": "Hailee Steinfeld",
+      "photo": "https://image.tmdb.org/t/p/w500/dxSDWkiVaC6JYjrV3XRAZI7HOSS.jpg",
+      "character": "Gwen Stacy / Spider-Woman (voice)"
+    },
+    {
+      "id": 932967,
+      "name": "Mahershala Ali",
+      "photo": "https://image.tmdb.org/t/p/w500/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg",
+      "character": "Uncle Aaron / Prowler (voice)"
+    },
+    {
+      "id": 226366,
+      "name": "Brian Tyree Henry",
+      "photo": "https://image.tmdb.org/t/p/w500/8JtMLXctGCG9axXTaQXtQktiHMN.jpg",
+      "character": "Jefferson Davis (voice)"
+    },
+    {
+      "id": 10437,
+      "name": "Lily Tomlin",
+      "photo": "https://image.tmdb.org/t/p/w500/zp2DDnaUenDDeoRJjrSCSDtYtxH.jpg",
+      "character": "Aunt May (voice)"
+    },
+    {
+      "id": 141610,
+      "name": "Lauren Vélez",
+      "photo": "https://image.tmdb.org/t/p/w500/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg",
+      "character": "Rio Morales (voice)"
+    },
+    {
+      "id": 37153,
+      "name": "Zoë Kravitz",
+      "photo": "https://image.tmdb.org/t/p/w500/2fNDHu5jUQyoz6MYk4BRh4FjhYF.jpg",
+      "character": "Mary Jane (voice)"
+    },
+    {
+      "id": 933558,
+      "name": "John Mulaney",
+      "photo": "https://image.tmdb.org/t/p/w500/dCvVHa6dI0zcavzzcaN2qNCYcoI.jpg",
+      "character": "Peter Porker / Spider-Ham (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+  "adult": false,
+  "budget": 90000000,
+  "revenue": 375540831,
+  "homepage": "http://www.intothespiderverse.movie",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c1"
+  },
+  "id": 522924,
+  "title": "The Art of Racing in the Rain",
+  "genre": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "date": "2019-08-08T00:00:00.000Z",
+  "runtime": 109,
+  "plot": "A family dog—with a near-human soul and a philosopher's mind—evaluates his life through the lessons learned by his human owner, a race-car driver.",
+  "rate": {
+    "sum": 24,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 133502,
+      "name": "Simon Curtis",
+      "photo": "https://image.tmdb.org/t/p/w500/7gQqZO7uoHNrHX6IZfCLCtXBDkU.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 18189,
+      "name": "Mark Bomback",
+      "photo": "https://image.tmdb.org/t/p/w500/sasLL2smKWuZUjYq7d9O2QQrN0G.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 16501,
+      "name": "Milo Ventimiglia",
+      "photo": "https://image.tmdb.org/t/p/w500/9yFPsQCYi9sbPQ0xJGtoAF4Ar6v.jpg",
+      "character": "Denny Swift"
+    },
+    {
+      "id": 1269,
+      "name": "Kevin Costner",
+      "photo": "https://image.tmdb.org/t/p/w500/bykmxJHLfbFM3NT05RZXhx8YTzF.jpg",
+      "character": "Enzo (voice)"
+    },
+    {
+      "id": 71070,
+      "name": "Amanda Seyfried",
+      "photo": "https://image.tmdb.org/t/p/w500/9ftz6o5YjVdLpPa3iFEL3k8enol.jpg",
+      "character": "Avery \"Eve\" Swift"
+    },
+    {
+      "id": 42993,
+      "name": "Martin Donovan",
+      "photo": "https://image.tmdb.org/t/p/w500/wTCmpcmd8mcAbsX6Yc7zFs2J98Q.jpg",
+      "character": "Maxwell"
+    },
+    {
+      "id": 1461441,
+      "name": "Ian Lake",
+      "photo": "https://image.tmdb.org/t/p/w500/f8FK8fiDSq7qUtITo2wdMjbB8c5.jpg",
+      "character": "Mike"
+    },
+    {
+      "id": 21163,
+      "name": "Gary Cole",
+      "photo": "https://image.tmdb.org/t/p/w500/uWsqIlfHbyxkmBJLmq2mR93musF.jpg",
+      "character": "Don Kitch"
+    },
+    {
+      "id": 1907,
+      "name": "Kathy Baker",
+      "photo": "https://image.tmdb.org/t/p/w500/c5MAs0tvUg9pdxbayxRAFLm0Qz5.jpg",
+      "character": "Trish"
+    },
+    {
+      "id": 1493226,
+      "name": "McKinley Belcher III",
+      "photo": "https://image.tmdb.org/t/p/w500/yoglJWyhgA1tnqQS9T3MQPPEsRc.jpg",
+      "character": "Mark Finn"
+    },
+    {
+      "id": 2072566,
+      "name": "Ryan Kiera Armstrong",
+      "photo": "https://image.tmdb.org/t/p/w500/eEPDO9H1lKez2i85QA4AUkR8Gv8.jpg",
+      "character": "Young Zoe Swift"
+    },
+    {
+      "id": 1693439,
+      "name": "Lily Dodsworth-Evans",
+      "photo": "https://image.tmdb.org/t/p/w500/oaij4943rI7ro3mXfmDGQgffj8b.jpg",
+      "character": "Teenage Zoe Swift"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/mi5VN4ww0JZgRFJIaPxxTGKjUg7.jpg",
+  "adult": false,
+  "budget": 18000000,
+  "revenue": 33766787,
+  "homepage": "https://www.foxmovies.com/movies/the-art-of-racing-in-the-rain",
+  "platforms": [
+    {
+      "name": "Max Go",
+      "logo": "https://image.tmdb.org/t/p/w500/rSCrkIuw1aooazOcj2mSoGnjHXk.jpg"
+    },
+    {
+      "name": "Cinemax Amazon Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/8ubVn39brlyr5TfnoGqDl1fQuT.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c2"
+  },
+  "id": 599,
+  "title": "Sunset Boulevard",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1950-08-10T00:00:00.000Z",
+  "runtime": 110,
+  "plot": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
+  "rate": {
+    "sum": 3,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 3146,
+      "name": "Billy Wilder",
+      "photo": "https://image.tmdb.org/t/p/w500/tfVte6h2dlLn59Q0Mi6AvWAyRLP.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 3146,
+      "name": "Billy Wilder",
+      "photo": "https://image.tmdb.org/t/p/w500/tfVte6h2dlLn59Q0Mi6AvWAyRLP.jpg"
+    },
+    {
+      "id": 8617,
+      "name": "Charles Brackett",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 8618,
+      "name": "D.M. Marshman Jr.",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 8252,
+      "name": "William Holden",
+      "photo": "https://image.tmdb.org/t/p/w500/yx5LpyKzCc4H52mFjybrPTuwKPM.jpg",
+      "character": "Joe Gillis"
+    },
+    {
+      "id": 8629,
+      "name": "Gloria Swanson",
+      "photo": "https://image.tmdb.org/t/p/w500/akmlp75ESHjtGOVtOCfJYxkX4eo.jpg",
+      "character": "Norma Desmond"
+    },
+    {
+      "id": 8630,
+      "name": "Erich von Stroheim",
+      "photo": "https://image.tmdb.org/t/p/w500/v0DY16kMSMAqIdI3yYSRGYiz37c.jpg",
+      "character": "Max von Mayerling"
+    },
+    {
+      "id": 8631,
+      "name": "Nancy Olson",
+      "photo": "https://image.tmdb.org/t/p/w500/AoXxq1zmlQPHiayth7ywDdKtfEj.jpg",
+      "character": "Betty Schaefer"
+    },
+    {
+      "id": 8632,
+      "name": "Fred Clark",
+      "photo": "https://image.tmdb.org/t/p/w500/wyy3p7yZEjXk73Uwne2HGAjttre.jpg",
+      "character": "Sheldrake"
+    },
+    {
+      "id": 8633,
+      "name": "Lloyd Gough",
+      "photo": "https://image.tmdb.org/t/p/w500/amPAR7fAw0tvb5HA6A0gYGRVYQB.jpg",
+      "character": "Morino"
+    },
+    {
+      "id": 8634,
+      "name": "Jack Webb",
+      "photo": "https://image.tmdb.org/t/p/w500/rUeuDfNK9yhsXklXwONbt2X4w2M.jpg",
+      "character": "Artie Green"
+    },
+    {
+      "id": 975597,
+      "name": "Franklyn Farnum",
+      "photo": "https://image.tmdb.org/t/p/w500/273KbcYjCmFpDMUcFtNKf7hNTRV.jpg",
+      "character": "Undertaker"
+    },
+    {
+      "id": 82750,
+      "name": "Larry J. Blake",
+      "photo": "https://image.tmdb.org/t/p/w500/b4dfz0xLUHJJJEPmAmAI2jrzXBj.jpg",
+      "character": "1st Finance Man"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+  "adult": false,
+  "budget": 1752000,
+  "revenue": 5000000,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Amazon Prime Video",
+      "logo": "https://image.tmdb.org/t/p/w500/68MNrwlkpF7WnmNPXLah69CR5cb.jpg"
+    },
+    {
+      "name": "Hoopla",
+      "logo": "https://image.tmdb.org/t/p/w500/3U0t5JMFgd2qFZrcqRt5q8Y5Soy.jpg"
+    },
+    {
+      "name": "Paramount Plus",
+      "logo": "https://image.tmdb.org/t/p/w500/pkAHkRhIq3Iu0ZlEhDzbguSlyZF.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c3"
+  },
+  "id": 1891,
+  "title": "The Empire Strikes Back",
+  "genre": [
+    "Adventure",
+    "Action",
+    "Science Fiction"
+  ],
+  "date": "1980-05-20T00:00:00.000Z",
+  "runtime": 124,
+  "plot": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+  "rate": {
+    "sum": 24,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 10930,
+      "name": "Irvin Kershner",
+      "photo": "https://image.tmdb.org/t/p/w500/imtFUtcASoh2e1Emtt62UuFkIWA.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 4298,
+      "name": "Leigh Brackett",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 8844,
+      "name": "Lawrence Kasdan",
+      "photo": "https://image.tmdb.org/t/p/w500/hZAQC6MLyR1oLHRKEZ1oUEvh0Sy.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 2,
+      "name": "Mark Hamill",
+      "photo": "https://image.tmdb.org/t/p/w500/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg",
+      "character": "Luke Skywalker"
+    },
+    {
+      "id": 3,
+      "name": "Harrison Ford",
+      "photo": "https://image.tmdb.org/t/p/w500/klPehAfaQDatLLQ8dN4lMcb4ESo.jpg",
+      "character": "Han Solo"
+    },
+    {
+      "id": 4,
+      "name": "Carrie Fisher",
+      "photo": "https://image.tmdb.org/t/p/w500/rfJtncHewKVnHjqpIZvjn24ESeC.jpg",
+      "character": "Princess Leia"
+    },
+    {
+      "id": 3799,
+      "name": "Billy Dee Williams",
+      "photo": "https://image.tmdb.org/t/p/w500/dCiHLiCapPuRwKkM1ytVZ7PwYQY.jpg",
+      "character": "Lando Calrissian"
+    },
+    {
+      "id": 6,
+      "name": "Anthony Daniels",
+      "photo": "https://image.tmdb.org/t/p/w500/7kR4kwXtvXtvrsxWeX3QLX5NS5V.jpg",
+      "character": "C-3PO"
+    },
+    {
+      "id": 24342,
+      "name": "David Prowse",
+      "photo": "https://image.tmdb.org/t/p/w500/xTocYiKHlRYN8tfh8vyQFsRXC0K.jpg",
+      "character": "Darth Vader"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+  "adult": false,
+  "budget": 18000000,
+  "revenue": 538400000,
+  "homepage": "http://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back",
+  "platforms": [
+    {
+      "name": "Disney Plus",
+      "logo": "https://image.tmdb.org/t/p/w500/dgPueyEdOwpQ10fjuhL2WYFQwQs.jpg"
+    },
+    {
+      "name": "TNT",
+      "logo": "https://image.tmdb.org/t/p/w500/hmutNUaKQ0j8m9kfZ5JefhZyS95.jpg"
+    },
+    {
+      "name": "TBS",
+      "logo": "https://image.tmdb.org/t/p/w500/pIaWiQfAyoCv3KcpIbStQRKjKC0.jpg"
+    },
+    {
+      "name": "tru TV",
+      "logo": "https://image.tmdb.org/t/p/w500/iIGyv1y79e0SIIW49iG8K26zbTW.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c4"
+  },
+  "id": 914,
+  "title": "The Great Dictator",
+  "genre": [
+    "Comedy"
+  ],
+  "date": "1940-10-23T00:00:00.000Z",
+  "runtime": 125,
+  "plot": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+  "rate": {
+    "sum": 16,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg",
+      "character": "Adenoid Hynkel, Dictator of Tomania / A Jewish Barber"
+    },
+    {
+      "id": 14028,
+      "name": "Jack Oakie",
+      "photo": "https://image.tmdb.org/t/p/w500/9oWdEicbTjfpfiCtvvYuxi0UseU.jpg",
+      "character": "Benzino Napaloni, Dictator of Bacteria"
+    },
+    {
+      "id": 14029,
+      "name": "Reginald Gardiner",
+      "photo": "https://image.tmdb.org/t/p/w500/A24zNUDwHQrb9HUhu670r6X9xdo.jpg",
+      "character": "Commander Schultz"
+    },
+    {
+      "id": 10924,
+      "name": "Henry Daniell",
+      "photo": "https://image.tmdb.org/t/p/w500/kG3rl5g7Az4KJ9xCmZcfc18HCBf.jpg",
+      "character": "Garbitsch"
+    },
+    {
+      "id": 5464,
+      "name": "Billy Gilbert",
+      "photo": "https://image.tmdb.org/t/p/w500/bYAFtiY6GGkuJCUv7N63yaencg7.jpg",
+      "character": "Field Marshal Herring"
+    },
+    {
+      "id": 14030,
+      "name": "Grace Hayle",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Madame Napaloni"
+    },
+    {
+      "id": 14019,
+      "name": "Carter DeHaven",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Spook"
+    },
+    {
+      "id": 14027,
+      "name": "Paulette Goddard",
+      "photo": "https://image.tmdb.org/t/p/w500/7fMtXuVbJMbsFB4U3CsgDdivizP.jpg",
+      "character": "Hannah"
+    },
+    {
+      "id": 14032,
+      "name": "Maurice Moscovitch",
+      "photo": "https://image.tmdb.org/t/p/w500/9rcFJmwxzlCB2ApCz0Wyr414U7o.jpg",
+      "character": "Mr. Jaeckel"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg",
+  "adult": false,
+  "budget": 2000000,
+  "revenue": 11000000,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Criterion Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/76AssgaLWMvpNP55ZbQHPlNc4IJ.jpg"
+    },
+    {
+      "name": "IndieFlix",
+      "logo": "https://image.tmdb.org/t/p/w500/3E4sshyBTahFwCorjBnN9bTibkk.jpg"
+    },
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c5"
+  },
+  "id": 244786,
+  "title": "Whiplash",
+  "genre": [
+    "Drama",
+    "Music"
+  ],
+  "date": "2014-10-10T00:00:00.000Z",
+  "runtime": 107,
+  "plot": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+  "rate": {
+    "sum": 7,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 136495,
+      "name": "Damien Chazelle",
+      "photo": "https://image.tmdb.org/t/p/w500/14kRZ3XxNMyBv717YQSXr3wCucy.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 136495,
+      "name": "Damien Chazelle",
+      "photo": "https://image.tmdb.org/t/p/w500/14kRZ3XxNMyBv717YQSXr3wCucy.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 996701,
+      "name": "Miles Teller",
+      "photo": "https://image.tmdb.org/t/p/w500/4h7wXInwsRIzbn1HfxKiSnYX8eD.jpg",
+      "character": "Andrew Neiman"
+    },
+    {
+      "id": 18999,
+      "name": "J.K. Simmons",
+      "photo": "https://image.tmdb.org/t/p/w500/7kIiPojgSVNRXb5z0hiijcD5LJ6.jpg",
+      "character": "Terence Fletcher"
+    },
+    {
+      "id": 781,
+      "name": "Paul Reiser",
+      "photo": "https://image.tmdb.org/t/p/w500/rGryzG00uSk8LsidacSBXVgo3iv.jpg",
+      "character": "Jim Neiman"
+    },
+    {
+      "id": 129104,
+      "name": "Melissa Benoist",
+      "photo": "https://image.tmdb.org/t/p/w500/1F0fCPNhb5W0WyFe8Tszfbx1DEp.jpg",
+      "character": "Nicole"
+    },
+    {
+      "id": 970216,
+      "name": "Austin Stowell",
+      "photo": "https://image.tmdb.org/t/p/w500/At09XQpVXnChgedNsxu4ceR5W9i.jpg",
+      "character": "Ryan Connolly"
+    },
+    {
+      "id": 15824,
+      "name": "Chris Mulkey",
+      "photo": "https://image.tmdb.org/t/p/w500/tt4kCAovGtaU4pRI4KJfKvTJ8tq.jpg",
+      "character": "Uncle Frank"
+    },
+    {
+      "id": 1451540,
+      "name": "Nate Lang",
+      "photo": "https://image.tmdb.org/t/p/w500/6TC0gKxJIttIhXLnCttANV9gd1G.jpg",
+      "character": "Carl Tanner"
+    },
+    {
+      "id": 1451542,
+      "name": "Charlie Ian",
+      "photo": "https://image.tmdb.org/t/p/w500/5ondXm5m2LoC7sdXhTziNAmuDfw.jpg",
+      "character": "Dustin"
+    },
+    {
+      "id": 223012,
+      "name": "Jayson Blair",
+      "photo": "https://image.tmdb.org/t/p/w500/zUMEMibklFznVD2kkpbNTs63UVX.jpg",
+      "character": "Travis"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/oPxnRhyAIzJKGUEdSiwTJQBa3NM.jpg",
+  "adult": false,
+  "budget": 3300000,
+  "revenue": 13092000,
+  "homepage": "http://sonyclassics.com/whiplash/",
+  "platforms": [
+    {
+      "name": "Starz",
+      "logo": "https://image.tmdb.org/t/p/w500/pDcaPupcS7YxKce2sQePrq8k1gK.jpg"
+    },
+    {
+      "name": "Starz Play Amazon Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/zznIwoeBvIUHJUfCaXzzmvJz2WH.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c6"
+  },
+  "id": 73,
+  "title": "American History X",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1998-10-30T00:00:00.000Z",
+  "runtime": 119,
+  "plot": "Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+  "rate": {
+    "sum": 4,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 814,
+      "name": "Tony Kaye",
+      "photo": "https://image.tmdb.org/t/p/w500/5FMrsJ6yDbA3JccaFAKpGk5s6MR.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 818,
+      "name": "David McKenna",
+      "photo": "https://image.tmdb.org/t/p/w500/6GuZW6Q4YqCzOEDeNKrJykUoTnG.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 819,
+      "name": "Edward Norton",
+      "photo": "https://image.tmdb.org/t/p/w500/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg",
+      "character": "Derek Vinyard"
+    },
+    {
+      "id": 820,
+      "name": "Edward Furlong",
+      "photo": "https://image.tmdb.org/t/p/w500/e221dMIBgb6Lk092GIkHB9ohQF1.jpg",
+      "character": "Danny Vinyard"
+    },
+    {
+      "id": 821,
+      "name": "Beverly D'Angelo",
+      "photo": "https://image.tmdb.org/t/p/w500/8fYQIA8dAaA4GOTxOFSKIvTqzi.jpg",
+      "character": "Doris Vinyard"
+    },
+    {
+      "id": 827,
+      "name": "Elliott Gould",
+      "photo": "https://image.tmdb.org/t/p/w500/ismZMvs8QxRR33OAVp9AKr3TokP.jpg",
+      "character": "Murray"
+    },
+    {
+      "id": 824,
+      "name": "Ethan Suplee",
+      "photo": "https://image.tmdb.org/t/p/w500/gGSb8P9nQdDNu0JC65zyAyMUFhS.jpg",
+      "character": "Seth Ryan"
+    },
+    {
+      "id": 826,
+      "name": "Fairuza Balk",
+      "photo": "https://image.tmdb.org/t/p/w500/2N1TJQ0M1ULq9EP2dBl4P4z7VwU.jpg",
+      "character": "Stacey"
+    },
+    {
+      "id": 35769,
+      "name": "Christopher Masterson",
+      "photo": "https://image.tmdb.org/t/p/w500/hOq2XG7QNtYphFcokFpJNPv4k4q.jpg",
+      "character": "Daryl Dawson"
+    },
+    {
+      "id": 4133,
+      "name": "Giuseppe Andrews",
+      "photo": "https://image.tmdb.org/t/p/w500/bnz3wNaeUI6Biq389PmuAvgrmOy.jpg",
+      "character": "Jason"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg",
+  "adult": false,
+  "budget": 20000000,
+  "revenue": 23875127,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c7"
+  },
+  "id": 423,
+  "title": "The Pianist",
+  "genre": [
+    "Drama",
+    "War"
+  ],
+  "date": "2002-09-17T00:00:00.000Z",
+  "runtime": 150,
+  "plot": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+  "rate": {
+    "sum": 24,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 3556,
+      "name": "Roman Polanski",
+      "photo": "https://image.tmdb.org/t/p/w500/yHwHSXdZatkoLgIjPeW14GKlrZs.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 3558,
+      "name": "Ronald Harwood",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 3490,
+      "name": "Adrien Brody",
+      "photo": "https://image.tmdb.org/t/p/w500/1dBItgLFBNGEXnI48VvnnN2vFaX.jpg",
+      "character": "Władysław 'Władek' Szpilman"
+    },
+    {
+      "id": 3491,
+      "name": "Thomas Kretschmann",
+      "photo": "https://image.tmdb.org/t/p/w500/7M0P39a3CVA22dJyv5YQEkTThU7.jpg",
+      "character": "Captain Wilm Hosenfeld"
+    },
+    {
+      "id": 6637,
+      "name": "Frank Finlay",
+      "photo": "https://image.tmdb.org/t/p/w500/fz3sIozTo0L1eCKlwHdoe92dcXk.jpg",
+      "character": "Father"
+    },
+    {
+      "id": 6638,
+      "name": "Maureen Lipman",
+      "photo": "https://image.tmdb.org/t/p/w500/kx26NOAw9GnsHjJIJ4l40YHblJ.jpg",
+      "character": "Mother"
+    },
+    {
+      "id": 6639,
+      "name": "Emilia Fox",
+      "photo": "https://image.tmdb.org/t/p/w500/u0SG1xsDL4eqSi14k8bFCewOVWk.jpg",
+      "character": "Dorota"
+    },
+    {
+      "id": 6640,
+      "name": "Ed Stoppard",
+      "photo": "https://image.tmdb.org/t/p/w500/kulqaGMqFhFpnj7QvQxCOHTzrc1.jpg",
+      "character": "Henryk Szpilman"
+    },
+    {
+      "id": 6641,
+      "name": "Julia Rayner",
+      "photo": "https://image.tmdb.org/t/p/w500/rLDjZ79E5tHILTpzKitMaC3r1sI.jpg",
+      "character": "Regina Szpilman"
+    },
+    {
+      "id": 6642,
+      "name": "Jessica Kate Meyer",
+      "photo": "https://image.tmdb.org/t/p/w500/vwyvMA9t4njaaAriCNaXBkpcyy6.jpg",
+      "character": "Halina Szpilman"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/3DzePKMbLMIM636S6syCy3cLPqj.jpg",
+  "adult": false,
+  "budget": 35000000,
+  "revenue": 120072577,
+  "homepage": "http://www.thepianistmovie.com/",
+  "platforms": [
+    {
+      "name": "Netflix",
+      "logo": "https://image.tmdb.org/t/p/w500/9A1JSVmSxsyaBK4SUFsYVqbAYfW.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c8"
+  },
+  "id": 664767,
+  "title": "Mortal Kombat Legends: Scorpion's Revenge",
+  "genre": [
+    "Animation",
+    "Action",
+    "Fantasy"
+  ],
+  "date": "2020-04-12T00:00:00.000Z",
+  "runtime": 80,
+  "plot": "After the vicious slaughter of his family by stone-cold mercenary Sub-Zero, Hanzo Hasashi is exiled to the torturous Netherrealm. There, in exchange for his servitude to the sinister Quan Chi, he’s given a chance to avenge his family – and is resurrected as Scorpion, a lost soul bent on revenge. Back on Earthrealm, Lord Raiden gathers a team of elite warriors – Shaolin monk Liu Kang, Special Forces officer Sonya Blade and action star Johnny Cage – an unlikely band of heroes with one chance to save humanity. To do this, they must defeat Shang Tsung’s horde of Outworld gladiators and reign over the Mortal Kombat tournament.",
+  "rate": {
+    "sum": 12,
+    "amount": 8
+  },
+  "directors": [
+    {
+      "id": 204553,
+      "name": "Ethan Spaulding",
+      "photo": "https://image.tmdb.org/t/p/w500/wLTbLnSJ1jnjA2YOHOPqz2g0XNe.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 939345,
+      "name": "Patrick Seitz",
+      "photo": "https://image.tmdb.org/t/p/w500/e13Y5m1Ye4CXn7cMUOUvyHGBBRq.jpg",
+      "character": "Hanzo Hasashi / Scorpion (voice)"
+    },
+    {
+      "id": 1231115,
+      "name": "Jordan Rodrigues",
+      "photo": "https://image.tmdb.org/t/p/w500/z7rP6bDDmGIXZMrNwv3RUj8g5CO.jpg",
+      "character": "Liu Kang (voice)"
+    },
+    {
+      "id": 53828,
+      "name": "Jennifer Carpenter",
+      "photo": "https://image.tmdb.org/t/p/w500/iCizTujmvyrMSIV1ougo2FhrekH.jpg",
+      "character": "Sonya Blade (voice)"
+    },
+    {
+      "id": 74949,
+      "name": "Joel McHale",
+      "photo": "https://image.tmdb.org/t/p/w500/jFtqHLCrmGSIJtwdxloO3KM98iC.jpg",
+      "character": "Johnny Cage (voice)"
+    },
+    {
+      "id": 1620226,
+      "name": "Ike Amadi",
+      "photo": "https://image.tmdb.org/t/p/w500/xsv09XrYPk5bdY3cAUwKqJnraxC.jpg",
+      "character": "Jax Briggs (voice)"
+    },
+    {
+      "id": 571562,
+      "name": "Steve Blum",
+      "photo": "https://image.tmdb.org/t/p/w500/cpO0muunoigq1WHegeOEI1AIQAo.jpg",
+      "character": "Sub-Zero (voice)"
+    },
+    {
+      "id": 1509454,
+      "name": "Artt Butler",
+      "photo": "https://image.tmdb.org/t/p/w500/3s8x2L87RM1GxJCzruD0X959VFa.jpg",
+      "character": "Shang Tsung / Lin Kuei Assasin (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/4VlXER3FImHeFuUjBShFamhIp9M.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://www.warnerbros.com/movies/mortal-kombat-legends-scorpions-revenge",
+  "platforms": [],
+  "updatedAt": {
+    "$date": "2021-06-09T08:31:25.867Z"
+  }
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7c9"
+  },
+  "id": 567,
+  "title": "Rear Window",
+  "genre": [
+    "Thriller",
+    "Mystery",
+    "Drama"
+  ],
+  "date": "1954-09-01T00:00:00.000Z",
+  "runtime": 112,
+  "plot": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+  "rate": {
+    "sum": 9,
+    "amount": 9
+  },
+  "directors": [
+    {
+      "id": 2636,
+      "name": "Alfred Hitchcock",
+      "photo": "https://image.tmdb.org/t/p/w500/108fiNM6poRieMg7RIqLJRxdAwG.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 5181,
+      "name": "John Michael Hayes",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 854,
+      "name": "James Stewart",
+      "photo": "https://image.tmdb.org/t/p/w500/268grdwLf5jAaYgIRpGAxskvqv9.jpg",
+      "character": "L.B. 'Jeff' Jefferies"
+    },
+    {
+      "id": 4070,
+      "name": "Grace Kelly",
+      "photo": "https://image.tmdb.org/t/p/w500/aMist7cww3a8FxJDg1eXoUNJCDM.jpg",
+      "character": "Lisa Carol Fremont"
+    },
+    {
+      "id": 7683,
+      "name": "Wendell Corey",
+      "photo": "https://image.tmdb.org/t/p/w500/eA8sjsZzDz0MywoxfbdRs9Ejwnu.jpg",
+      "character": "Det. Lt. Thomas J. Doyle"
+    },
+    {
+      "id": 7684,
+      "name": "Thelma Ritter",
+      "photo": "https://image.tmdb.org/t/p/w500/6gZKUPYiAr5FJWPiR9SvSnt2Ijj.jpg",
+      "character": "Stella"
+    },
+    {
+      "id": 7685,
+      "name": "Raymond Burr",
+      "photo": "https://image.tmdb.org/t/p/w500/ytOh75gcfS1fxLXb0fHACDajscz.jpg",
+      "character": "Lars Thorwald"
+    },
+    {
+      "id": 7686,
+      "name": "Judith Evelyn",
+      "photo": "https://image.tmdb.org/t/p/w500/7TaDGrr3oTrU5AVkYXDmVvxZy4e.jpg",
+      "character": "Miss Lonelyhearts"
+    },
+    {
+      "id": 49906,
+      "name": "Ross Bagdasarian",
+      "photo": "https://image.tmdb.org/t/p/w500/wuZCaOdxbFdRrQuxVXaaF2FlB6U.jpg",
+      "character": "Songwriter"
+    },
+    {
+      "id": 161738,
+      "name": "Georgine Darcy",
+      "photo": "https://image.tmdb.org/t/p/w500/ws397oArIjcTdi4UdVkITzz3EZm.jpg",
+      "character": "Miss Torso"
+    },
+    {
+      "id": 121038,
+      "name": "Sara Berner",
+      "photo": "https://image.tmdb.org/t/p/w500/cUvyj2PuoHU5FAtep9oOxLYaQEp.jpg",
+      "character": "Woman on Fire Escape (uncredited)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/qitnZcLP7C9DLRuPpmvZ7GiEjJN.jpg",
+  "adult": false,
+  "budget": 1000000,
+  "revenue": 36764313,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ca"
+  },
+  "id": 901,
+  "title": "City Lights",
+  "genre": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "date": "1931-02-01T00:00:00.000Z",
+  "runtime": 87,
+  "plot": "In this sound-era silent film, a tramp falls in love with a beautiful blind flower seller.",
+  "rate": {
+    "sum": 12,
+    "amount": 3
+  },
+  "directors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+    },
+    {
+      "id": 147963,
+      "name": "Harry Crocker",
+      "photo": "https://image.tmdb.org/t/p/w500/zU1gFnjgJpBO1Blek4s7FI9iHBj.jpg"
+    },
+    {
+      "id": 1120772,
+      "name": "Harry Clive",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg",
+      "character": "Tramp"
+    },
+    {
+      "id": 13852,
+      "name": "Virginia Cherrill",
+      "photo": "https://image.tmdb.org/t/p/w500/d2Mrbpgi9XYPrtGCFKoYYOwmEE6.jpg",
+      "character": "A Blind Girl"
+    },
+    {
+      "id": 13854,
+      "name": "Harry Myers",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "An Eccentric Millionaire"
+    },
+    {
+      "id": 13855,
+      "name": "Al Ernest Garcia",
+      "photo": "https://image.tmdb.org/t/p/w500/lT8lATOpqDgZ7JjioSgvrSyYNgG.jpg",
+      "character": "The Millionaire's Butler James"
+    },
+    {
+      "id": 13856,
+      "name": "Hank Mann",
+      "photo": "https://image.tmdb.org/t/p/w500/7cecEmpjHUyxvmJ5ekMaYT1yOQb.jpg",
+      "character": "A Prizefighter"
+    },
+    {
+      "id": 21306,
+      "name": "Albert Austin",
+      "photo": "https://image.tmdb.org/t/p/w500/ztUZFA4xxiuppjUf7O8oR6xK5bs.jpg",
+      "character": "Street Sweeper / Burglar (uncredited)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
+  "adult": false,
+  "budget": 1500000,
+  "revenue": 19181,
+  "homepage": "https://www.charliechaplin.com/en/films/5-City-Lights",
+  "platforms": [
+    {
+      "name": "Criterion Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/76AssgaLWMvpNP55ZbQHPlNc4IJ.jpg"
+    },
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7cb"
+  },
+  "id": 527641,
+  "title": "Five Feet Apart",
+  "genre": [
+    "Romance",
+    "Drama"
+  ],
+  "date": "2019-03-15T00:00:00.000Z",
+  "runtime": 116,
+  "plot": "Seventeen-year-old Stella spends most of her time in the hospital as a cystic fibrosis patient. Her life is full of routines, boundaries and self-control — all of which get put to the test when she meets Will, an impossibly charming teen who has the same illness. There's an instant flirtation, though restrictions dictate that they must maintain a safe distance between them. As their connection intensifies, so does the temptation to throw the rules out the window and embrace that attraction.",
+  "rate": {
+    "sum": 14,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 88675,
+      "name": "Justin Baldoni",
+      "photo": "https://image.tmdb.org/t/p/w500/7t3Ioe5VOHbkfpco2W6nN8oOoGN.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 1286328,
+      "name": "Haley Lu Richardson",
+      "photo": "https://image.tmdb.org/t/p/w500/tSoX3nWJxzZP1IK5W2s4UVy7HUw.jpg",
+      "character": "Stella Grant"
+    },
+    {
+      "id": 56730,
+      "name": "Cole Sprouse",
+      "photo": "https://image.tmdb.org/t/p/w500/aJxTvZjse8hAljcvljqTaH45eaB.jpg",
+      "character": "Will Newman"
+    },
+    {
+      "id": 57412,
+      "name": "Moisés Arias",
+      "photo": "https://image.tmdb.org/t/p/w500/gcZFNl5xRIjtiDQ2W66A9v2lEih.jpg",
+      "character": "Poe Ramírez"
+    },
+    {
+      "id": 1538035,
+      "name": "Kimberly Hebert Gregory",
+      "photo": "https://image.tmdb.org/t/p/w500/qHhb8bU2oWscATbSwsxPz1NVwGZ.jpg",
+      "character": "Nurse Barb"
+    },
+    {
+      "id": 231610,
+      "name": "Parminder Nagra",
+      "photo": "https://image.tmdb.org/t/p/w500/g3JzY9XGtAYjYwOpkDFZyydodl5.jpg",
+      "character": "Dr. Noor Hamid"
+    },
+    {
+      "id": 4174,
+      "name": "Claire Forlani",
+      "photo": "https://image.tmdb.org/t/p/w500/5OFW8T5UN45eyou9Tfw2zt80l8G.jpg",
+      "character": "Meredith"
+    },
+    {
+      "id": 209200,
+      "name": "Emily Baldoni",
+      "photo": "https://image.tmdb.org/t/p/w500/sD9hNQyHictfBhUncmsu8m1Qqov.jpg",
+      "character": ""
+    },
+    {
+      "id": 168875,
+      "name": "Gary Weeks",
+      "photo": "https://image.tmdb.org/t/p/w500/n4taftpteF6qUTeYRDkdGPHC58.jpg",
+      "character": "Tom"
+    },
+    {
+      "id": 1386301,
+      "name": "Rebecca Chulew",
+      "photo": "https://image.tmdb.org/t/p/w500/csHJLrC3AHCO7e9ib7N8tgMf00L.jpg",
+      "character": "Doctor"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg",
+  "adult": false,
+  "budget": 7000000,
+  "revenue": 91500000,
+  "homepage": "https://www.fivefeetapartfilm.com",
+  "platforms": [
+    {
+      "name": "Showtime",
+      "logo": "https://image.tmdb.org/t/p/w500/bo7FM7ha4iEnOEAvhhwg0RuVGid.jpg"
+    },
+    {
+      "name": "Showtime Amazon Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/fqUPsVxCRjQxe8OCZHyWqFyhtdS.jpg"
+    },
+    {
+      "name": "fuboTV",
+      "logo": "https://image.tmdb.org/t/p/w500/2wPRZit7b8u79GsqTdygmGL6kBW.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7cc"
+  },
+  "id": 120,
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "genre": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+  ],
+  "date": "2001-12-18T00:00:00.000Z",
+  "runtime": 179,
+  "plot": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+  "rate": {
+    "sum": 14,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    },
+    {
+      "id": 126,
+      "name": "Fran Walsh",
+      "photo": "https://image.tmdb.org/t/p/w500/roXPta5fAmGzqdOIvUQbDavZy8Y.jpg"
+    },
+    {
+      "id": 128,
+      "name": "Philippa Boyens",
+      "photo": "https://image.tmdb.org/t/p/w500/vfPQnrMZ87uPjyJYrSkQtqI6c0H.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 109,
+      "name": "Elijah Wood",
+      "photo": "https://image.tmdb.org/t/p/w500/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
+      "character": "Frodo Baggins"
+    },
+    {
+      "id": 1327,
+      "name": "Ian McKellen",
+      "photo": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
+      "character": "Gandalf"
+    },
+    {
+      "id": 110,
+      "name": "Viggo Mortensen",
+      "photo": "https://image.tmdb.org/t/p/w500/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
+      "character": "Aragorn"
+    },
+    {
+      "id": 1328,
+      "name": "Sean Astin",
+      "photo": "https://image.tmdb.org/t/p/w500/5oJzy6Ra0tuMEV7mfxjtqye5qUX.jpg",
+      "character": "Sam"
+    },
+    {
+      "id": 48,
+      "name": "Sean Bean",
+      "photo": "https://image.tmdb.org/t/p/w500/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg",
+      "character": "Boromir"
+    },
+    {
+      "id": 1329,
+      "name": "Billy Boyd",
+      "photo": "https://image.tmdb.org/t/p/w500/uiWlsIOakNnUgda21PJF9wswzEJ.jpg",
+      "character": "Pippin"
+    },
+    {
+      "id": 1330,
+      "name": "Dominic Monaghan",
+      "photo": "https://image.tmdb.org/t/p/w500/7X0JzecoAwLXyftU1p0Ha5D9BpU.jpg",
+      "character": "Merry"
+    },
+    {
+      "id": 655,
+      "name": "John Rhys-Davies",
+      "photo": "https://image.tmdb.org/t/p/w500/dvT1NPY8CXIVQh0O1h6rpfYOgKz.jpg",
+      "character": "Gimli"
+    },
+    {
+      "id": 114,
+      "name": "Orlando Bloom",
+      "photo": "https://image.tmdb.org/t/p/w500/pulwUR0lZ8IWwXUCRXCnyWfYvNL.jpg",
+      "character": "Legolas"
+    },
+    {
+      "id": 882,
+      "name": "Liv Tyler",
+      "photo": "https://image.tmdb.org/t/p/w500/9IlcL0MWSNz8YLzqSooRHCQD4Dt.jpg",
+      "character": "Arwen"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+  "adult": false,
+  "budget": 93000000,
+  "revenue": 871368364,
+  "homepage": "http://www.lordoftherings.net/",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7cd"
+  },
+  "id": 27205,
+  "title": "Inception",
+  "genre": [
+    "Action",
+    "Science Fiction",
+    "Adventure"
+  ],
+  "date": "2010-07-15T00:00:00.000Z",
+  "runtime": 148,
+  "plot": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+  "rate": {
+    "sum": 12,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 525,
+      "name": "Christopher Nolan",
+      "photo": "https://image.tmdb.org/t/p/w500/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 6193,
+      "name": "Leonardo DiCaprio",
+      "photo": "https://image.tmdb.org/t/p/w500/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+      "character": "Dom Cobb"
+    },
+    {
+      "id": 3899,
+      "name": "Ken Watanabe",
+      "photo": "https://image.tmdb.org/t/p/w500/psAXOYp9SBOXvg6AXzARDedNQ9P.jpg",
+      "character": "Mr. Saito"
+    },
+    {
+      "id": 24045,
+      "name": "Joseph Gordon-Levitt",
+      "photo": "https://image.tmdb.org/t/p/w500/1NOFo2LQXUQwpTnA249AV1ro4v2.jpg",
+      "character": "Arthur"
+    },
+    {
+      "id": 8293,
+      "name": "Marion Cotillard",
+      "photo": "https://image.tmdb.org/t/p/w500/zChwjQ9D90fxx6cgWz5mUWHNd5b.jpg",
+      "character": "Mal Cobb"
+    },
+    {
+      "id": 27578,
+      "name": "Elliot Page",
+      "photo": "https://image.tmdb.org/t/p/w500/3gVm1jSZERNTCKqtgXRC0J3COtn.jpg",
+      "character": "Ariadne"
+    },
+    {
+      "id": 2524,
+      "name": "Tom Hardy",
+      "photo": "https://image.tmdb.org/t/p/w500/yVGF9FvDxTDPhGimTbZNfghpllA.jpg",
+      "character": "Eames"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+  "adult": false,
+  "budget": 160000000,
+  "revenue": 825532764,
+  "homepage": "http://inceptionmovie.warnerbros.com/",
+  "platforms": [
+    {
+      "name": "Amazon Prime Video",
+      "logo": "https://image.tmdb.org/t/p/w500/68MNrwlkpF7WnmNPXLah69CR5cb.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7ce"
+  },
+  "id": 3082,
+  "title": "Modern Times",
+  "genre": [
+    "Comedy",
+    "Drama"
+  ],
+  "date": "1936-02-11T00:00:00.000Z",
+  "runtime": 87,
+  "plot": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 13848,
+      "name": "Charlie Chaplin",
+      "photo": "https://image.tmdb.org/t/p/w500/lRI9Ky1SMOehn04OqhYJ5hQfgIK.jpg",
+      "character": "A Factory Worker"
+    },
+    {
+      "id": 14027,
+      "name": "Paulette Goddard",
+      "photo": "https://image.tmdb.org/t/p/w500/7fMtXuVbJMbsFB4U3CsgDdivizP.jpg",
+      "character": "A Gamin"
+    },
+    {
+      "id": 14438,
+      "name": "Henry Bergman",
+      "photo": "https://image.tmdb.org/t/p/w500/1vIoHPX8faMuMQJtKrqqrZpGgPQ.jpg",
+      "character": "Cafe Proprietor"
+    },
+    {
+      "id": 30194,
+      "name": "Tiny Sandford",
+      "photo": "https://image.tmdb.org/t/p/w500/mDL9DtQoVVLuVbQzeom1A9loFTt.jpg",
+      "character": "Big Bill"
+    },
+    {
+      "id": 30195,
+      "name": "Chester Conklin",
+      "photo": "https://image.tmdb.org/t/p/w500/sT2RJ3UPhI3tTiiYqiffaLVNp7m.jpg",
+      "character": "Mechanic"
+    },
+    {
+      "id": 13856,
+      "name": "Hank Mann",
+      "photo": "https://image.tmdb.org/t/p/w500/7cecEmpjHUyxvmJ5ekMaYT1yOQb.jpg",
+      "character": "Burglar"
+    },
+    {
+      "id": 30196,
+      "name": "Stanley Blystone",
+      "photo": "https://image.tmdb.org/t/p/w500/9kYGxCZeyYJWTJuvpt7YFrZOx3Y.jpg",
+      "character": "Gamin's Father"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+  "adult": false,
+  "budget": 1500000,
+  "revenue": 8500000,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Hoopla",
+      "logo": "https://image.tmdb.org/t/p/w500/3U0t5JMFgd2qFZrcqRt5q8Y5Soy.jpg"
+    },
+    {
+      "name": "Criterion Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/76AssgaLWMvpNP55ZbQHPlNc4IJ.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    },
+    {
+      "name": "TCM",
+      "logo": "https://image.tmdb.org/t/p/w500/3IX02Y7dVwZOKaZIb5PPUdr0Per.jpg"
+    },
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7cf"
+  },
+  "id": 807,
+  "title": "Se7en",
+  "genre": [
+    "Crime",
+    "Mystery",
+    "Thriller"
+  ],
+  "date": "1995-09-22T00:00:00.000Z",
+  "runtime": 127,
+  "plot": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+  "rate": {
+    "sum": 3,
+    "amount": 1
+  },
+  "directors": [
+    {
+      "id": 7467,
+      "name": "David Fincher",
+      "photo": "https://image.tmdb.org/t/p/w500/tpEczFclQZeKAiCeKZZ0adRvtfz.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 12047,
+      "name": "Andrew Kevin Walker",
+      "photo": "https://image.tmdb.org/t/p/w500/kgMKoXmY8AiyHWpQInKoRInU10V.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 287,
+      "name": "Brad Pitt",
+      "photo": "https://image.tmdb.org/t/p/w500/oTB9vGIBacH5aQNS0pUM74QSWuf.jpg",
+      "character": "Detective David Mills"
+    },
+    {
+      "id": 192,
+      "name": "Morgan Freeman",
+      "photo": "https://image.tmdb.org/t/p/w500/oIciQWr8VwKoR8TmAw1owaiZFyb.jpg",
+      "character": "Detective Lt. William Somerset"
+    },
+    {
+      "id": 12052,
+      "name": "Gwyneth Paltrow",
+      "photo": "https://image.tmdb.org/t/p/w500/mYNPK8wgaHnYnR4LnKNYQf4Nhkx.jpg",
+      "character": "Tracy Mills"
+    },
+    {
+      "id": 8655,
+      "name": "R. Lee Ermey",
+      "photo": "https://image.tmdb.org/t/p/w500/vOX3JHPLrKn2HJoPNguKcTN8Lk0.jpg",
+      "character": "Police Captain"
+    },
+    {
+      "id": 11885,
+      "name": "John C. McGinley",
+      "photo": "https://image.tmdb.org/t/p/w500/a9Oc7STg83syQh3X22u2TroAifk.jpg",
+      "character": "California"
+    },
+    {
+      "id": 1558263,
+      "name": "Julie Araskog",
+      "photo": "https://image.tmdb.org/t/p/w500/pIuNiF9xO2zi2R7nG6eVkmNhry3.jpg",
+      "character": "Mrs. Gould"
+    },
+    {
+      "id": 534,
+      "name": "Mark Boone Junior",
+      "photo": "https://image.tmdb.org/t/p/w500/rcncVr356hpfKX9qOrKL3SJlEO7.jpg",
+      "character": "Greasy F.B.I. Man"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/69Sns8WoET6CfaYlIkHbla4l7nC.jpg",
+  "adult": false,
+  "budget": 33000000,
+  "revenue": 327311859,
+  "homepage": "http://www.sevenmovie.com/",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d0"
+  },
+  "id": 121,
+  "title": "The Lord of the Rings: The Two Towers",
+  "genre": [
+    "Adventure",
+    "Fantasy",
+    "Action"
+  ],
+  "date": "2002-12-18T00:00:00.000Z",
+  "runtime": 179,
+  "plot": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+  "rate": {
+    "sum": 4,
+    "amount": 2
+  },
+  "directors": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 108,
+      "name": "Peter Jackson",
+      "photo": "https://image.tmdb.org/t/p/w500/4hh7hips4xc6kgpNDQKQH3goRvJ.jpg"
+    },
+    {
+      "id": 126,
+      "name": "Fran Walsh",
+      "photo": "https://image.tmdb.org/t/p/w500/roXPta5fAmGzqdOIvUQbDavZy8Y.jpg"
+    },
+    {
+      "id": 128,
+      "name": "Philippa Boyens",
+      "photo": "https://image.tmdb.org/t/p/w500/vfPQnrMZ87uPjyJYrSkQtqI6c0H.jpg"
+    },
+    {
+      "id": 11325,
+      "name": "Stephen Sinclair",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 109,
+      "name": "Elijah Wood",
+      "photo": "https://image.tmdb.org/t/p/w500/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg",
+      "character": "Frodo Baggins"
+    },
+    {
+      "id": 1327,
+      "name": "Ian McKellen",
+      "photo": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg",
+      "character": "Gandalf"
+    },
+    {
+      "id": 110,
+      "name": "Viggo Mortensen",
+      "photo": "https://image.tmdb.org/t/p/w500/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg",
+      "character": "Aragorn"
+    },
+    {
+      "id": 1328,
+      "name": "Sean Astin",
+      "photo": "https://image.tmdb.org/t/p/w500/5oJzy6Ra0tuMEV7mfxjtqye5qUX.jpg",
+      "character": "Sam"
+    },
+    {
+      "id": 1333,
+      "name": "Andy Serkis",
+      "photo": "https://image.tmdb.org/t/p/w500/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+      "character": "Gollum"
+    },
+    {
+      "id": 1329,
+      "name": "Billy Boyd",
+      "photo": "https://image.tmdb.org/t/p/w500/uiWlsIOakNnUgda21PJF9wswzEJ.jpg",
+      "character": "Pippin"
+    },
+    {
+      "id": 1330,
+      "name": "Dominic Monaghan",
+      "photo": "https://image.tmdb.org/t/p/w500/7X0JzecoAwLXyftU1p0Ha5D9BpU.jpg",
+      "character": "Merry"
+    },
+    {
+      "id": 655,
+      "name": "John Rhys-Davies",
+      "photo": "https://image.tmdb.org/t/p/w500/dvT1NPY8CXIVQh0O1h6rpfYOgKz.jpg",
+      "character": "Gimli / Treebeard (voice)"
+    },
+    {
+      "id": 114,
+      "name": "Orlando Bloom",
+      "photo": "https://image.tmdb.org/t/p/w500/pulwUR0lZ8IWwXUCRXCnyWfYvNL.jpg",
+      "character": "Legolas"
+    },
+    {
+      "id": 882,
+      "name": "Liv Tyler",
+      "photo": "https://image.tmdb.org/t/p/w500/9IlcL0MWSNz8YLzqSooRHCQD4Dt.jpg",
+      "character": "Arwen"
+    },
+    {
+      "id": 112,
+      "name": "Cate Blanchett",
+      "photo": "https://image.tmdb.org/t/p/w500/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg",
+      "character": "Galadriel"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+  "adult": false,
+  "budget": 79000000,
+  "revenue": 926287400,
+  "homepage": "http://www.lordoftherings.net/",
+  "platforms": [
+    {
+      "name": "HBO Max",
+      "logo": "https://image.tmdb.org/t/p/w500/aS2zvJWn9mwiCOeaaCkIh4wleZS.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d1"
+  },
+  "id": 313106,
+  "title": "Doctor Who: The Day of the Doctor",
+  "genre": [
+    "Science Fiction",
+    "Adventure"
+  ],
+  "date": "2013-11-23T00:00:00.000Z",
+  "runtime": 77,
+  "plot": "In 2013, something terrible is awakening in London's National Gallery; in 1562, a murderous plot is afoot in Elizabethan England; and somewhere in space an ancient battle reaches its devastating conclusion. All of reality is at stake as the Doctor's own dangerous past comes back to haunt him.",
+  "rate": {
+    "sum": 18,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 42274,
+      "name": "Nick Hurran",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 136532,
+      "name": "Matt Smith",
+      "photo": "https://image.tmdb.org/t/p/w500/xr2GSp8Pm6fT5VGm0I9tsWVcZ8q.jpg",
+      "character": "The Doctor (11)"
+    },
+    {
+      "id": 20049,
+      "name": "David Tennant",
+      "photo": "https://image.tmdb.org/t/p/w500/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg",
+      "character": "The Doctor (10)"
+    },
+    {
+      "id": 5049,
+      "name": "John Hurt",
+      "photo": "https://image.tmdb.org/t/p/w500/kLW1Q53NRuB0EihduBFX3Lbtcl6.jpg",
+      "character": "The War Doctor"
+    },
+    {
+      "id": 1080542,
+      "name": "Jenna Coleman",
+      "photo": "https://image.tmdb.org/t/p/w500/gkbDdTR8zmoacaokfV9oCswlvIv.jpg",
+      "character": "Clara Oswald"
+    },
+    {
+      "id": 26076,
+      "name": "Billie Piper",
+      "photo": "https://image.tmdb.org/t/p/w500/4elJoIRFcka0wkHF03to0WstaGc.jpg",
+      "character": "The Moment"
+    },
+    {
+      "id": 73245,
+      "name": "William Hartnell",
+      "photo": "https://image.tmdb.org/t/p/w500/jt6xUpjrgTWvu5T5ehFAm5hUBKr.jpg",
+      "character": "The Doctor (1) (archive footage)"
+    },
+    {
+      "id": 11840,
+      "name": "Patrick Troughton",
+      "photo": "https://image.tmdb.org/t/p/w500/uSvpsxr2CqIQwA9JyLj8v5DdJqY.jpg",
+      "character": "The Doctor (2) (archive footage)"
+    },
+    {
+      "id": 40960,
+      "name": "Jon Pertwee",
+      "photo": "https://image.tmdb.org/t/p/w500/xVxMCTf8ky2XbSic6R4LFZzNSyt.jpg",
+      "character": "The Doctor (3) (archive footage)"
+    },
+    {
+      "id": 44865,
+      "name": "Tom Baker",
+      "photo": "https://image.tmdb.org/t/p/w500/ql8lv7SdpjRLQ3gahIAmEqTyu6g.jpg",
+      "character": "The Doctor (4) (archive footage) / The Curator"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/qkhP3bhxQQjs1bGEWNts64DOUkK.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "http://www.bbc.co.uk/programmes/p01l1z04",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d2"
+  },
+  "id": 157336,
+  "title": "Interstellar",
+  "genre": [
+    "Adventure",
+    "Drama",
+    "Science Fiction"
+  ],
+  "date": "2014-11-05T00:00:00.000Z",
+  "runtime": 169,
+  "plot": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+  "rate": {
+    "sum": 29,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 525,
+      "name": "Christopher Nolan",
+      "photo": "https://image.tmdb.org/t/p/w500/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 10297,
+      "name": "Matthew McConaughey",
+      "photo": "https://image.tmdb.org/t/p/w500/wJiGedOCZhwMx9DezY8uwbNxmAY.jpg",
+      "character": "Joseph \"Coop\" Cooper"
+    },
+    {
+      "id": 83002,
+      "name": "Jessica Chastain",
+      "photo": "https://image.tmdb.org/t/p/w500/lodMzLKSdrPcBry6TdoDsMN3Vge.jpg",
+      "character": "Murphy \"Murph\" Cooper"
+    },
+    {
+      "id": 1813,
+      "name": "Anne Hathaway",
+      "photo": "https://image.tmdb.org/t/p/w500/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg",
+      "character": "Dr. Amelia Brand"
+    },
+    {
+      "id": 3895,
+      "name": "Michael Caine",
+      "photo": "https://image.tmdb.org/t/p/w500/klNx4UqkcE9u7P3vsg20AKwgplw.jpg",
+      "character": "Professor John Brand"
+    },
+    {
+      "id": 1893,
+      "name": "Casey Affleck",
+      "photo": "https://image.tmdb.org/t/p/w500/fGo8nikBhtI0g3InpGc3WmLZXzi.jpg",
+      "character": "Tom Cooper"
+    },
+    {
+      "id": 851784,
+      "name": "Mackenzie Foy",
+      "photo": "https://image.tmdb.org/t/p/w500/6n8yZKJ3YHkm4Ds3zNjJpankHUk.jpg",
+      "character": "Young Murph Cooper"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+  "adult": false,
+  "budget": 165000000,
+  "revenue": 675120017,
+  "homepage": "http://www.interstellarmovie.net/",
+  "platforms": [
+    {
+      "name": "FXNow",
+      "logo": "https://image.tmdb.org/t/p/w500/6Ms2t7smUWvpjlxK2deOVj2jJBK.jpg"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2021-06-09T08:27:13.758Z"
+  }
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d3"
+  },
+  "id": 432517,
+  "title": "Sherlock: The Final Problem",
+  "genre": [
+    "Drama",
+    "Mystery",
+    "Thriller"
+  ],
+  "date": "2017-01-15T00:00:00.000Z",
+  "runtime": 90,
+  "plot": "Long buried secrets finally come to light as someone has been playing a very long game indeed. Sherlock and John face their greatest ever challenge. Is the game finally over?",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 1624330,
+      "name": "Benjamin Caron",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 71580,
+      "name": "Benedict Cumberbatch",
+      "photo": "https://image.tmdb.org/t/p/w500/fBEucxECxGLKVHBznO0qHtCGiMO.jpg",
+      "character": "Sherlock Holmes"
+    },
+    {
+      "id": 7060,
+      "name": "Martin Freeman",
+      "photo": "https://image.tmdb.org/t/p/w500/pLG7mmxBXXTVAgzXvQl0ap3qlJU.jpg",
+      "character": "John Watson"
+    },
+    {
+      "id": 34546,
+      "name": "Mark Gatiss",
+      "photo": "https://image.tmdb.org/t/p/w500/gArcjHkpBIYcM5coW19rzULsFhB.jpg",
+      "character": "Mycroft Holmes"
+    },
+    {
+      "id": 1237956,
+      "name": "Sian Brooke",
+      "photo": "https://image.tmdb.org/t/p/w500/99mPsHpcFoUqhXNHsPVL5qD8nN2.jpg",
+      "character": "Eurus Holmes"
+    },
+    {
+      "id": 125660,
+      "name": "Andrew Scott",
+      "photo": "https://image.tmdb.org/t/p/w500/akbGBP3RI4siNLPr8Pa6YcD2NJt.jpg",
+      "character": "Jim Moriarty"
+    },
+    {
+      "id": 1218303,
+      "name": "Una Stubbs",
+      "photo": "https://image.tmdb.org/t/p/w500/jDHCUvPSqjv4wn6Kdp6IibdY9Qi.jpg",
+      "character": "Mrs. Hudson"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/dbsS4oBDwLTVTuIiqwTls9wD1I1.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d4"
+  },
+  "id": 975,
+  "title": "Paths of Glory",
+  "genre": [
+    "Drama",
+    "War"
+  ],
+  "date": "1957-10-25T00:00:00.000Z",
+  "runtime": 88,
+  "plot": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
+  "rate": {
+    "sum": 6,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 240,
+      "name": "Stanley Kubrick",
+      "photo": "https://image.tmdb.org/t/p/w500/exfQ6vXXq7rMS5YWb3B88PK39a1.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 240,
+      "name": "Stanley Kubrick",
+      "photo": "https://image.tmdb.org/t/p/w500/exfQ6vXXq7rMS5YWb3B88PK39a1.jpg"
+    },
+    {
+      "id": 3335,
+      "name": "Jim Thompson",
+      "photo": "https://image.tmdb.org/t/p/w500/kV2hnF9hLUpjmDsG4q1lfHaIuGg.jpg"
+    },
+    {
+      "id": 10769,
+      "name": "Calder Willingham",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 2090,
+      "name": "Kirk Douglas",
+      "photo": "https://image.tmdb.org/t/p/w500/t94It9bPI6uBvNuuQlQipyYyURC.jpg",
+      "character": "Col. Dax"
+    },
+    {
+      "id": 14562,
+      "name": "Ralph Meeker",
+      "photo": "https://image.tmdb.org/t/p/w500/kw49AcV9vDgTZY2ts6qrPHSTS76.jpg",
+      "character": "Cpl. Philippe Paris"
+    },
+    {
+      "id": 14563,
+      "name": "Adolphe Menjou",
+      "photo": "https://image.tmdb.org/t/p/w500/88FfjxT3cFDIbCIK0UmwyjEF6tU.jpg",
+      "character": "Gen. George Broulard"
+    },
+    {
+      "id": 14564,
+      "name": "George Macready",
+      "photo": "https://image.tmdb.org/t/p/w500/eP74tyPu3qMVApVN7kSwJfGXBF8.jpg",
+      "character": "Gen. Paul Mireau"
+    },
+    {
+      "id": 14565,
+      "name": "Wayne Morris",
+      "photo": "https://image.tmdb.org/t/p/w500/2HFQHQrPdlr8eRca5x9BAfeQnjc.jpg",
+      "character": "Lt. Roget/Singing man"
+    },
+    {
+      "id": 12312,
+      "name": "Richard Anderson",
+      "photo": "https://image.tmdb.org/t/p/w500/AiAPSDhMNu7zoZRngj8dISNk1rA.jpg",
+      "character": "Maj. Saint-Auban"
+    },
+    {
+      "id": 592,
+      "name": "Joe Turkel",
+      "photo": "https://image.tmdb.org/t/p/w500/ynR33HONTyXdhgRMu9OsG6PWyJY.jpg",
+      "character": "Pvt. Pierre Arnaud"
+    },
+    {
+      "id": 1019259,
+      "name": "Christiane Kubrick",
+      "photo": "https://image.tmdb.org/t/p/w500/vAMX00LJH0B38o5mCNCKn6DDdEI.jpg",
+      "character": "German Singer"
+    },
+    {
+      "id": 117671,
+      "name": "Jerry Hausner",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Proprietor of Cafe"
+    },
+    {
+      "id": 3476,
+      "name": "Peter Capell",
+      "photo": "https://image.tmdb.org/t/p/w500/jChyXZyqeCzOUXAjMo8QhbCBzUY.jpg",
+      "character": "Narrator of Opening Sequence"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/kHMZTjBH99GghtFF9rjA7d7IylH.jpg",
+  "adult": false,
+  "budget": 935000,
+  "revenue": 0,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d5"
+  },
+  "id": 274,
+  "title": "The Silence of the Lambs",
+  "genre": [
+    "Crime",
+    "Drama",
+    "Thriller",
+    "Horror"
+  ],
+  "date": "1991-02-01T00:00:00.000Z",
+  "runtime": 119,
+  "plot": "Clarice Starling is a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+  "rate": {
+    "sum": 16,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 16294,
+      "name": "Jonathan Demme",
+      "photo": "https://image.tmdb.org/t/p/w500/hm4wkbBOKaeLwMIk51hZ06OUkW3.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 57862,
+      "name": "Ted Tally",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1038,
+      "name": "Jodie Foster",
+      "photo": "https://image.tmdb.org/t/p/w500/accqyi0hQzsUU1pYsOrWo2Qh9TV.jpg",
+      "character": "Clarice M. Starling"
+    },
+    {
+      "id": 4173,
+      "name": "Anthony Hopkins",
+      "photo": "https://image.tmdb.org/t/p/w500/9ukJS2QWTJ22HcwR1ktMmoJ6RSL.jpg",
+      "character": "Dr. Hannibal Lecter"
+    },
+    {
+      "id": 349,
+      "name": "Scott Glenn",
+      "photo": "https://image.tmdb.org/t/p/w500/keBKcMPojtRTi5ImLXOoKDmDbqU.jpg",
+      "character": "Jack Crawford"
+    },
+    {
+      "id": 15854,
+      "name": "Ted Levine",
+      "photo": "https://image.tmdb.org/t/p/w500/4oqD1t4IQ06ssIogBs2Wlk95GDb.jpg",
+      "character": "Jame 'Buffalo Bill' Gumb"
+    },
+    {
+      "id": 16293,
+      "name": "Anthony Heald",
+      "photo": "https://image.tmdb.org/t/p/w500/e0E6Z1Y0debr4mAHgj0HO7MYyXG.jpg",
+      "character": "Dr. Frederick Chilton"
+    },
+    {
+      "id": 31649,
+      "name": "Brooke Smith",
+      "photo": "https://image.tmdb.org/t/p/w500/bBWxi3qVAC15mzYFE4YgpOjWB5Z.jpg",
+      "character": "Catherine Martin"
+    },
+    {
+      "id": 6930,
+      "name": "Diane Baker",
+      "photo": "https://image.tmdb.org/t/p/w500/604pSqQ2EuieEv1P2BErJoCE5hJ.jpg",
+      "character": "Senator Ruth Martin"
+    },
+    {
+      "id": 51864,
+      "name": "Kasi Lemmons",
+      "photo": "https://image.tmdb.org/t/p/w500/hof1zuo2FRj83xNuJWl1sWUPMtS.jpg",
+      "character": "Ardelia Mapp"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
+  "adult": false,
+  "budget": 19000000,
+  "revenue": 272742922,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "fuboTV",
+      "logo": "https://image.tmdb.org/t/p/w500/2wPRZit7b8u79GsqTdygmGL6kBW.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d6"
+  },
+  "id": 207,
+  "title": "Dead Poets Society",
+  "genre": [
+    "Drama"
+  ],
+  "date": "1989-06-02T00:00:00.000Z",
+  "runtime": 128,
+  "plot": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 2690,
+      "name": "Peter Weir",
+      "photo": "https://image.tmdb.org/t/p/w500/4GxIZX5gtbMpW4ZgHwvGmLSIHOE.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 2691,
+      "name": "Tom Schulman",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    }
+  ],
+  "actors": [
+    {
+      "id": 2157,
+      "name": "Robin Williams",
+      "photo": "https://image.tmdb.org/t/p/w500/iYdeP6K0qz44Wg2Nw9LPJGMBkQ5.jpg",
+      "character": "John Keating"
+    },
+    {
+      "id": 569,
+      "name": "Ethan Hawke",
+      "photo": "https://image.tmdb.org/t/p/w500/a7rgJl8TYUWAfJuM4fxbLHgD7BL.jpg",
+      "character": "Todd Anderson"
+    },
+    {
+      "id": 2692,
+      "name": "Robert Sean Leonard",
+      "photo": "https://image.tmdb.org/t/p/w500/nlDEfUE4GH6UVEQS5v7NG9sXY8X.jpg",
+      "character": "Neil Perry"
+    },
+    {
+      "id": 2693,
+      "name": "Gale Hansen",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Charlie Dalton"
+    },
+    {
+      "id": 2694,
+      "name": "Josh Charles",
+      "photo": "https://image.tmdb.org/t/p/w500/hedIAse3q3w1Pz7BhrGnzKcmYX8.jpg",
+      "character": "Knox Overstreet"
+    },
+    {
+      "id": 2695,
+      "name": "Dylan Kussman",
+      "photo": "https://image.tmdb.org/t/p/w500/33V8NdkLrpSCEVeIiKk5DoGRthx.jpg",
+      "character": "Richard Cameron"
+    },
+    {
+      "id": 2696,
+      "name": "Allelon Ruggiero",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Steven Meeks"
+    },
+    {
+      "id": 2697,
+      "name": "James Waterston",
+      "photo": "https://image.tmdb.org/t/p/w500/7IPxmwB7f2CqCJvxAea0BjwI5Fz.jpg",
+      "character": "Gerard Pitts"
+    },
+    {
+      "id": 2698,
+      "name": "Norman Lloyd",
+      "photo": "https://image.tmdb.org/t/p/w500/z7jg1zuFfC5jqn4kI40OGAOrD5U.jpg",
+      "character": "Mr. Nolan"
+    },
+    {
+      "id": 2115,
+      "name": "Kurtwood Smith",
+      "photo": "https://image.tmdb.org/t/p/w500/mMH8TpD1RC5yTL64SG8rpzjNnzk.jpg",
+      "character": "Mr. Perry"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/ai40gM7SUaGA6fthvsd87o8IQq4.jpg",
+  "adult": false,
+  "budget": 16400000,
+  "revenue": 235860116,
+  "homepage": "",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d7"
+  },
+  "id": 101,
+  "title": "Léon: The Professional",
+  "genre": [
+    "Crime",
+    "Drama",
+    "Action"
+  ],
+  "date": "1994-09-14T00:00:00.000Z",
+  "runtime": 111,
+  "plot": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Léon's footsteps.",
+  "rate": {
+    "sum": 12,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 59,
+      "name": "Luc Besson",
+      "photo": "https://image.tmdb.org/t/p/w500/dXJdczT1NcvcZtnoWVGT0NmG11v.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 59,
+      "name": "Luc Besson",
+      "photo": "https://image.tmdb.org/t/p/w500/dXJdczT1NcvcZtnoWVGT0NmG11v.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1003,
+      "name": "Jean Reno",
+      "photo": "https://image.tmdb.org/t/p/w500/q7dYamebioHRuvb9EWeSw8yTEfS.jpg",
+      "character": "Léon Montana"
+    },
+    {
+      "id": 524,
+      "name": "Natalie Portman",
+      "photo": "https://image.tmdb.org/t/p/w500/edPU5HxncLWa1YkgRPNkSd68ONG.jpg",
+      "character": "Mathilda Lando"
+    },
+    {
+      "id": 64,
+      "name": "Gary Oldman",
+      "photo": "https://image.tmdb.org/t/p/w500/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
+      "character": "Norman Stansfield"
+    },
+    {
+      "id": 1004,
+      "name": "Danny Aiello",
+      "photo": "https://image.tmdb.org/t/p/w500/vl71InQaqL3khAPJrvUjsxtynVP.jpg",
+      "character": "Tony"
+    },
+    {
+      "id": 1005,
+      "name": "Peter Appel",
+      "photo": "https://image.tmdb.org/t/p/w500/AvOZjWVwklfJHNHD2AwLmYRhSXw.jpg",
+      "character": "Malky"
+    },
+    {
+      "id": 1010,
+      "name": "Michael Badalucco",
+      "photo": "https://image.tmdb.org/t/p/w500/ntqAjxrBsyXbRzAaln4ynSBTE1r.jpg",
+      "character": "Mathilda's Father"
+    },
+    {
+      "id": 13420,
+      "name": "Ellen Greene",
+      "photo": "https://image.tmdb.org/t/p/w500/nJzE8dS38hxbALr5LZ88BYt8dm0.jpg",
+      "character": "Mathilda's Mother"
+    },
+    {
+      "id": 122230,
+      "name": "Elizabeth Regen",
+      "photo": "https://image.tmdb.org/t/p/w500/2b2OsMuFacGHOltWazbYjQmleFy.jpg",
+      "character": "Mathilda's Sister"
+    },
+    {
+      "id": 977543,
+      "name": "Carl J. Matusovich",
+      "photo": "https://image.tmdb.org/t/p/w500/2HkLgKM58cgp5ysmYPleZiCsRhi.jpg",
+      "character": "Mathilda's Brother"
+    },
+    {
+      "id": 1171233,
+      "name": "Eric Challier",
+      "photo": "https://image.tmdb.org/t/p/w500/1GFuPK17DFHxToC07qSfwIENwuq.jpg",
+      "character": "Bodyguard Chief"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/wHqGb8J6tXBVwjqWooGMtNEjs2A.jpg",
+  "adult": false,
+  "budget": 16000000,
+  "revenue": 45284974,
+  "homepage": "",
+  "platforms": [
+    {
+      "name": "Starz",
+      "logo": "https://image.tmdb.org/t/p/w500/pDcaPupcS7YxKce2sQePrq8k1gK.jpg"
+    },
+    {
+      "name": "Starz Play Amazon Channel",
+      "logo": "https://image.tmdb.org/t/p/w500/zznIwoeBvIUHJUfCaXzzmvJz2WH.jpg"
+    },
+    {
+      "name": "DIRECTV",
+      "logo": "https://image.tmdb.org/t/p/w500/qZdEeINwQotbr1Rq15dL5G2BaAh.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d8"
+  },
+  "id": 600354,
+  "title": "The Father",
+  "genre": [
+    "Drama"
+  ],
+  "date": "2020-12-23T00:00:00.000Z",
+  "runtime": 97,
+  "plot": "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
+  "rate": {
+    "sum": 8,
+    "amount": 4
+  },
+  "directors": [
+    {
+      "id": 1150548,
+      "name": "Florian Zeller",
+      "photo": "https://image.tmdb.org/t/p/w500/e2koSVDhNPlENZ7zRZq2eyC3A7y.jpg"
+    }
+  ],
+  "writers": [
+    {
+      "id": 12952,
+      "name": "Christopher Hampton",
+      "photo": "https://image.tmdb.org/t/p/w500null"
+    },
+    {
+      "id": 1150548,
+      "name": "Florian Zeller",
+      "photo": "https://image.tmdb.org/t/p/w500/e2koSVDhNPlENZ7zRZq2eyC3A7y.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "id": 4173,
+      "name": "Anthony Hopkins",
+      "photo": "https://image.tmdb.org/t/p/w500/9ukJS2QWTJ22HcwR1ktMmoJ6RSL.jpg",
+      "character": "Anthony"
+    },
+    {
+      "id": 39187,
+      "name": "Olivia Colman",
+      "photo": "https://image.tmdb.org/t/p/w500/1KTXGJaqWRnsoA6qeaUa7U2zkHL.jpg",
+      "character": "Anne"
+    },
+    {
+      "id": 34546,
+      "name": "Mark Gatiss",
+      "photo": "https://image.tmdb.org/t/p/w500/gArcjHkpBIYcM5coW19rzULsFhB.jpg",
+      "character": "The Man"
+    },
+    {
+      "id": 11616,
+      "name": "Olivia Williams",
+      "photo": "https://image.tmdb.org/t/p/w500/u7JWwpkbZFPoXR80YPpgiggIFRI.jpg",
+      "character": "The Woman"
+    },
+    {
+      "id": 17606,
+      "name": "Imogen Poots",
+      "photo": "https://image.tmdb.org/t/p/w500/kJOUQP0I5HzyenTLWUTCdx6mIAk.jpg",
+      "character": "Laura"
+    },
+    {
+      "id": 17328,
+      "name": "Rufus Sewell",
+      "photo": "https://image.tmdb.org/t/p/w500/yc2EWyg45GO03YqDttaEhjvegiE.jpg",
+      "character": "Paul"
+    },
+    {
+      "id": 33191,
+      "name": "Ayesha Dharker",
+      "photo": "https://image.tmdb.org/t/p/w500/6LNt1MmG22qPQxQgRVmoOPfQofQ.jpg",
+      "character": "Dr. Sarai"
+    },
+    {
+      "id": 3019221,
+      "name": "Roman Zeller",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Boy"
+    },
+    {
+      "id": 3019222,
+      "name": "Scott Mullins",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Father"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 5564543,
+  "homepage": "https://www.sonyclassics.com/film/thefather",
+  "platforms": []
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7d9"
+  },
+  "id": 508965,
+  "title": "Klaus",
+  "genre": [
+    "Animation",
+    "Family",
+    "Adventure",
+    "Comedy"
+  ],
+  "date": "2019-11-08T00:00:00.000Z",
+  "runtime": 96,
+  "plot": "When Jesper distinguishes himself as the Postal Academy's worst student, he is sent to Smeerensburg, a small village located on an icy island above the Arctic Circle, where grumpy inhabitants barely exchange words, let alone letters. Jesper is about to give up and abandon his duty as a postman when he meets local teacher Alva and Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys.",
+  "rate": {
+    "sum": 14,
+    "amount": 7
+  },
+  "directors": [
+    {
+      "id": 124749,
+      "name": "Sergio Pablos",
+      "photo": "https://image.tmdb.org/t/p/w500/gef101kaaTev5OxLSYnrC3ev9F1.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 17881,
+      "name": "Jason Schwartzman",
+      "photo": "https://image.tmdb.org/t/p/w500/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg",
+      "character": "Jesper (voice)"
+    },
+    {
+      "id": 18999,
+      "name": "J.K. Simmons",
+      "photo": "https://image.tmdb.org/t/p/w500/7kIiPojgSVNRXb5z0hiijcD5LJ6.jpg",
+      "character": "Klaus (voice)"
+    },
+    {
+      "id": 80591,
+      "name": "Rashida Jones",
+      "photo": "https://image.tmdb.org/t/p/w500/cgWGm9eYCretBWeljPVtpRV7n6V.jpg",
+      "character": "Alva (voice)"
+    },
+    {
+      "id": 3234,
+      "name": "Joan Cusack",
+      "photo": "https://image.tmdb.org/t/p/w500/ur68NM5yp2nGbVNJ5iazTnAygCG.jpg",
+      "character": "Mrs. Krum (voice)"
+    },
+    {
+      "id": 77075,
+      "name": "Norm Macdonald",
+      "photo": "https://image.tmdb.org/t/p/w500/pGOpdt9Xy9YO2nUEWgp8G89KC5r.jpg",
+      "character": "Mogens (voice)"
+    },
+    {
+      "id": 39125,
+      "name": "Will Sasso",
+      "photo": "https://image.tmdb.org/t/p/w500/4F8p9Dg32WJl12ras7CzQzLFy2i.jpg",
+      "character": "Mr. Ellingboe (voice)"
+    },
+    {
+      "id": 124749,
+      "name": "Sergio Pablos",
+      "photo": "https://image.tmdb.org/t/p/w500/gef101kaaTev5OxLSYnrC3ev9F1.jpg",
+      "character": "Pumpkin / Olaf (voice)"
+    },
+    {
+      "id": 1319518,
+      "name": "Mila Brener",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Ellingboe Girl 3 (voice)"
+    },
+    {
+      "id": 2468775,
+      "name": "Neda Margrethe Labba",
+      "photo": "https://image.tmdb.org/t/p/w500null",
+      "character": "Margu (voice)"
+    },
+    {
+      "id": 2378423,
+      "name": "Sydney Brower",
+      "photo": "https://image.tmdb.org/t/p/w500/gkMFsNeptmxQ3OckkzDTHkHVOiL.jpg",
+      "character": "Ellingboe Girl (voice)"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/q125RHUDgR4gjwh1QkfYuJLYkL.jpg",
+  "adult": false,
+  "budget": 0,
+  "revenue": 0,
+  "homepage": "https://www.netflix.com/title/80183187",
+  "platforms": [
+    {
+      "name": "Netflix",
+      "logo": "https://image.tmdb.org/t/p/w500/9A1JSVmSxsyaBK4SUFsYVqbAYfW.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60c079b8ee88888684a9d7da"
+  },
+  "id": 105,
+  "title": "Back to the Future",
+  "genre": [
+    "Adventure",
+    "Comedy",
+    "Science Fiction",
+    "Family"
+  ],
+  "date": "1985-07-03T00:00:00.000Z",
+  "runtime": 116,
+  "plot": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+  "rate": {
+    "sum": 6,
+    "amount": 6
+  },
+  "directors": [
+    {
+      "id": 24,
+      "name": "Robert Zemeckis",
+      "photo": "https://image.tmdb.org/t/p/w500/lPYDQ5LYNJ12rJZENtyASmVZ1Ql.jpg"
+    }
+  ],
+  "writers": [],
+  "actors": [
+    {
+      "id": 521,
+      "name": "Michael J. Fox",
+      "photo": "https://image.tmdb.org/t/p/w500/8DTmIvVmyXw3T4WUc1L68HEIEfq.jpg",
+      "character": "Marty McFly"
+    },
+    {
+      "id": 1062,
+      "name": "Christopher Lloyd",
+      "photo": "https://image.tmdb.org/t/p/w500/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
+      "character": "Dr. Emmett Brown"
+    },
+    {
+      "id": 1063,
+      "name": "Lea Thompson",
+      "photo": "https://image.tmdb.org/t/p/w500/rMwCxywPyDigR9Oz1zMF7uNwT6E.jpg",
+      "character": "Lorraine Baines"
+    },
+    {
+      "id": 1064,
+      "name": "Crispin Glover",
+      "photo": "https://image.tmdb.org/t/p/w500/imBnLpSXvg61qDDdEfvL6R4ITKt.jpg",
+      "character": "George McFly"
+    },
+    {
+      "id": 1065,
+      "name": "Thomas F. Wilson",
+      "photo": "https://image.tmdb.org/t/p/w500/gg04BCW4bTagLqxTxvw4eUAUoOx.jpg",
+      "character": "Biff Tannen"
+    },
+    {
+      "id": 1066,
+      "name": "Claudia Wells",
+      "photo": "https://image.tmdb.org/t/p/w500/2VOsPvoV2vmEUd1O2KjW3kcN8JD.jpg",
+      "character": "Jennifer Parker"
+    }
+  ],
+  "cover": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+  "adult": false,
+  "budget": 19000000,
+  "revenue": 381109762,
+  "homepage": "http://www.backtothefuture.com/movies/backtothefuture1",
+  "platforms": [
+    {
+      "name": "Netflix",
+      "logo": "https://image.tmdb.org/t/p/w500/9A1JSVmSxsyaBK4SUFsYVqbAYfW.jpg"
+    }
+  ]
+}]
